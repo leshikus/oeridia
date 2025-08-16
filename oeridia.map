@@ -1,0 +1,7147 @@
+-- 
+-- Map file for Dominions 4
+-- 
+-- Illwinter Game Design
+-- www.illwinter.com
+-- 
+
+-- Title and image file
+#dom2title Oeridia Adventure Version
+#imagefile oeridia.tga
+-- #winterimagefile myfilename.tga
+#domversion 450
+-- #maptextcol 0.0 0.0 0.0 1.0
+#mapdomcol 0 0 0 0
+#description "A map with... a lot of provinces. Inspired from The World of Greyhawk. Map version 4.41b : include special sites and encounters, don't require Greyhawk mod.
+
+This map was not made by me, just porting it to dom 5"
+
+-- map commands
+#saildist 3
+
+-- Province names/terrains
+#landname 1 "Eastern Hepmerg Desert"
+#terrain 1 576
+#landname 2 "South Western Hellfurnaces"
+#terrain 2 592
+#landname 3 "Southern Azure Sea"
+#terrain 3 516
+#landname 4 "The Sands"
+#terrain 4 577
+#landname 5 "Dioko Abasso"
+#terrain 5 642
+#landname 6 "Blue Beauty"
+#terrain 6 516
+#landname 7 "Lake of the Crocodile God"
+#terrain 7 1541
+#landname 8 "Western Jerlea Coast"
+#terrain 8 512
+#landname 9 "Southern Pelengam Mountains"
+#terrain 9 528
+#landname 10 "Amedio Mountains"
+#terrain 10 592
+#landname 11 "South Eastern Hellfurnaces"
+#terrain 11 592
+#landname 12 "Cave of the Old Suloise"
+#terrain 12 4616
+#landname 13 "Saulakbar Ruins"
+#terrain 13 1601
+#landname 14 "Southway Port"
+#terrain 14 640
+#landname 15 "Eastern Jerlea Coast"
+#terrain 15 785
+#landname 16 "Southern Amedio"
+#terrain 16 1722
+#landname 17 "Central Hepmerg Desert"
+#terrain 17 576
+#landname 18 "Swamp of the Gluant"
+#terrain 18 680
+#landname 19 "Sea of Dust"
+#terrain 19 577
+#landname 20 "Hepmerg Desert"
+#terrain 20 576
+#landname 21 "Jungle of the Diokos"
+#terrain 21 641
+#landname 22 "Jungle of the Savages"
+#terrain 22 642
+#landname 23 "Blackwaters"
+#terrain 23 6660
+#landname 24 "Forgotten City"
+#terrain 24 904
+#landname 25 "Sea of Dust"
+#terrain 25 577
+#landname 26 "Southern Oljatt Sea"
+#terrain 26 516
+#landname 27 "Western Hepmerg Desert"
+#terrain 27 576
+#landname 28 "Eastern Undersand"
+#terrain 28 4672
+#landname 29 "Hepmonan Waters"
+#terrain 29 516
+#landname 30 "Shognar Faugia"
+#terrain 30 4616
+#landname 31 "Krotmenupa"
+#terrain 31 5696
+#landname 32 "Sea of Dust"
+#terrain 32 577
+#landname 33 "Hellfurnaces H"
+#terrain 33 592
+#landname 34 "Southern Hepmonaland Jungle"
+#terrain 34 640
+#landname 35 "Eastern Amedio Jungle"
+#terrain 35 641
+#landname 36 "Dimba River"
+#terrain 36 680
+#landname 37 "Pirates Coast"
+#terrain 37 513
+#landname 38 "Underpelenlake"
+#terrain 38 6660
+#landname 39 "Mu"
+#terrain 39 518
+#landname 40 "Ashes Hills"
+#terrain 40 4194880
+#landname 41 "Lava Bridge"
+#terrain 41 4672
+#landname 42 "Amedio Jungle"
+#terrain 42 640
+#landname 43 "Eastern Jerlea Bay"
+#terrain 43 516
+#landname 44 "Pelengam Mountains"
+#terrain 44 537
+#landname 45 "Ferunhopskalm"
+#terrain 45 4616
+#landname 46 "Dimbasso Dioko"
+#terrain 46 650
+#landname 47 "Sea of Dust"
+#terrain 47 577
+#landname 48 "Southern Jerlea Bay"
+#terrain 48 516
+#landname 49 "Crocodiles Jungle"
+#terrain 49 680
+#landname 50 "South Pelengamor"
+#terrain 50 776
+#landname 51 "Eastern Densac Depths"
+#terrain 51 2564
+#landname 52 "Isle of the Madman"
+#terrain 52 705
+#landname 53 "Kalimba Nissando"
+#terrain 53 642
+#landname 54 "Hellfurnaces G"
+#terrain 54 593
+#landname 55 "Sea of Dust"
+#terrain 55 577
+#landname 56 "Western Amedio Jungle"
+#terrain 56 640
+#landname 57 "Sea of Dust"
+#terrain 57 577
+#landname 58 "Westamedio Plain"
+#terrain 58 513
+#landname 59 "Hepmonaland Jungle"
+#terrain 59 673
+#landname 60 "Druilhombar"
+#terrain 60 4608
+#landname 61 "Hepmon Settlement"
+#terrain 61 512
+#landname 62 "Sulakhand Ruins"
+#terrain 62 16778817
+#landname 63 "Southern Firegrims Kingdom"
+#terrain 63 4608
+#landname 64 "Pelengamor Lake"
+#terrain 64 517
+#landname 65 "Western Hepmonaland Jungle"
+#terrain 65 640
+#landname 66 "Kalimba Dwolo"
+#terrain 66 642
+#landname 67 "Western Undersand"
+#terrain 67 4672
+#landname 68 "Sziki Dwolok"
+#terrain 68 642
+#landname 69 "Hepmonaland Jungle"
+#terrain 69 641
+#landname 70 "Circle of Darkness"
+#terrain 70 5633
+#landname 71 "Amedio Strait"
+#terrain 71 4
+#landname 72 "Earthblood Fields"
+#terrain 72 4194560
+#landname 73 "Invoked Devastation Crater"
+#terrain 73 4195905
+#landname 74 "Sharks Waters"
+#terrain 74 5
+#landname 75 "Amedio Jungle"
+#terrain 75 641
+#landname 76 "Hills of the Sacred Cemetary"
+#terrain 76 4195841
+#landname 77 "Koronskam"
+#terrain 77 4609
+#landname 78 "Southern Hool River"
+#terrain 78 521
+#landname 79 "Hellfurnaces C"
+#terrain 79 593
+#landname 80 "Western Densac Depths"
+#terrain 80 2564
+#landname 81 "Western Firegrims Kingdom"
+#terrain 81 4608
+#landname 82 "Eastamedio Plain"
+#terrain 82 513
+#landname 83 "Delgehir"
+#terrain 83 785
+#landname 84 "Southern Ermlit Jungle"
+#terrain 84 673
+#landname 85 "Jerlea Depths"
+#terrain 85 2566
+#landname 86 "Southern Burningfloor"
+#terrain 86 4672
+#landname 87 "Pygmees Jungle"
+#terrain 87 640
+#landname 88 "Hellfurnaces F"
+#terrain 88 593
+#landname 89 "Sea of Dust"
+#terrain 89 577
+#landname 90 "Smokey Mountains"
+#terrain 90 657
+#landname 91 "Eastern Pelisso Swamp"
+#terrain 91 544
+#landname 92 "Western Hellfurnaces"
+#terrain 92 592
+#landname 93 "North Pelengamor"
+#terrain 93 776
+#landname 94 "Caverns of Madness"
+#terrain 94 4608
+#landname 95 "Western Pelisso Swamp"
+#terrain 95 544
+#landname 96 "Eastern Azure Sea"
+#terrain 96 4
+#landname 97 "Grisgrelot Harbor"
+#terrain 97 769
+#landname 98 "Hepmonacoast"
+#terrain 98 4
+#landname 99 "Wystengurd"
+#terrain 99 4608
+#landname 100 "Isle of the Ape"
+#terrain 100 641
+#landname 101 "Dugga Wugga"
+#terrain 101 642
+#landname 102 "Isle in the Lava Sea"
+#terrain 102 16778833
+#landname 103 "Amedio Jungle"
+#terrain 103 640
+#landname 104 "Halls of the Fire Giants"
+#terrain 104 4608
+#landname 105 "Cave of the Lava Sons"
+#terrain 105 4672
+#terrain 106 0
+#landname 107 "Headcuters Jungle"
+#terrain 107 673
+#landname 108 "Cannibals Mountains"
+#terrain 108 657
+#landname 109 "Western Sulhaut Mountains"
+#terrain 109 528
+#landname 110 "Northern Pelengam Mountains"
+#terrain 110 16
+#landname 111 "Hool River"
+#terrain 111 8
+#landname 112 "Shandrils Caverns"
+#terrain 112 4608
+#landname 113 "Northern Burningfloor"
+#terrain 113 4672
+#landname 114 "Hellfurnaces B"
+#terrain 114 593
+#landname 115 "Northern Jerlea Bay"
+#terrain 115 4
+#landname 116 "Sea of Dust"
+#terrain 116 577
+#landname 117 "Hellfurnaces E"
+#terrain 117 593
+#landname 118 "Peaks of the Ape"
+#terrain 118 657
+#landname 119 "Hepmonaland Jungle"
+#terrain 119 129
+#landname 120 "Kramencave"
+#terrain 120 4608
+#landname 121 "Southern Tilva Strait"
+#terrain 121 516
+#landname 122 "Sea of Dust"
+#terrain 122 577
+#landname 123 "Western Ermlit Jungle"
+#terrain 123 641
+#landname 124 "Hepmonaland Jungle"
+#terrain 124 640
+#landname 125 "Western Jerlea Bay"
+#terrain 125 516
+#landname 126 "The New Drow Fortress"
+#terrain 126 4608
+#landname 127 "Krol Hesterlep"
+#terrain 127 512
+#landname 128 "Behemoth's Rest"
+#terrain 128 4609
+#landname 129 "Lo Hepmonla"
+#terrain 129 512
+#landname 130 "New Portjoli"
+#terrain 130 897
+#landname 131 "Northern Amedio Jungle"
+#terrain 131 129
+#landname 132 "Underhome"
+#terrain 132 518
+#landname 133 "Sulhaut Mountains"
+#terrain 133 528
+#landname 134 "Uruk Empire"
+#terrain 134 4608
+#landname 135 "Southern Shandrils Range"
+#terrain 135 528
+#landname 136 "Southern Densac Gulf"
+#terrain 136 516
+#landname 137 "Terrym"
+#terrain 137 0
+#landname 138 "The Great Blue"
+#terrain 138 4
+#landname 139 "Gifjomdue"
+#terrain 139 4608
+#landname 140 "Southern Scarlet Jungle"
+#terrain 140 641
+#landname 141 "Natural Caverns"
+#terrain 141 4609
+#landname 142 "Hepmonaland Jungle"
+#terrain 142 129
+#landname 143 "Hoolwoods"
+#terrain 143 681
+#landname 144 "Scythengur"
+#terrain 144 4608
+#landname 145 "Southern Hellferianshire"
+#terrain 145 512
+#landname 146 "Eastern Oljatt Sea"
+#terrain 146 516
+#landname 147 "Sulgate Ruins"
+#terrain 147 1601
+#landname 148 "Hellfurnaces A"
+#terrain 148 592
+#landname 149 "Agenor"
+#terrain 149 512
+#landname 150 "Stormy Deep"
+#terrain 150 2629
+#landname 151 "Northern Hepmonaland Jungle"
+#terrain 151 641
+#landname 152 "Hellfurnaces D"
+#terrain 152 593
+#landname 153 "Giants Domain"
+#terrain 153 4608
+#landname 154 "The Old Fortress"
+#terrain 154 4609
+#landname 155 "Akesta"
+#terrain 155 512
+#landname 156 "Amedio Coast"
+#terrain 156 4
+#landname 157 "Jerlea Bay Entrance"
+#terrain 157 517
+#landname 158 "Scarlet Plateau"
+#terrain 158 528
+#landname 159 "Eastern Sulhaut Mountains"
+#terrain 159 528
+#landname 160 "Fogyc"
+#terrain 160 512
+#landname 161 "Northern Scarlet Jungle"
+#terrain 161 640
+#landname 162 "Shadranis "
+#terrain 162 4
+#landname 163 "Neo Sulakhand"
+#terrain 163 770
+#landname 164 "Sul Pass"
+#terrain 164 592
+#landname 165 "Shandrimar"
+#terrain 165 768
+#landname 166 "Web of Lolth"
+#terrain 166 5632
+#landname 167 "Northern Tilva Strait"
+#terrain 167 4
+#landname 168 "Oljatt Sea F"
+#terrain 168 4
+#landname 169 "Betane"
+#terrain 169 512
+#landname 170 "Northern Hepmonaland"
+#terrain 170 513
+#landname 171 "Amedio Horn"
+#terrain 171 513
+#landname 172 "Monastery of the Blind Ones"
+#terrain 172 4608
+#landname 173 "Troll Woods"
+#terrain 173 128
+#landname 174 "Sulhaut Horns"
+#terrain 174 656
+#landname 175 "Nardago Island"
+#terrain 175 512
+#landname 176 "Western Oljatt Sea"
+#terrain 176 516
+#landname 177 "Western Hool Marshes"
+#terrain 177 552
+#landname 178 "Princes March"
+#terrain 178 520
+#landname 179 "Northern Shandrils Range"
+#terrain 179 529
+#landname 180 "Northern Hellfurnaces"
+#terrain 180 593
+#landname 181 "Western Spine Ridge"
+#terrain 181 4194312
+#landname 182 "Drow Merchants Highway"
+#terrain 182 4610
+#landname 183 "Hokar Hills"
+#terrain 183 4194304
+#landname 184 "Igarnesul Keep"
+#terrain 184 4608
+#landname 185 "Jolihills"
+#terrain 185 4194816
+#landname 186 "Kro Terlep"
+#terrain 186 776
+#landname 187 "Eastern Hellfurnaces"
+#terrain 187 593
+#landname 188 "Barme"
+#terrain 188 512
+#landname 189 "Oljatt Sea E"
+#terrain 189 2564
+#landname 190 "Spine Ridge"
+#terrain 190 4194304
+#landname 191 "Southern Maspharia"
+#terrain 191 776
+#landname 192 "Typhalia"
+#terrain 192 0
+#landname 193 "Land of the Stone Giants"
+#terrain 193 528
+#landname 194 "Elredessibor Ruins"
+#terrain 194 5633
+#landname 195 "Sea of the Princes"
+#terrain 195 4
+#landname 196 "Northern Densac Gulf"
+#terrain 196 4
+#landname 197 "Northern Hellferianshire"
+#terrain 197 0
+#landname 198 "Eastern Crystal Caverns"
+#terrain 198 4608
+#landname 199 "Ekul"
+#terrain 199 898
+#landname 200 "The Hidden Valley"
+#terrain 200 777
+#landname 201 "Scarlet Coast"
+#terrain 201 521
+#landname 202 "Portè-Joli"
+#terrain 202 768
+#landname 203 "Duxchaners Waters"
+#terrain 203 516
+#landname 204 "Dagothia"
+#terrain 204 2566
+#landname 205 "Hokar"
+#terrain 205 4194562
+#landname 206 "Satilva"
+#terrain 206 193
+#landname 207 "Lordship of the Isles March"
+#terrain 207 513
+#landname 208 "Western Hok Plain"
+#terrain 208 0
+#landname 209 "Western Crystal Caverns"
+#terrain 209 4608
+#landname 210 "Azure Sea D"
+#terrain 210 4
+#landname 211 "Eastern Kuo-toahs Realm"
+#terrain 211 4864
+#landname 212 "Mindflayers Lake"
+#terrain 212 4744
+#landname 213 "Hoolbanks Plain"
+#terrain 213 8
+#landname 214 "Fairwind Strait"
+#terrain 214 4
+#landname 215 "Northern Spine Ridge"
+#terrain 215 4194304
+#landname 216 "Duxchan Sands"
+#terrain 216 576
+#landname 217 "Loftwanshire"
+#terrain 217 256
+#landname 218 "Hool Marshes"
+#terrain 218 552
+#landname 219 "Oljatt Sea C"
+#terrain 219 2564
+#landname 220 "Dry Steppes"
+#terrain 220 64
+#landname 221 "Gagiçllman Valley"
+#terrain 221 1745
+#landname 222 "Dux Strait"
+#terrain 222 4
+#landname 223 "Eastern Hok Plain"
+#terrain 223 0
+#landname 224 "Halls of Srenecab"
+#terrain 224 4608
+#landname 225 "Masphar Lake"
+#terrain 225 517
+#landname 226 "Fairwindport"
+#terrain 226 768
+#landname 227 "Oljatt Sea B"
+#terrain 227 2564
+#landname 228 "Earthgnomes Woods"
+#terrain 228 4736
+#landname 229 "Southern Yeomanry"
+#terrain 229 0
+#landname 230 "Eastern Tors"
+#terrain 230 4194816
+#landname 231 "Hok Plain"
+#terrain 231 0
+#landname 232 "Northern Maspharia"
+#terrain 232 265
+#landname 233 "Duxchan Jungle"
+#terrain 233 649
+#landname 234 "Drow's Gate"
+#terrain 234 4608
+#landname 235 "Western Tors"
+#terrain 235 4194304
+#landname 236 "Fradugsul"
+#terrain 236 4609
+#landname 237 "Yeomar Range"
+#terrain 237 528
+#landname 238 "Southern Aerdi Sea"
+#terrain 238 516
+#landname 239 "Sea Princes Gulf"
+#terrain 239 516
+#landname 240 "Brothers Bay"
+#terrain 240 517
+#landname 241 "Oljatt Sea D"
+#terrain 241 2564
+#landname 242 "Sea of the Dragonturtles"
+#terrain 242 4
+#landname 243 "Desert of the Stones"
+#terrain 243 1600
+#landname 244 "Duxchan Bay"
+#terrain 244 68
+#landname 245 "Kul Shratilm"
+#terrain 245 4616
+#landname 246 "Ancient Blue"
+#terrain 246 2564
+#landname 247 "Loftwick"
+#terrain 247 786
+#landname 248 "Fairwind Plain"
+#terrain 248 513
+#landname 249 "Inner Kingdom Gate"
+#terrain 249 4608
+#landname 250 "Duxchan"
+#terrain 250 776
+#landname 251 "Ogdan Mirks"
+#terrain 251 4194848
+#landname 252 "Northern Hok Plain"
+#terrain 252 0
+#landname 253 "Eastern Hool Marshes"
+#terrain 253 552
+#landname 254 "Monmur Straits"
+#terrain 254 4
+#landname 255 "Southern Vast Swamp"
+#terrain 255 4194848
+#landname 256 "Westkeep"
+#terrain 256 258
+#landname 257 "Southern Javanhool Swamp"
+#terrain 257 544
+#landname 258 "Western Yeomanry"
+#terrain 258 512
+#landname 259 "Elserv Lake"
+#terrain 259 4613
+#landname 260 "Chimumba Plain"
+#terrain 260 521
+#landname 261 "Aenasia"
+#terrain 261 0
+#landname 262 "Eastern Yeomanry"
+#terrain 262 1
+#landname 263 "Sea of the Three Isles"
+#terrain 263 4
+#landname 264 "Frost Giants Caverns"
+#terrain 264 4608
+#landname 265 "Flotsom Island"
+#terrain 265 512
+#landname 266 "Lands of the Assembly"
+#terrain 266 0
+#landname 267 "Welxan Jungle"
+#terrain 267 681
+#landname 268 "The Infinite Sea"
+#terrain 268 2564
+#landname 269 "Fairwind Hills"
+#terrain 269 4194817
+#landname 270 "Southern External Kingdom"
+#terrain 270 4610
+#landname 271 "Azure Sea E"
+#terrain 271 4
+#landname 272 "Grandbeach"
+#terrain 272 577
+#landname 273 "Dry Steppes"
+#terrain 273 64
+#landname 274 "Azure Sea C"
+#terrain 274 4
+#landname 275 "Dry Forest"
+#terrain 275 192
+#landname 276 "Vast Swamp"
+#terrain 276 544
+#landname 277 "Hold of the Sea Princes"
+#terrain 277 512
+#landname 278 "Monmurg"
+#terrain 278 770
+#landname 279 "Oljatt Sea A"
+#terrain 279 2564
+#landname 280 "Green Waters"
+#terrain 280 4
+#landname 281 "Fennenteravan"
+#terrain 281 5640
+#landname 282 "Armator"
+#terrain 282 896
+#landname 283 "Elserv Mountains"
+#terrain 283 528
+#landname 284 "Dayish Pass"
+#terrain 284 4
+#landname 285 "Dayish Pass"
+#terrain 285 536
+#landname 286 "Elserv Duchy"
+#terrain 286 793
+#landname 287 "Aldry Isle"
+#terrain 287 577
+#landname 288 "Western Jotens"
+#terrain 288 16
+#landname 289 "Eltravisar Mountains"
+#terrain 289 1552
+#landname 290 "Southern Crystalmist Mountains"
+#terrain 290 529
+#landname 291 "Freemenshire"
+#terrain 291 0
+#landname 292 "Fairwind Waters"
+#terrain 292 4
+#landname 293 "Golem Range"
+#terrain 293 1617
+#landname 294 "Northern Javanhool Swamp"
+#terrain 294 552
+#landname 295 "Wexchan Island"
+#terrain 295 712
+#landname 296 "Yeoman Bridge"
+#terrain 296 809
+#landname 297 "Eastern Azure Depths"
+#terrain 297 2564
+#landname 298 "Southern Little Hills"
+#terrain 298 4194304
+#landname 299 "Southern Jotens"
+#terrain 299 528
+#landname 300 "Joltplain"
+#terrain 300 1
+#landname 301 "Trogloden"
+#terrain 301 4608
+#landname 302 "Beholders Labyrunth"
+#terrain 302 4609
+#landname 303 "Jetsom Forest"
+#terrain 303 640
+#landname 304 "Retarma Waters"
+#terrain 304 4
+#landname 305 "Artificial Sun"
+#terrain 305 1800
+#landname 306 "Southern Crystalmist Woods"
+#terrain 306 656
+#landname 307 "Jetsom Island"
+#terrain 307 513
+#landname 308 "Tenseril Island"
+#terrain 308 705
+#landname 309 "Cacevic Highlands"
+#terrain 309 4194817
+#landname 310 "Monmur Bay"
+#terrain 310 4
+#landname 311 "Northern External Kingdom"
+#terrain 311 4610
+#landname 312 "Dayish Valley"
+#terrain 312 265
+#landname 313 "Eastern Titanesque Halls"
+#terrain 313 4608
+#landname 314 "Javan Bay"
+#terrain 314 517
+#landname 315 "Western Vast Swamp"
+#terrain 315 545
+#landname 316 "Longspear"
+#terrain 316 4194568
+#landname 317 "Western Little Hills"
+#terrain 317 4194312
+#landname 318 "Jotens Forest"
+#terrain 318 656
+#landname 319 "Dry Steppes"
+#terrain 319 578
+#landname 320 "Fever Fens"
+#terrain 320 544
+#landname 321 "Azure Depths B"
+#terrain 321 2564
+#landname 322 "Lizardmen Hills"
+#terrain 322 4194849
+#landname 323 "Eastern Jotens"
+#terrain 323 16
+#landname 324 "Azure Depths A"
+#terrain 324 2564
+#landname 325 "Lo Speltarma"
+#terrain 325 513
+#landname 326 "Slaves Halls"
+#terrain 326 4608
+#landname 327 "Eastern Aerdi Sea"
+#terrain 327 4
+#landname 328 "Dreadmarsh"
+#terrain 328 544
+#landname 329 "Javanhool Fields"
+#terrain 329 800
+#landname 330 "Dry Steppes"
+#terrain 330 576
+#landname 331 "Naerie Bay"
+#terrain 331 4
+#landname 332 "Embracer"
+#terrain 332 517
+#landname 333 "Drelk County"
+#terrain 333 777
+#landname 334 "Wynna"
+#terrain 334 0
+#landname 335 "Southern Sterich"
+#terrain 335 1
+#landname 336 "Northern Crystalmist Woods"
+#terrain 336 657
+#landname 337 "Crystalmist Mountains C"
+#terrain 337 529
+#landname 338 "Northern Oljatt Sea"
+#terrain 338 4
+#landname 339 "Western Dreadwood"
+#terrain 339 4194433
+#landname 340 "Western Aerdi Sea"
+#terrain 340 516
+#landname 341 "Sea of Caramoth"
+#terrain 341 516
+#landname 342 "Western Azure Depths"
+#terrain 342 2564
+#landname 343 "Lo Ret Plain"
+#terrain 343 512
+#landname 344 "Speltarm Hills"
+#terrain 344 4194817
+#landname 345 "Western Titanesque Halls"
+#terrain 345 4608
+#landname 346 "Gradsul Bay"
+#terrain 346 516
+#landname 347 "Oskentur"
+#terrain 347 4616
+#landname 348 "Dayish-shire"
+#terrain 348 9
+#landname 349 "High Fields"
+#terrain 349 273
+#landname 350 "Jotenshire"
+#terrain 350 1
+#landname 351 "Western Sterich"
+#terrain 351 0
+#landname 352 "Northern Azure Depths"
+#terrain 352 2564
+#landname 353 "Southern Hestmark Highlands"
+#terrain 353 4194817
+#landname 354 "Western Menowood"
+#terrain 354 128
+#landname 355 "Rimentur"
+#terrain 355 4608
+#landname 356 "Lo Reltarma"
+#terrain 356 770
+#landname 357 "Sulward Plain"
+#terrain 357 512
+#landname 358 "Eastern Dreadwood"
+#terrain 358 128
+#landname 359 "Cryllor"
+#terrain 359 776
+#landname 360 "Dreadwood"
+#terrain 360 128
+#landname 361 "Eastern Menowood"
+#terrain 361 681
+#landname 362 "Azure Sea B"
+#terrain 362 4
+#landname 363 "Crystalmist Mountains B"
+#terrain 363 528
+#landname 364 "Gob Sabogh"
+#terrain 364 4864
+#landname 365 "Retarma Bay"
+#terrain 365 517
+#landname 366 "Istivin"
+#terrain 366 776
+#landname 367 "The Kraspers"
+#terrain 367 529
+#landname 368 "Naerie"
+#terrain 368 770
+#landname 369 "Western Crystalmist"
+#terrain 369 529
+#landname 370 "Northern Vast Swamp"
+#terrain 370 40
+#landname 371 "Western Idee"
+#terrain 371 768
+#landname 372 "Eastern Good Hills"
+#terrain 372 4194304
+#landname 373 "Muddy River"
+#terrain 373 41
+#landname 374 "Anremark"
+#terrain 374 513
+#landname 375 "Rungaria"
+#terrain 375 4616
+#landname 376 "Gradsul"
+#terrain 376 392
+#landname 377 "Flen"
+#terrain 377 4195080
+#landname 378 "Dol Ferras"
+#terrain 378 4608
+#landname 379 "Esterlev Forest"
+#terrain 379 648
+#landname 380 "Eastern Sterich"
+#terrain 380 9
+#landname 381 "Saeborea"
+#terrain 381 768
+#landname 382 "Eastern Idee"
+#terrain 382 0
+#landname 383 "Sulward"
+#terrain 383 770
+#landname 384 "Sulitch Straits"
+#terrain 384 4
+#landname 385 "Eastern Crystalmist"
+#terrain 385 528
+#landname 386 "Drier Steppes"
+#terrain 386 577
+#landname 387 "Retar Strait"
+#terrain 387 5
+#landname 388 "Niolshire"
+#terrain 388 4194560
+#landname 389 "Sheldomar River"
+#terrain 389 264
+#landname 390 "Azure Sea A"
+#terrain 390 4
+#landname 391 "Eastern Hollow Highlands"
+#terrain 391 4194304
+#landname 392 "Western Retalma Jungle"
+#terrain 392 640
+#landname 393 "Good Hills"
+#terrain 393 4194304
+#landname 394 "Headlands Coast"
+#terrain 394 4
+#landname 395 "Carnag"
+#terrain 395 592
+#landname 396 "Girkantur"
+#terrain 396 4608
+#landname 397 "Eastern Retalma Jungle"
+#terrain 397 641
+#landname 398 "Gryrax"
+#terrain 398 4194560
+#landname 399 "Barrengur Caverns"
+#terrain 399 4608
+#landname 400 "Northern Azure Sea"
+#terrain 400 4
+#landname 401 "Sterich Fields"
+#terrain 401 0
+#landname 402 "Niole Dra"
+#terrain 402 778
+#landname 403 "Kuo Toas Fields"
+#terrain 403 4864
+#landname 404 "Crystalmist Mountains A"
+#terrain 404 529
+#landname 405 "Western Hollow Highlands"
+#terrain 405 4194304
+#landname 406 "Ironleague Gulf"
+#terrain 406 516
+#landname 407 "Western Good Hills"
+#terrain 407 4194304
+#landname 408 "Krasperon Hills"
+#terrain 408 4194816
+#landname 409 "Southern Sunndi"
+#terrain 409 264
+#landname 410 "Headport"
+#terrain 410 4194816
+#landname 411 "Hestmarkshire"
+#terrain 411 4194312
+#landname 412 "Northern Idee"
+#terrain 412 512
+#landname 413 "Wekern Lake"
+#terrain 413 4616
+#landname 414 "Dark Esterlev Forest"
+#terrain 414 1664
+#landname 415 "Eastern Hornwood"
+#terrain 415 896
+#landname 416 "Western Stark Mounds"
+#terrain 416 4194304
+#landname 417 "County of Ulek"
+#terrain 417 1
+#landname 418 "Pontylver Bay"
+#terrain 418 516
+#landname 419 "Relport"
+#terrain 419 513
+#landname 420 "Southern Keoland Plain"
+#terrain 420 0
+#landname 421 "Silverwood"
+#terrain 421 1664
+#landname 422 "Western Wekernum River"
+#terrain 422 4616
+#landname 423 "Dullstrand"
+#terrain 423 258
+#landname 424 "Hornwood"
+#terrain 424 640
+#landname 425 "Eastern Keoland Plain"
+#terrain 425 0
+#landname 426 "Idee's Gate"
+#terrain 426 0
+#landname 427 "Eastern Sunndi"
+#terrain 427 0
+#landname 428 "Serpent River"
+#terrain 428 265
+#landname 429 "Caverns of the Mindflayers"
+#terrain 429 4608
+#landname 430 "Retalma Fields"
+#terrain 430 768
+#landname 431 "Northern Aerdi Sea"
+#terrain 431 5
+#landname 432 "Havenhill"
+#terrain 432 4194306
+#landname 433 "Pomarj Bay"
+#terrain 433 517
+#landname 434 "Jurnre"
+#terrain 434 264
+#landname 435 "Wekshrooms"
+#terrain 435 4736
+#landname 436 "Wekernum River"
+#terrain 436 4616
+#landname 437 "Western Sunndi"
+#terrain 437 1
+#landname 438 "Javan county"
+#terrain 438 256
+#landname 439 "Javan River"
+#terrain 439 4194568
+#landname 440 "Western Keoland Plain"
+#terrain 440 0
+#landname 441 "Pomarj Strait"
+#terrain 441 516
+#landname 442 "Aerdi Sea"
+#terrain 442 4
+#landname 443 "Kester Hills"
+#terrain 443 4194368
+#landname 444 "High Rieuwood"
+#terrain 444 4194432
+#landname 445 "Duchy of Ulek"
+#terrain 445 8
+#landname 446 "Morph River"
+#terrain 446 777
+#landname 447 "Axewood"
+#terrain 447 129
+#landname 448 "Onnwal"
+#terrain 448 4195072
+#landname 449 "Ulek March"
+#terrain 449 8
+#landname 450 "Zrath Hills"
+#terrain 450 4194816
+#landname 451 "The Headlands"
+#terrain 451 4194816
+#landname 452 "Eastern Stark Mounds"
+#terrain 452 4194304
+#landname 453 "Southern Iron Hills"
+#terrain 453 4194304
+#landname 454 "Northern Keoland Plain"
+#terrain 454 9
+#landname 455 "Ulek Hills"
+#terrain 455 4194304
+#landname 456 "Southern Geoff"
+#terrain 456 0
+#landname 457 "For Seas Meeting"
+#terrain 457 4
+#landname 458 "Rieuwood"
+#terrain 458 128
+#landname 459 "Eastern Wekernum River"
+#terrain 459 4616
+#landname 460 "Northern Crystalmist"
+#terrain 460 512
+#landname 461 "Stoneheim"
+#terrain 461 4194834
+#landname 462 "Irongate"
+#terrain 462 4195088
+#landname 463 "Gorna"
+#terrain 463 770
+#landname 464 "Tringlee"
+#terrain 464 4195080
+#landname 465 "Blue"
+#terrain 465 514
+#landname 466 "Spindrift Sea"
+#terrain 466 4
+#landname 467 "Keolanshire"
+#terrain 467 4194593
+#landname 468 "Pitchfield"
+#terrain 468 4194562
+#landname 469 "Hestmark Highlands"
+#terrain 469 4194304
+#landname 470 "Scant"
+#terrain 470 770
+#landname 471 "Drift Strait"
+#terrain 471 5
+#landname 472 "Eastern Iron Hills"
+#terrain 472 4194304
+#landname 473 "Waybury"
+#terrain 473 4194562
+#landname 474 "Lort River"
+#terrain 474 265
+#landname 475 "Ulekian Range"
+#terrain 475 1553
+#landname 476 "Northern Esterlev Forest"
+#terrain 476 641
+#landname 477 "Northern Hestmark Highlands"
+#terrain 477 4194816
+#landname 478 "Northern Iron Hills"
+#terrain 478 4194817
+#landname 479 "Northern Rieuwood"
+#terrain 479 641
+#landname 480 "Edre Zrathul"
+#terrain 480 1802
+#landname 481 "The Pomarj"
+#terrain 481 4195856
+#landname 482 "Ligren Isle"
+#terrain 482 641
+#landname 483 "Dry Steppes"
+#terrain 483 64
+#landname 484 "Shiboleth"
+#terrain 484 264
+#landname 485 "Principality of Ulek"
+#terrain 485 264
+#landname 486 "Southern Medegia"
+#terrain 486 512
+#landname 487 "Kester"
+#terrain 487 4194560
+#landname 488 "Pontylver"
+#terrain 488 776
+#landname 489 "Hexwald Highlands"
+#terrain 489 4194304
+#landname 490 "Eastern Oy Wood"
+#terrain 490 4194952
+#landname 491 "Onnwal Gulf"
+#terrain 491 516
+#landname 492 "Granduchy of Geoff"
+#terrain 492 0
+#landname 493 "Onnwal March"
+#terrain 493 0
+#landname 494 "Zelradton"
+#terrain 494 770
+#landname 495 "Western Oy Wood"
+#terrain 495 128
+#landname 496 "Pomarj Peninsula"
+#terrain 496 512
+#landname 497 "Driftport"
+#terrain 497 0
+#landname 498 "Southern Welkwood"
+#terrain 498 4194432
+#landname 499 "Grayflood Plain"
+#terrain 499 9
+#landname 500 "Glorioles"
+#terrain 500 528
+#landname 501 "Western Rushmoors"
+#terrain 501 544
+#landname 502 "Nulbshire"
+#terrain 502 9
+#landname 503 "Shades Mountains"
+#terrain 503 528
+#landname 504 "Rushmoors"
+#terrain 504 544
+#landname 505 "Drach Ensgrab Hills"
+#terrain 505 4194817
+#landname 506 "Gearnat Strait"
+#terrain 506 517
+#landname 507 "Mentrey"
+#terrain 507 258
+#landname 508 "The Small Lortmils"
+#terrain 508 24
+#landname 509 "Mogdaz County"
+#terrain 509 512
+#landname 510 "Southern Magewall Mountains"
+#terrain 510 528
+#landname 511 "Wild Lands"
+#terrain 511 4194433
+#landname 512 "Celen Highlands"
+#terrain 512 4194304
+#landname 513 "Western Ahlissa"
+#terrain 513 0
+#landname 514 "Highport"
+#terrain 514 4194818
+#landname 515 "Hexpools"
+#terrain 515 264
+#landname 516 "Granmarch"
+#terrain 516 296
+#landname 517 "Jewel River"
+#terrain 517 521
+#landname 518 "Western Medegia"
+#terrain 518 264
+#landname 519 "Ahlissa"
+#terrain 519 0
+#landname 520 "Southern Spindrift Sound"
+#terrain 520 4
+#landname 521 "Elvengate Pass"
+#terrain 521 1552
+#landname 522 "Hochoch"
+#terrain 522 264
+#landname 523 "Nulbish"
+#terrain 523 136
+#landname 524 "Eastern Magewall"
+#terrain 524 528
+#landname 525 "Northern Geoff"
+#terrain 525 0
+#landname 526 "Western Sea of Gearnat"
+#terrain 526 516
+#landname 527 "Putresh"
+#terrain 527 544
+#landname 528 "Slavelords March"
+#terrain 528 4608
+#landname 529 "Prymp"
+#terrain 529 770
+#landname 530 "Northern Medegia"
+#terrain 530 0
+#landname 531 "Southern Ull Plain"
+#terrain 531 512
+#landname 532 "Hochshire"
+#terrain 532 256
+#landname 533 "Merovia"
+#terrain 533 264
+#landname 534 "Eastern Sea of Gearnat"
+#terrain 534 4
+#landname 535 "Lorthills"
+#terrain 535 4194816
+#landname 536 "Norndrift Forest"
+#terrain 536 640
+#landname 537 "Rushwoods"
+#terrain 537 161
+#landname 538 "Northern Ahlissa"
+#terrain 538 0
+#landname 539 "Gateway of the Mage"
+#terrain 539 1665
+#landname 540 "Enstad"
+#terrain 540 776
+#landname 541 "Western Suss Forest"
+#terrain 541 128
+#landname 542 "Southern Wooly Bay"
+#terrain 542 516
+#landname 543 "Courwood"
+#terrain 543 1928
+#landname 544 "Stalagmites Hall"
+#terrain 544 4608
+#landname 545 "Rel Astra Bay"
+#terrain 545 516
+#landname 546 "Ullsprue"
+#terrain 546 528
+#landname 547 "Western Suss Forest"
+#terrain 547 129
+#landname 548 "Dry Steppes"
+#terrain 548 576
+#landname 549 "Hochoch Woods"
+#terrain 549 136
+#landname 550 "Slave Lords City"
+#terrain 550 4866
+#landname 551 "Southern Royal Domain"
+#terrain 551 0
+#landname 552 "Southern Dim Forest"
+#terrain 552 136
+#landname 553 "Welkwood"
+#terrain 553 4194440
+#landname 554 "Western Celene Plain"
+#terrain 554 8
+#landname 555 "Southern Bright Desert"
+#terrain 555 577
+#landname 556 "Northern Magewall Mountains"
+#terrain 556 528
+#landname 557 "Lortmil Mountains"
+#terrain 557 528
+#landname 558 "Bright Hills"
+#terrain 558 4194880
+#landname 559 "The Old Passage"
+#terrain 559 4609
+#landname 560 "Headlands Cave"
+#terrain 560 4608
+#landname 561 "Western Relmor Bay"
+#terrain 561 4
+#landname 562 "Flooded Halls"
+#terrain 562 4641
+#landname 563 "Southern Relmor Bay"
+#terrain 563 516
+#landname 564 "Norndrift"
+#terrain 564 512
+#landname 565 "Pomarj Fields"
+#terrain 565 4864
+#landname 566 "Irongate Mines"
+#terrain 566 4198914
+#landname 567 "Southern Grandwood Forest"
+#terrain 567 128
+#landname 568 "Torrich Plaéin"
+#terrain 568 8
+#landname 569 "Land of Garnath"
+#terrain 569 512
+#landname 570 "Wild Coast Bay"
+#terrain 570 517
+#landname 571 "Western Dim Forest"
+#terrain 571 128
+#landname 572 "Northern Granmarch"
+#terrain 572 0
+#landname 573 "Relm Woods"
+#terrain 573 641
+#landname 574 "Rebels Woods"
+#terrain 574 137
+#landname 575 "Lortmills Caverns"
+#terrain 575 4608
+#landname 576 "Gryphon Rocks"
+#terrain 576 529
+#landname 577 "Magewoods"
+#terrain 577 649
+#landname 578 "Badwall"
+#terrain 578 256
+#landname 579 "Torrich"
+#terrain 579 136
+#landname 580 "Great Kingdom [Plain"
+#terrain 580 0
+#landname 581 "Kron Canyon"
+#terrain 581 4194305
+#landname 582 "Northern Spindrift Sound"
+#terrain 582 4
+#landname 583 "Elredd"
+#terrain 583 2
+#landname 584 "Pomarj Tunnels"
+#terrain 584 4610
+#landname 585 "Eastern Almor"
+#terrain 585 264
+#landname 586 "Celene Mountains"
+#terrain 586 4194320
+#landname 587 "Valley of the Mage"
+#terrain 587 1545
+#landname 588 "Barreer Peaks D"
+#terrain 588 528
+#landname 589 "Rel Astra"
+#terrain 589 770
+#landname 590 "Bright Desert"
+#terrain 590 577
+#landname 591 "Eastern Celene Plain"
+#terrain 591 0
+#landname 592 "Western Bright Desert"
+#terrain 592 4195905
+#landname 593 "Realstream River"
+#terrain 593 136
+#landname 594 "Northern Spindrift Sea"
+#terrain 594 4
+#landname 595 "Western Undergearnat"
+#terrain 595 6660
+#landname 596 "Southern Nyrond"
+#terrain 596 0
+#landname 597 "Dim Hightree"
+#terrain 597 1664
+#landname 598 "Dimhook Vale"
+#terrain 598 1
+#landname 599 "Pomarjanok"
+#terrain 599 4736
+#landname 600 "Gnomenkrongard"
+#terrain 600 786
+#landname 601 "Northern Relmor Bay"
+#terrain 601 517
+#landname 602 "Ull Plain"
+#terrain 602 0
+#landname 603 "Northern Welkwood"
+#terrain 603 136
+#landname 604 "Eastern Lortmils"
+#terrain 604 528
+#landname 605 "Ered Oldinamuin"
+#terrain 605 136
+#landname 606 "Chathold"
+#terrain 606 778
+#landname 607 "Eastern Undergearnat"
+#terrain 607 2564
+#landname 608 "Adred"
+#terrain 608 770
+#landname 609 "Fax"
+#terrain 609 514
+#landname 610 "Western Kron Hills"
+#terrain 610 4194304
+#landname 611 "Oakenbaron Colony"
+#terrain 611 513
+#landname 612 "Northern Wooly Bay"
+#terrain 612 516
+#landname 613 "Valley of the Mage Entrance"
+#terrain 613 521
+#landname 614 "Western Lortmil Mountains"
+#terrain 614 528
+#landname 615 "Western Grandwood Forest"
+#terrain 615 128
+#landname 616 "Gnatmarsh"
+#terrain 616 552
+#landname 617 "Dim Forest"
+#terrain 617 649
+#landname 618 "Southern Lone Heath"
+#terrain 618 544
+#landname 619 "Ullawath"
+#terrain 619 512
+#landname 620 "Sheperd Lands"
+#terrain 620 0
+#landname 621 "Flanmi River"
+#terrain 621 264
+#landname 622 "Narwell"
+#terrain 622 264
+#landname 623 "Southern Ullgamesh"
+#terrain 623 4194304
+#landname 624 "Northern Lone Heath"
+#terrain 624 552
+#landname 625 "Hookhill"
+#terrain 625 4194562
+#landname 626 "Jalpa"
+#terrain 626 264
+#landname 627 "Eastern Kron Hills"
+#terrain 627 4194304
+#landname 628 "Eastern Abbor Alz Hills"
+#terrain 628 4194816
+#landname 629 "Dimpeaks Range"
+#terrain 629 528
+#landname 630 "Western Abbor Alz Hills"
+#terrain 630 4194817
+#landname 631 "Gurud Mushlands"
+#terrain 631 4992
+#landname 632 "Northern Kron Hills"
+#terrain 632 4194304
+#landname 633 "Almor March"
+#terrain 633 8
+#landname 634 "Ountsy"
+#terrain 634 2
+#landname 635 "Southern Barons Sea"
+#terrain 635 517
+#landname 636 "Tiamat Ancient Lair"
+#terrain 636 4609
+#landname 637 "Ividshire"
+#terrain 637 8
+#landname 638 "Safeton"
+#terrain 638 514
+#landname 639 "Mithat"
+#terrain 639 2
+#landname 640 "Gnarley Hills"
+#terrain 640 4194432
+#landname 641 "Southern Bissel"
+#terrain 641 0
+#landname 642 "Been"
+#terrain 642 392
+#landname 643 "Viscounty of Verbobonc"
+#terrain 643 8
+#landname 644 "Almor Plain"
+#terrain 644 512
+#landname 645 "Northern Lortmil Mountains"
+#terrain 645 16
+#landname 646 "Western Nyrond"
+#terrain 646 0
+#landname 647 "Old Grandwood"
+#terrain 647 1664
+#landname 648 "Dimshire"
+#terrain 648 392
+#landname 649 "Council of the Eight Domain"
+#terrain 649 512
+#landname 650 "Abbor Alz Mountains"
+#terrain 650 4195856
+#landname 651 "Verbobonc"
+#terrain 651 4195978
+#landname 652 "Gnarley Forest"
+#terrain 652 642
+#landname 653 "Hardby"
+#terrain 653 778
+#landname 654 "Barreer Peaks C"
+#terrain 654 528
+#landname 655 "Oakenharf Waters"
+#terrain 655 4
+#landname 656 "The Long Isle"
+#terrain 656 513
+#landname 657 "Western Gnarley"
+#terrain 657 136
+#landname 658 "Northern Ull"
+#terrain 658 0
+#landname 659 "Rauxes Woods"
+#terrain 659 904
+#landname 660 "Mikar River"
+#terrain 660 776
+#landname 661 "Celadon Hills"
+#terrain 661 4194952
+#landname 662 "Imeda Plain"
+#terrain 662 520
+#landname 663 "Ene Umrul"
+#terrain 663 4608
+#landname 664 "Southern Ostadri Plain"
+#terrain 664 0
+#landname 665 "Bissel Fields"
+#terrain 665 256
+#landname 666 "Veluna City"
+#terrain 666 904
+#landname 667 "Southern Gull Cliffs"
+#terrain 667 4194816
+#landname 668 "Ullakand"
+#terrain 668 514
+#landname 669 "Solnor Ocean F"
+#terrain 669 2564
+#landname 670 "Barreer Peaks B"
+#terrain 670 16
+#landname 671 "Crypt of the Aerdi Kings"
+#terrain 671 5633
+#landname 672 "Ullgamesh"
+#terrain 672 4194560
+#landname 673 "Eastern Nyrond"
+#terrain 673 8
+#landname 674 "Harp River"
+#terrain 674 776
+#landname 675 "Lorridge Peaks"
+#terrain 675 4194320
+#landname 676 "Southern Adri Forest"
+#terrain 676 128
+#landname 677 "Celadon Forest"
+#terrain 677 1664
+#landname 678 "Northern Grandwood"
+#terrain 678 128
+#landname 679 "Southern Furyondy"
+#terrain 679 393
+#landname 680 "Dyvers Bridge"
+#terrain 680 776
+#landname 681 "Greyhawk"
+#terrain 681 4195082
+#landname 682 "Rauxes"
+#terrain 682 778
+#landname 683 "Southern Lorridges"
+#terrain 683 4194304
+#landname 684 "Velverwood"
+#terrain 684 648
+#landname 685 "Central Gull Cliffs"
+#terrain 685 4194817
+#landname 686 "Ussel"
+#terrain 686 0
+#landname 687 "Rauxes Catacombs"
+#terrain 687 5632
+#landname 688 "Eastern Gnarley Forest"
+#terrain 688 640
+#landname 689 "Grishalballak"
+#terrain 689 4609
+#landname 690 "Dyvers"
+#terrain 690 906
+#landname 691 "Northern Ostadri Plain"
+#terrain 691 0
+#landname 692 "Maure Castle"
+#terrain 692 4195842
+#landname 693 "Neen River Swamp"
+#terrain 693 554
+#landname 694 "Urubagor Forest"
+#terrain 694 4737
+#landname 695 "Corom Saghoth"
+#terrain 695 4609
+#landname 696 "Furyondh Woods"
+#terrain 696 136
+#landname 697 "Barreer Peaks A"
+#terrain 697 528
+#landname 698 "Land of the Ancients"
+#terrain 698 585
+#landname 699 "Woodwirth"
+#terrain 699 392
+#landname 700 "Nellix"
+#terrain 700 514
+#landname 701 "Zagyg Cave"
+#terrain 701 4608
+#landname 702 "Realstream Vale"
+#terrain 702 520
+#landname 703 "Sea Baron's Sea"
+#terrain 703 4
+#landname 704 "Rel Mord"
+#terrain 704 778
+#landname 705 "Bissel"
+#terrain 705 0
+#landname 706 "Western Corom"
+#terrain 706 4608
+#landname 707 "Rauxes Domain"
+#terrain 707 776
+#landname 708 "Oakenharf"
+#terrain 708 514
+#landname 709 "Plains of the Paynims"
+#terrain 709 0
+#landname 710 "Southern Veluna Plain"
+#terrain 710 0
+#landname 711 "Furondonia"
+#terrain 711 264
+#landname 712 "Deep Adri Forest"
+#terrain 712 129
+#landname 713 "Gull Fields"
+#terrain 713 4194568
+#landname 714 "Corom Fogh"
+#terrain 714 4096
+#landname 715 "Aerd Caverns"
+#terrain 715 4608
+#landname 716 "Phalux River"
+#terrain 716 264
+#landname 717 "Adri Forest"
+#terrain 717 128
+#landname 718 "Nerndyv Hills"
+#terrain 718 4194816
+#landname 719 "Roland"
+#terrain 719 4194306
+#landname 720 "Eastern Adri Forest"
+#terrain 720 128
+#landname 721 "Ryd Island"
+#terrain 721 513
+#landname 722 "Westflanmi Plain"
+#terrain 722 520
+#landname 723 "Gnomes Fields"
+#terrain 723 4864
+#landname 724 "Abbor Caverns"
+#terrain 724 4608
+#landname 725 "Ullman Hills"
+#terrain 725 4194304
+#landname 726 "Dathen"
+#terrain 726 1
+#landname 727 "Roland Gulf"
+#terrain 727 517
+#landname 728 "Veluna Fields"
+#terrain 728 776
+#landname 729 "Littleberg"
+#terrain 729 264
+#landname 730 "Western Nyr Dyv"
+#terrain 730 516
+#landname 731 "Southern Oldroad Cave"
+#terrain 731 4608
+#landname 732 "Cairn Hills"
+#terrain 732 1561
+#landname 733 "Eastern Plains of the Paynims"
+#terrain 733 66
+#landname 734 "Northern Lorridges"
+#terrain 734 4194312
+#landname 735 "Sea Barons"
+#terrain 735 4
+#landname 736 "Leukish"
+#terrain 736 778
+#landname 737 "Bisselian Range"
+#terrain 737 529
+#landname 738 "Northern Barreer Peaks"
+#terrain 738 528
+#landname 739 "Duntide River"
+#terrain 739 8
+#landname 740 "Western Furyondy"
+#terrain 740 521
+#landname 741 "Thornward"
+#terrain 741 4195082
+#landname 742 "Asperdi Strait"
+#terrain 742 517
+#landname 743 "Southern Att River Fields"
+#terrain 743 264
+#landname 744 "Mitrik"
+#terrain 744 770
+#landname 745 "Greyhawk Catacombs"
+#terrain 745 5633
+#landname 746 "Lake Plaouf"
+#terrain 746 4744
+#landname 747 "Franz River"
+#terrain 747 264
+#landname 748 "Old Greyhawk Castle"
+#terrain 748 5632
+#landname 749 "Asperdi"
+#terrain 749 514
+#landname 750 "Thornward Highlands"
+#terrain 750 4194944
+#landname 751 "Mushazz"
+#terrain 751 4608
+#landname 752 "Willip"
+#terrain 752 264
+#landname 753 "Upper Flanmi River"
+#terrain 753 264
+#landname 754 "Rinlorn Plain"
+#terrain 754 0
+#landname 755 "Innspa"
+#terrain 755 4194442
+#landname 756 "Delaric"
+#terrain 756 264
+#landname 757 "Harp Woods"
+#terrain 757 136
+#landname 758 "Tomb of the Second Army"
+#terrain 758 5633
+#landname 759 "Midbay"
+#terrain 759 516
+#landname 760 "Adri March"
+#terrain 760 0
+#landname 761 "Northern Adri Forest"
+#terrain 761 128
+#landname 762 "Barathil"
+#terrain 762 4194817
+#landname 763 "Halbathria"
+#terrain 763 4194304
+#landname 764 "Tomb of the Third Army"
+#terrain 764 5633
+#landname 765 "Plains of the Paynims"
+#terrain 765 66
+#landname 766 "The Earth Node"
+#terrain 766 4199953
+#landname 767 "Edge Field"
+#terrain 767 258
+#landname 768 "Nyr Dyv Depths"
+#terrain 768 3588
+#landname 769 "Paynims Lands"
+#terrain 769 578
+#landname 770 "Northern Veluna Plain"
+#terrain 770 0
+#landname 771 "Northern Oldroad Cave"
+#terrain 771 4608
+#landname 772 "Winetha"
+#terrain 772 258
+#landname 773 "Greyhawk Sewers"
+#terrain 773 4640
+#landname 774 "Whomtham"
+#terrain 774 4194314
+#landname 775 "Mitrinmounds"
+#terrain 775 4194305
+#landname 776 "Payn Hills"
+#terrain 776 4194880
+#landname 777 "Southern Bramblewood"
+#terrain 777 128
+#landname 778 "Bissel March"
+#terrain 778 1
+#landname 779 "Usul Samgor"
+#terrain 779 4609
+#landname 780 "Delaric County"
+#terrain 780 0
+#landname 781 "Flinty Hills"
+#terrain 781 4194304
+#landname 782 "Urnstgalian"
+#terrain 782 4194568
+#landname 783 "Belvor Domain"
+#terrain 783 0
+#landname 784 "Assad"
+#terrain 784 512
+#landname 785 "Northern Att River Fields"
+#terrain 785 264
+#landname 786 "Gromcornoth"
+#terrain 786 4608
+#landname 787 "Northern Nyr Dyv"
+#terrain 787 516
+#landname 788 "County of Urnst"
+#terrain 788 776
+#landname 789 "Trigol"
+#terrain 789 776
+#landname 790 "Eastfair Plain"
+#terrain 790 0
+#landname 791 "Rinloru"
+#terrain 791 2
+#landname 792 "Bramblewood Hills"
+#terrain 792 4194432
+#landname 793 "Elvenmarch"
+#terrain 793 8
+#landname 794 "Knurl"
+#terrain 794 776
+#landname 795 "Eastern Nyr Dyv"
+#terrain 795 516
+#landname 796 "Atirr Waters"
+#terrain 796 517
+#landname 797 "Littleswamp"
+#terrain 797 553
+#landname 798 "The Deepest Lake"
+#terrain 798 2564
+#landname 799 "Tomb of the First Army"
+#terrain 799 5633
+#landname 800 "North Province"
+#terrain 800 0
+#landname 801 "Solnor Ocean E"
+#terrain 801 2564
+#landname 802 "Yatpur Horn"
+#terrain 802 512
+#landname 803 "Kwanartogh"
+#terrain 803 4096
+#landname 804 "Furyondese Plain"
+#terrain 804 8
+#landname 805 "Western Aerdi Coast"
+#terrain 805 0
+#landname 806 "Temple of Elemental Evil"
+#terrain 806 5632
+#landname 807 "Stone Heavens"
+#terrain 807 17
+#landname 808 "Western Trask River"
+#terrain 808 264
+#landname 809 "Eastfair"
+#terrain 809 778
+#landname 810 "Paynims Steppes"
+#terrain 810 66
+#landname 811 "Great Kingdom Fronteer"
+#terrain 811 0
+#landname 812 "Bramblewood"
+#terrain 812 1665
+#landname 813 "Western Bramblewood"
+#terrain 813 136
+#landname 814 "Admundfort"
+#terrain 814 538
+#landname 815 "Furyondy"
+#terrain 815 8
+#landname 816 "Attborn"
+#terrain 816 9
+#landname 817 "Paynim's March"
+#terrain 817 512
+#landname 818 "Eastern Bramblewood"
+#terrain 818 128
+#landname 819 "Order of the Hart Domain"
+#terrain 819 264
+#landname 820 "Fals Vale"
+#terrain 820 25
+#landname 821 "Gnome Peaks"
+#terrain 821 4194304
+#landname 822 "Baraksayul"
+#terrain 822 4609
+#landname 823 "Darkluish"
+#terrain 823 4609
+#landname 824 "Flinty Hills Circle"
+#terrain 824 4194816
+#landname 825 "Nyrvondrelmor"
+#terrain 825 4874
+#landname 826 "Trask Springs"
+#terrain 826 8
+#landname 827 "Walden"
+#terrain 827 1
+#landname 828 "Southern Tusmans"
+#terrain 828 4194304
+#landname 829 "The Two Urnst"
+#terrain 829 9
+#landname 830 "Southern Vesve Forest"
+#terrain 830 128
+#landname 831 "Eastern Trask River"
+#terrain 831 264
+#landname 832 "Fals"
+#terrain 832 521
+#landname 833 "Critwall"
+#terrain 833 778
+#landname 834 "Antalatol"
+#terrain 834 2
+#landname 835 "Teesar River"
+#terrain 835 8
+#landname 836 "Bellport"
+#terrain 836 522
+#landname 837 "Highfolk"
+#terrain 837 778
+#landname 838 "Atirr"
+#terrain 838 776
+#landname 839 "Blemu Hills"
+#terrain 839 4194304
+#landname 840 "Radigast City"
+#terrain 840 778
+#landname 841 "Western Nurcave"
+#terrain 841 4608
+#landname 842 "Eastern Nurcave"
+#terrain 842 4609
+#landname 843 "Crystal River"
+#terrain 843 264
+#landname 844 "Overking"
+#terrain 844 128
+#landname 845 "Gnome Kings Mountains"
+#terrain 845 536
+#landname 846 "Tuflik River"
+#terrain 846 136
+#landname 847 "Kaport Plain"
+#terrain 847 0
+#landname 848 "Shield Lands"
+#terrain 848 520
+#landname 849 "Blem Vale"
+#terrain 849 4194569
+#landname 850 "Eastfair Coast"
+#terrain 850 0
+#landname 851 "Chendl"
+#terrain 851 778
+#landname 852 "Chendl Fields"
+#terrain 852 265
+#landname 853 "Southern Gamboge Forest"
+#terrain 853 4194432
+#landname 854 "Bramblearm Forest"
+#terrain 854 641
+#landname 855 "Zeifkbirmit Plain"
+#terrain 855 0
+#landname 856 "Elven king's Domain"
+#terrain 856 136
+#landname 857 "Urnst Plain"
+#terrain 857 0
+#landname 858 "Lopolla"
+#terrain 858 4195082
+#landname 859 "Ket's Gate"
+#terrain 859 392
+#landname 860 "North Province Coast"
+#terrain 860 0
+#landname 861 "Sylvan Lands"
+#terrain 861 393
+#landname 862 "Kaport Bay"
+#terrain 862 768
+#landname 863 "High Druid Woods"
+#terrain 863 640
+#landname 864 "Ceshra"
+#terrain 864 8
+#landname 865 "Dun Ardun Plain"
+#terrain 865 0
+#landname 866 "Eastern Ketit Plains"
+#terrain 866 0
+#landname 867 "South-eastern Vesve Forest"
+#terrain 867 128
+#landname 868 "Bellport Hills"
+#terrain 868 4194304
+#landname 869 "Bellport Bay"
+#terrain 869 516
+#landname 870 "Faujhal"
+#terrain 870 4
+#landname 871 "Eastern Shield Lands"
+#terrain 871 1864
+#landname 872 "Southern Rakers"
+#terrain 872 528
+#landname 873 "Ketit Plains"
+#terrain 873 2
+#landname 874 "Grabford"
+#terrain 874 10
+#landname 875 "Elvenlanan Fields"
+#terrain 875 1921
+#landname 876 "Northern Shield Lands"
+#terrain 876 8
+#landname 877 "Velverdyva Valley"
+#terrain 877 4194440
+#landname 878 "Land of Thousand Battles"
+#terrain 878 576
+#landname 879 "Hornport"
+#terrain 879 584
+#landname 880 "Whyestil Coast"
+#terrain 880 8
+#landname 881 "Ered Gambonedrin"
+#terrain 881 130
+#landname 882 "Sultanate of Zeif"
+#terrain 882 576
+#landname 883 "Tusman Woods"
+#terrain 883 4194440
+#landname 884 "Molvar"
+#terrain 884 4194818
+#landname 885 "Teesar Torrent"
+#terrain 885 265
+#landname 886 "Bandit Bridge"
+#terrain 886 8
+#landname 887 "Kas Mountain"
+#terrain 887 529
+#landname 888 "Western Yatspurs"
+#terrain 888 528
+#landname 889 "Crockport"
+#terrain 889 392
+#landname 890 "Bone March"
+#terrain 890 512
+#landname 891 "Yatspurs"
+#terrain 891 16
+#landname 892 "Ancalfindel Town"
+#terrain 892 130
+#landname 893 "Lopolla Plain"
+#terrain 893 0
+#landname 894 "Naugrim Pass"
+#terrain 894 24
+#landname 895 "Artonsamay Plain"
+#terrain 895 8
+#landname 896 "Heart of Vesve"
+#terrain 896 16778881
+#landname 897 "Aerdmin Isle"
+#terrain 897 1
+#landname 898 "Witches Copse"
+#terrain 898 1664
+#landname 899 "Crockwoods"
+#terrain 899 128
+#landname 900 "Cape Aerdi"
+#terrain 900 4
+#landname 901 "Sefmur"
+#terrain 901 776
+#landname 902 "Krestible"
+#terrain 902 4194834
+#landname 903 "Horned Society Plain"
+#terrain 903 520
+#landname 904 "Zeif"
+#terrain 904 522
+#landname 905 "Deep Forest"
+#terrain 905 641
+#landname 906 "Bone March Hills"
+#terrain 906 4194312
+#landname 907 "Bone Bay"
+#terrain 907 4
+#landname 908 "Ogburg"
+#terrain 908 258
+#landname 909 "Perrendale Mountains"
+#terrain 909 529
+#landname 910 "Tusman Hills"
+#terrain 910 4194304
+#landname 911 "Northern Gamboge Forest"
+#terrain 911 128
+#landname 912 "Troll Peaks"
+#terrain 912 528
+#landname 913 "Lower Velverdyva"
+#terrain 913 793
+#landname 914 "Spinecastle"
+#terrain 914 514
+#landname 915 "Tangles"
+#terrain 915 1728
+#landname 916 "Kaport Bay"
+#terrain 916 4
+#landname 917 "Western Vesve Forest"
+#terrain 917 128
+#landname 918 "Molag"
+#terrain 918 776
+#landname 919 "Eastern Whyestil Lake"
+#terrain 919 516
+#landname 920 "Yatil Horsin"
+#terrain 920 528
+#landname 921 "Riftcrag"
+#terrain 921 1610
+#landname 922 "Perrenland Fields"
+#terrain 922 256
+#landname 923 "Horned Society March"
+#terrain 923 584
+#landname 924 "Ered Syluinedin"
+#terrain 924 898
+#landname 925 "Upper Velverdyva"
+#terrain 925 537
+#landname 926 "Western Whyestil Lake"
+#terrain 926 516
+#landname 927 "Greendep Bay C"
+#terrain 927 4
+#landname 928 "Johnsport"
+#terrain 928 514
+#landname 929 "Ekbir"
+#terrain 929 778
+#landname 930 "Badtrees Woods"
+#terrain 930 1697
+#landname 931 "Solnor Ocean D"
+#terrain 931 2564
+#landname 932 "Ered Aluinedin"
+#terrain 932 138
+#landname 933 "Yatil Isfut"
+#terrain 933 528
+#landname 934 "The Old Vesve"
+#terrain 934 1665
+#landname 935 "Aerdmin Waters"
+#terrain 935 4
+#landname 936 "Tusmit Plain"
+#terrain 936 512
+#landname 937 "Grosskopf"
+#terrain 937 8
+#landname 938 "Nashen Vale"
+#terrain 938 512
+#landname 939 "Midmeadow"
+#terrain 939 522
+#landname 940 "Ratikhill"
+#terrain 940 4194834
+#landname 941 "Southern Pale Plain"
+#terrain 941 512
+#landname 942 "Yatil Circle"
+#terrain 942 1552
+#landname 943 "Zeifkbir Gulf"
+#terrain 943 517
+#landname 944 "Yash Yats"
+#terrain 944 529
+#landname 945 "Southern Perrenland"
+#terrain 945 0
+#landname 946 "Perren Highlands"
+#terrain 946 4195073
+#landname 947 "Rakers Mountains"
+#terrain 947 528
+#landname 948 "Syluin Woods"
+#terrain 948 128
+#landname 949 "Caliph Woods"
+#terrain 949 905
+#landname 950 "Southern Clatspurs"
+#terrain 950 528
+#landname 951 "Rift Desert"
+#terrain 951 64
+#landname 952 "Plain of the Two Evils"
+#terrain 952 512
+#landname 953 "Whyestil Swamp"
+#terrain 953 512
+#landname 954 "Shwarzenbruin"
+#terrain 954 264
+#landname 955 "Theocracy of the Pale"
+#terrain 955 256
+#landname 956 "Stoink"
+#terrain 956 776
+#landname 957 "Circle of Iuz"
+#terrain 957 513
+#landname 958 "Solnor Ocean C"
+#terrain 958 4
+#landname 959 "Vesve Forest"
+#terrain 959 128
+#landname 960 "Sahuaguins"
+#terrain 960 518
+#landname 961 "Dawn Forest"
+#terrain 961 4194432
+#landname 962 "Aluin Woods"
+#terrain 962 128
+#landname 963 "Crypt of Vecna"
+#terrain 963 1536
+#landname 964 "Vesve Mountain"
+#terrain 964 4194448
+#landname 965 "Ratik"
+#terrain 965 0
+#landname 966 "Loftwood"
+#terrain 966 640
+#landname 967 "Yatil Wazit"
+#terrain 967 528
+#landname 968 "Darkmardr"
+#terrain 968 4608
+#landname 969 "Doomed Land"
+#terrain 969 577
+#landname 970 "Rimcrag"
+#terrain 970 4736
+#landname 971 "Flooded Vesve"
+#terrain 971 1704
+#landname 972 "Southern Sepia"
+#terrain 972 4194432
+#landname 973 "Ekbir Peninsula"
+#terrain 973 585
+#landname 974 "Exag"
+#terrain 974 4194834
+#landname 975 "Dorakaa"
+#terrain 975 1546
+#landname 976 "Nuther Wood"
+#terrain 976 641
+#landname 977 "Upper Blashikmund Valley"
+#terrain 977 656
+#landname 978 "Grogonoth Mushwoods"
+#terrain 978 4608
+#landname 979 "Clatspur Range"
+#terrain 979 528
+#landname 980 "Vesvian Fields"
+#terrain 980 264
+#landname 981 "Mounds of Dawn"
+#terrain 981 4194304
+#landname 982 "Old [Powers Caverns"
+#terrain 982 4608
+#landname 983 "Eastern Udgru Forest"
+#terrain 983 136
+#landname 984 "Northern Pale Plain"
+#terrain 984 0
+#landname 985 "Greendep Depths"
+#terrain 985 2564
+#landname 986 "Solnor Depths"
+#terrain 986 2565
+#landname 987 "Briganwood"
+#terrain 987 257
+#landname 988 "Southern Felreev Forest"
+#terrain 988 128
+#landname 989 "Western Udgru Forest"
+#terrain 989 128
+#landname 990 "Vesvian Hills"
+#terrain 990 4194432
+#landname 991 "Greendep Bay B"
+#terrain 991 4
+#landname 992 "Northern Perrenland"
+#terrain 992 0
+#landname 993 "Schwartz Road"
+#terrain 993 4194817
+#landname 994 "Iuzorg Highlands"
+#terrain 994 4194306
+#landname 995 "Reyhu"
+#terrain 995 0
+#landname 996 "Stalagmite Field"
+#terrain 996 4608
+#landname 997 "Wintershiven"
+#terrain 997 778
+#landname 998 "Southern Gash Mushwoods"
+#terrain 998 4232
+#landname 999 "Ratik Gulf"
+#terrain 999 516
+#landname 1000 "Phostwood"
+#terrain 1000 136
+#landname 1001 "Rakers Pass"
+#terrain 1001 16
+#landname 1002 "Three Bridges"
+#terrain 1002 776
+#landname 1003 "Sepia Pass"
+#terrain 1003 4194304
+#landname 1004 "Deepstil River"
+#terrain 1004 136
+#landname 1005 "The Great Opening"
+#terrain 1005 520
+#landname 1006 "Tenedstil Lake"
+#terrain 1006 1672
+#landname 1007 "Northern Clatspur"
+#terrain 1007 528
+#landname 1008 "Marner"
+#terrain 1008 2
+#landname 1009 "Swande"
+#terrain 1009 8
+#landname 1010 "Blashikmund Valley"
+#terrain 1010 152
+#landname 1011 "Quagwoods"
+#terrain 1011 4194945
+#landname 1012 "Dimre"
+#terrain 1012 0
+#landname 1013 "Northern Mounds of Dawn"
+#terrain 1013 4194320
+#landname 1014 "Burned Forest"
+#terrain 1014 705
+#landname 1015 "Highest Yatils"
+#terrain 1015 528
+#landname 1016 "Uruk Bagruk"
+#terrain 1016 4608
+#landname 1017 "North-eastern Vesve Forest"
+#terrain 1017 128
+#landname 1018 "Tritonia"
+#terrain 1018 2566
+#landname 1019 "Deepstil Vale"
+#terrain 1019 521
+#landname 1020 "Greendep Pit"
+#terrain 1020 2565
+#landname 1021 "Yatil Argan"
+#terrain 1021 528
+#landname 1022 "Masterthief Domain"
+#terrain 1022 128
+#landname 1023 "Northern Rakers"
+#terrain 1023 528
+#landname 1024 "Yol River"
+#terrain 1024 520
+#landname 1025 "Eastern Yatil Caverns"
+#terrain 1025 4608
+#landname 1026 "Vesvelian Plain"
+#terrain 1026 0
+#landname 1027 "Land of Iuz"
+#terrain 1027 0
+#landname 1028 "Yesha Hills"
+#terrain 1028 4194816
+#landname 1029 "Northern Gash Mushwoods"
+#terrain 1029 4745
+#landname 1030 "Clats Caverns"
+#terrain 1030 4097
+#landname 1031 "Traft"
+#terrain 1031 514
+#landname 1032 "Fruztii Strait"
+#terrain 1032 4
+#landname 1033 "Johrase"
+#terrain 1033 130
+#landname 1034 "Western Yatil Caverns"
+#terrain 1034 4608
+#landname 1035 "Yesha Bay"
+#terrain 1035 516
+#landname 1036 "Northern Vesve Forest"
+#terrain 1036 128
+#landname 1037 "Felreev Plain"
+#terrain 1037 0
+#landname 1038 "Redspan"
+#terrain 1038 10
+#landname 1039 "Sepia Uplands"
+#terrain 1039 4194304
+#landname 1040 "Lake Quag"
+#terrain 1040 516
+#landname 1041 "Upper Quag"
+#terrain 1041 516
+#landname 1042 "Yatil Sathor"
+#terrain 1042 16
+#landname 1043 "Tuflik Lake"
+#terrain 1043 536
+#landname 1044 "Southern Timberway"
+#terrain 1044 128
+#landname 1045 "Grey Mountains"
+#terrain 1045 529
+#landname 1046 "Felnen Land"
+#terrain 1046 0
+#landname 1047 "Timberbay"
+#terrain 1047 518
+#landname 1048 "Yatil Forest"
+#terrain 1048 144
+#landname 1049 "Greendep Bay A"
+#terrain 1049 4
+#landname 1050 "Deepstil Source"
+#terrain 1050 8
+#landname 1051 "Yesha"
+#terrain 1051 4194818
+#landname 1052 "Oricm River"
+#terrain 1052 8
+#landname 1053 "Rookroost"
+#terrain 1053 650
+#landname 1054 "Solnor Ocean B"
+#terrain 1054 2564
+#landname 1055 "Troll Fens"
+#terrain 1055 1577
+#landname 1056 "Wegwyur Plains"
+#terrain 1056 0
+#landname 1057 "Felvondil Banks"
+#terrain 1057 648
+#landname 1058 "Swamp of Felreev"
+#terrain 1058 168
+#landname 1059 "Mush River"
+#terrain 1059 4744
+#landname 1060 "Dulst Amarian"
+#terrain 1060 8
+#landname 1061 "Underquag Forest"
+#terrain 1061 4744
+#landname 1062 "Mush Fields"
+#terrain 1062 4864
+#landname 1063 "Dramidj Ocean"
+#terrain 1063 1542
+#landname 1064 "Dulst Banks"
+#terrain 1064 8
+#landname 1065 "Western Griff Mountains"
+#terrain 1065 528
+#landname 1066 "Underlake"
+#terrain 1066 2564
+#landname 1067 "Felreev Heart"
+#terrain 1067 136
+#landname 1068 "Western Tenh"
+#terrain 1068 265
+#landname 1069 "Boat Eater"
+#terrain 1069 4
+#landname 1070 "Quag Coast"
+#terrain 1070 8
+#landname 1071 "Terenibor Plain"
+#terrain 1071 0
+#landname 1072 "Devastation of Iuz"
+#terrain 1072 576
+#landname 1073 "Felvondil Lake"
+#terrain 1073 517
+#landname 1074 "Southern Wolf Steppes"
+#terrain 1074 576
+#landname 1075 "Tuflik Caverns"
+#terrain 1075 4608
+#landname 1076 "Northern Timberway"
+#terrain 1076 640
+#landname 1077 "Western Felreev Forest"
+#terrain 1077 136
+#landname 1078 "Baklunik"
+#terrain 1078 0
+#landname 1079 "Baskal Chayuk"
+#terrain 1079 512
+#landname 1080 "Nevond Nevnend"
+#terrain 1080 776
+#landname 1081 "Djekul"
+#terrain 1081 2
+#landname 1082 "Ilkhan's Domain"
+#terrain 1082 0
+#landname 1083 "Soricm"
+#terrain 1083 8
+#landname 1084 "Griff Circle"
+#terrain 1084 1552
+#landname 1085 "Eastern Felreev"
+#terrain 1085 137
+#landname 1086 "Fler Banks"
+#terrain 1086 520
+#landname 1087 "Chakyik Coast"
+#terrain 1087 512
+#landname 1088 "Duchy of Tenh Valley"
+#terrain 1088 4195081
+#landname 1089 "Wegwyur Tarkhanate"
+#terrain 1089 0
+#landname 1090 "Solnor Ocean A"
+#terrain 1090 2564
+#landname 1091 "Southern Fruz Wastelands"
+#terrain 1091 576
+#landname 1092 "Schain Bay"
+#terrain 1092 4
+#landname 1093 "Northern Felreev Forest"
+#terrain 1093 128
+#landname 1094 "Upper Oricm Vale"
+#terrain 1094 265
+#landname 1095 "Kraken Bay"
+#terrain 1095 4
+#landname 1096 "Black Water Plain"
+#terrain 1096 8
+#landname 1097 "Eastern Howling Hills"
+#terrain 1097 4194312
+#landname 1098 "Schnai Fjords"
+#terrain 1098 4
+#landname 1099 "Bluff Hills"
+#terrain 1099 4194304
+#landname 1100 "Weg Ioratok"
+#terrain 1100 576
+#landname 1101 "Frozen Forest"
+#terrain 1101 640
+#landname 1102 "Eru Tovar Steppes"
+#terrain 1102 576
+#landname 1103 "Tar Drakkar"
+#terrain 1103 513
+#landname 1104 "Western Howling Hills"
+#terrain 1104 4194817
+#landname 1105 "Eastern Griff Mountains"
+#terrain 1105 529
+#landname 1106 "Calbut"
+#terrain 1106 784
+#landname 1107 "Chakyik Plains"
+#terrain 1107 0
+#landname 1108 "White Tiger Bay"
+#terrain 1108 516
+#landname 1109 "The High Lake Valley"
+#terrain 1109 1561
+#landname 1110 "Soricm Source"
+#terrain 1110 8
+#landname 1111 "Barrens"
+#terrain 1111 0
+#landname 1112 "Eastern Barrens"
+#terrain 1112 8
+#landname 1113 "Djeks Plain"
+#terrain 1113 0
+#landname 1114 "Eru Tovar"
+#terrain 1114 522
+#landname 1115 "Northern Fruz Wastelands"
+#terrain 1115 64
+#landname 1116 "Tarkhan's Domain"
+#terrain 1116 4195081
+#landname 1117 "Eastern Tiger Steppes"
+#terrain 1117 576
+#landname 1118 "Vleks Range"
+#terrain 1118 528
+#landname 1119 "Schnai Lands"
+#terrain 1119 1
+#landname 1120 "Eastern Cold Marshes"
+#terrain 1120 98
+#landname 1121 "Barbarians Pass"
+#terrain 1121 528
+#landname 1122 "Eastern Fruztii Kingdom"
+#terrain 1122 513
+#landname 1123 "Dulst Vale"
+#terrain 1123 8
+#landname 1124 "Stonefist Mountains"
+#terrain 1124 528
+#landname 1125 "Cold Marshes"
+#terrain 1125 544
+#landname 1126 "Mounts of the Old Race"
+#terrain 1126 1553
+#landname 1127 "Steppes of the Tiger Nomads"
+#terrain 1127 576
+#landname 1128 "Krakenheim"
+#terrain 1128 522
+#landname 1129 "Western Wolf Steppes"
+#terrain 1129 72
+#landname 1130 "Soull"
+#terrain 1130 522
+#landname 1131 "Steppes of the Wolf Nomads"
+#terrain 1131 576
+#landname 1132 "Spikey Bay"
+#terrain 1132 517
+#landname 1133 "Southern Cold Marshes"
+#terrain 1133 552
+#landname 1134 "Seneztii"
+#terrain 1134 0
+#landname 1135 "Schnai Fjords"
+#terrain 1135 576
+#landname 1136 "Corusk Forest"
+#terrain 1136 144
+#landname 1137 "Eastern Forlorn Forest"
+#terrain 1137 128
+#landname 1138 "Wegwyur Steppes"
+#terrain 1138 576
+#landname 1139 "Vlekstaad"
+#terrain 1139 514
+#landname 1140 "Corusk Fruuz"
+#terrain 1140 529
+#landname 1141 "Tiger Coast"
+#terrain 1141 578
+#landname 1142 "Cold Marshes"
+#terrain 1142 552
+#landname 1143 "Western Forlorn Forest"
+#terrain 1143 129
+#landname 1144 "Western Corusk Mountains"
+#terrain 1144 16
+#landname 1145 "Western Cold Marshes"
+#terrain 1145 680
+#landname 1146 "Cold Marshes"
+#terrain 1146 544
+#landname 1147 "Purmill"
+#terrain 1147 8
+#landname 1148 "Burneal Steppes"
+#terrain 1148 576
+#landname 1149 "Muddy Hills"
+#terrain 1149 4194848
+#landname 1150 "Senel Range"
+#terrain 1150 528
+#landname 1151 "Senelrad Valley"
+#terrain 1151 265
+#landname 1152 "Northern Solnor Ocean"
+#terrain 1152 2564
+#landname 1153 "Unnamed Wastelands"
+#terrain 1153 576
+#landname 1154 "Glotska River"
+#terrain 1154 24
+#landname 1155 "Codelindh"
+#terrain 1155 576
+#landname 1156 "Tundra of the Schnais"
+#terrain 1156 576
+#landname 1157 "Two Torrents"
+#terrain 1157 536
+#landname 1158 "Wegwyur Woods"
+#terrain 1158 640
+#landname 1159 "Burneal Plain"
+#terrain 1159 0
+#landname 1160 "Fler River"
+#terrain 1160 712
+#landname 1161 "Forlorn Desert"
+#terrain 1161 577
+#landname 1162 "Spikey Forest"
+#terrain 1162 128
+#landname 1163 "Frozen River"
+#terrain 1163 840
+#landname 1164 "Glot Bay"
+#terrain 1164 516
+#landname 1165 "Nomads Battlefield"
+#terrain 1165 0
+#landname 1166 "Glot"
+#terrain 1166 522
+#landname 1167 "Bastra"
+#terrain 1167 520
+#landname 1168 "Southern Blackmoor"
+#terrain 1168 576
+#landname 1169 "Senelrad Lake"
+#terrain 1169 793
+#landname 1170 "Kelten"
+#terrain 1170 386
+#landname 1171 "Cold Marshes"
+#terrain 1171 545
+#landname 1172 "White Peaks"
+#terrain 1172 528
+#landname 1173 "Rarekbir Peninsula"
+#terrain 1173 512
+#landname 1174 "Corusk Hrakspur"
+#terrain 1174 528
+#landname 1175 "Burneal Opening"
+#terrain 1175 576
+#landname 1176 "Cold Marshes Wood"
+#terrain 1176 681
+#landname 1177 "Corusk Nendar"
+#terrain 1177 528
+#landname 1178 "Blackmoor Marshes"
+#terrain 1178 4195104
+#landname 1179 "Knudge"
+#terrain 1179 514
+#landname 1180 "Northern Wolf Steppes"
+#terrain 1180 576
+#landname 1181 "Corrusk Roof"
+#terrain 1181 16
+#landname 1182 "White Tiger Forest"
+#terrain 1182 704
+#landname 1183 "White Fanged Bay"
+#terrain 1183 516
+#landname 1184 "Western Burneal Forest"
+#terrain 1184 704
+#landname 1185 "Corusk Gigenheim"
+#terrain 1185 529
+#landname 1186 "Southern Hraak Forest"
+#terrain 1186 128
+#landname 1187 "City of the Gods"
+#terrain 1187 16778817
+#landname 1188 "Corusk Melm"
+#terrain 1188 529
+#landname 1189 "Eastern Storm Bay"
+#terrain 1189 517
+#landname 1190 "Burneal Forest A"
+#terrain 1190 704
+#landname 1191 "Knudgen Range"
+#terrain 1191 528
+#landname 1192 "Underice"
+#terrain 1192 518
+#landname 1193 "Burneal Forest C"
+#terrain 1193 200
+#landname 1194 "Frozelindh"
+#terrain 1194 577
+#landname 1195 "Dantredun"
+#terrain 1195 512
+#landname 1196 "Sable Wood"
+#terrain 1196 192
+#landname 1197 "Burneal Forest B"
+#terrain 1197 648
+#landname 1198 "Eastern Burneal Forest"
+#terrain 1198 704
+#landname 1199 "Knudge Pass"
+#terrain 1199 528
+#landname 1200 "Northern Burneal Forest"
+#terrain 1200 712
+#landname 1201 "Eastern Corusk Mountains"
+#terrain 1201 528
+#landname 1202 "Northnenia"
+#terrain 1202 576
+#landname 1203 "Hold of Stonefist Pointe"
+#terrain 1203 584
+#landname 1204 "Plain of the Cruskis"
+#terrain 1204 513
+#landname 1205 "Arctic Dramidj"
+#terrain 1205 517
+#landname 1206 "Stonefist Plain"
+#terrain 1206 0
+#landname 1207 "Black Ice Gate"
+#terrain 1207 577
+#landname 1208 "Frozen Desert"
+#terrain 1208 577
+#landname 1209 "Corusk Horns"
+#terrain 1209 592
+#landname 1210 "Northern Hraak Forest"
+#terrain 1210 640
+#landname 1211 "Jotsplat"
+#terrain 1211 520
+#landname 1212 "Hraak Bay"
+#terrain 1212 517
+#landname 1213 "Northern Blackmoor"
+#terrain 1213 576
+#landname 1214 "Blackice March"
+#terrain 1214 585
+#landname 1215 "Cape Glottspa"
+#terrain 1215 516
+#landname 1216 "Eastern Icy Sea"
+#terrain 1216 2564
+#landname 1217 "Blackmoor Bay"
+#terrain 1217 516
+#landname 1218 "Land's End"
+#terrain 1218 576
+#landname 1219 "Ice Barbarians Steppes"
+#terrain 1219 576
+#landname 1220 "Western Icy Sea"
+#terrain 1220 2564
+#landname 1221 "Cape Hratka"
+#terrain 1221 516
+#landname 1222 "Frozen Desert"
+#terrain 1222 577
+#landname 1223 "Crusk Sea"
+#terrain 1223 516
+#landname 1224 "Forgoten Jungle"
+#terrain 1224 1712
+#landname 1225 "The Hungry Sea"
+#terrain 1225 516
+
+-- Province neighbours
+#neighbour 1 4
+#neighbour 1 34
+#neighbour 1 46
+#neighbour 1 21
+#neighbour 2 40
+#neighbour 2 25
+#neighbour 2 11
+#neighbour 3 22
+#neighbour 3 35
+#neighbour 3 39
+#neighbour 3 14
+#neighbour 4 17
+#neighbour 4 59
+#neighbour 4 34
+#neighbour 5 26
+#neighbour 5 36
+#neighbour 5 21
+#neighbour 6 80
+#neighbour 6 51
+#neighbour 6 14
+#neighbour 6 29
+#neighbour 7 16
+#neighbour 7 18
+#neighbour 7 49
+#neighbour 7 71
+#neighbour 8 9
+#neighbour 8 15
+#neighbour 8 48
+#neighbour 8 43
+#neighbour 9 11
+#neighbour 9 44
+#neighbour 9 37
+#neighbour 10 15
+#neighbour 10 58
+#neighbour 10 43
+#neighbour 11 33
+#neighbour 12 28
+#neighbour 13 32
+#neighbour 13 57
+#neighbour 13 55
+#neighbour 13 25
+#neighbour 14 39
+#neighbour 14 97
+#neighbour 14 61
+#neighbour 14 80
+#neighbour 15 43
+#neighbour 16 58
+#neighbour 16 56
+#neighbour 16 49
+#neighbour 17 20
+#neighbour 17 66
+#neighbour 17 53
+#neighbour 17 59
+#neighbour 18 49
+#neighbour 18 42
+#neighbour 18 22
+#neighbour 19 62
+#neighbour 19 47
+#neighbour 19 32
+#neighbour 20 27
+#neighbour 20 65
+#neighbour 20 66
+#neighbour 21 46
+#neighbour 21 36
+#neighbour 22 42
+#neighbour 22 35
+#neighbour 23 48
+#neighbour 23 30
+#neighbour 23 38
+#neighbour 24 32
+#neighbour 25 54
+#neighbour 25 40
+#neighbour 25 55
+#neighbour 26 98
+#neighbour 26 36
+#neighbour 26 52
+#neighbour 26 74
+#neighbour 27 29
+#neighbour 27 61
+#neighbour 27 65
+#neighbour 28 63
+#neighbour 28 67
+#neighbour 29 51
+#neighbour 29 96
+#neighbour 29 61
+#neighbour 30 45
+#neighbour 30 38
+#neighbour 30 60
+#neighbourspec 30 60 2
+#neighbour 31 102
+#neighbour 31 41
+#neighbour 32 73
+#neighbour 32 47
+#neighbour 32 57
+#neighbour 33 40
+#neighbour 33 72
+#neighbour 34 59
+#neighbour 34 68
+#neighbour 34 46
+#neighbour 35 42
+#neighbour 35 71
+#neighbour 35 39
+#neighbour 36 98
+#neighbour 36 46
+#neighbour 36 69
+#neighbour 37 48
+#neighbour 38 64
+#neighbour 38 45
+#neighbour 39 71
+#neighbour 39 84
+#neighbour 39 90
+#neighbour 39 80
+#neighbour 39 97
+#neighbour 40 54
+#neighbour 40 72
+#neighbour 40 79
+#neighbour 41 45
+#neighbour 42 49
+#neighbour 42 71
+#neighbour 43 58
+#neighbour 43 48
+#neighbour 43 85
+#neighbour 43 115
+#neighbour 44 64
+#neighbour 44 110
+#neighbour 44 83
+#neighbourspec 44 83 1
+#neighbour 44 50
+#neighbourspec 44 50 1
+#neighbour 45 77
+#neighbour 46 68
+#neighbour 46 87
+#neighbour 46 69
+#neighbour 47 62
+#neighbour 47 89
+#neighbour 47 116
+#neighbour 47 73
+#neighbour 48 125
+#neighbour 48 85
+#neighbour 48 83
+#neighbour 49 56
+#neighbour 49 75
+#neighbour 49 82
+#neighbour 49 71
+#neighbour 50 72
+#neighbour 50 64
+#neighbour 50 78
+#neighbour 51 80
+#neighbour 51 96
+#neighbour 52 74
+#neighbour 52 100
+#neighbourspec 52 100 2
+#neighbour 53 66
+#neighbour 53 76
+#neighbour 53 91
+#neighbour 53 59
+#neighbour 54 88
+#neighbour 55 57
+#neighbour 56 58
+#neighbour 56 75
+#neighbour 56 103
+#neighbour 57 122
+#neighbour 57 73
+#neighbour 57 92
+#neighbour 58 103
+#neighbour 58 115
+#neighbour 59 91
+#neighbour 59 68
+#neighbour 60 94
+#neighbour 61 96
+#neighbour 61 121
+#neighbour 61 101
+#neighbour 61 65
+#neighbour 61 127
+#neighbour 62 89
+#neighbour 62 109
+#neighbour 63 81
+#neighbour 63 86
+#neighbour 64 93
+#neighbour 64 78
+#neighbour 65 101
+#neighbour 65 107
+#neighbour 65 66
+#neighbour 66 107
+#neighbour 66 124
+#neighbour 66 76
+#neighbour 67 133
+#neighbour 68 132
+#neighbour 68 91
+#neighbour 68 106
+#neighbour 68 87
+#neighbour 69 98
+#neighbour 69 87
+#neighbour 70 112
+#neighbour 70 766
+#neighbour 71 82
+#neighbour 71 138
+#neighbour 71 97
+#neighbour 71 84
+#neighbour 72 79
+#neighbour 72 111
+#neighbour 72 78
+#neighbour 73 116
+#neighbour 73 122
+#neighbour 74 98
+#neighbour 74 146
+#neighbour 74 100
+#neighbour 75 103
+#neighbour 75 131
+#neighbour 75 82
+#neighbour 75 156
+#neighbour 76 124
+#neighbour 76 119
+#neighbour 76 95
+#neighbour 76 91
+#neighbour 77 105
+#neighbour 77 120
+#neighbour 78 111
+#neighbour 78 93
+#neighbour 79 114
+#neighbour 80 136
+#neighbour 80 96
+#neighbour 80 140
+#neighbour 80 127
+#neighbour 81 104
+#neighbour 81 113
+#neighbour 81 86
+#neighbour 82 138
+#neighbour 82 156
+#neighbour 83 110
+#neighbour 83 135
+#neighbour 83 125
+#neighbour 84 123
+#neighbour 84 90
+#neighbour 85 115
+#neighbour 85 125
+#neighbour 86 113
+#neighbour 87 98
+#neighbour 87 129
+#neighbour 87 106
+#neighbour 88 117
+#neighbour 89 116
+#neighbour 89 109
+#neighbour 89 133
+#neighbour 90 123
+#neighbour 91 132
+#neighbour 91 95
+#neighbour 91 106
+#neighbour 92 122
+#neighbour 93 111
+#neighbourspec 93 111 2
+#neighbour 93 137
+#neighbour 94 139
+#neighbour 94 112
+#neighbour 95 132
+#neighbour 95 176
+#neighbour 95 119
+#neighbour 96 127
+#neighbour 96 149
+#neighbour 96 150
+#neighbour 96 121
+#neighbour 97 171
+#neighbour 97 138
+#neighbour 97 123
+#neighbour 98 168
+#neighbour 98 189
+#neighbour 98 129
+#neighbour 99 144
+#neighbour 99 104
+#neighbour 100 118
+#neighbour 100 108
+#neighbour 101 121
+#neighbour 101 142
+#neighbour 101 107
+#neighbour 103 130
+#neighbour 103 131
+#neighbour 103 115
+#neighbour 104 126
+#neighbour 105 128
+#neighbour 105 120
+#neighbour 106 132
+#neighbour 106 162
+#neighbour 106 129
+#neighbour 107 142
+#neighbour 107 124
+#neighbour 108 118
+#neighbour 109 133
+#neighbourspec 109 133 1
+#neighbour 110 135
+#neighbour 110 137
+#neighbour 110 160
+#neighbour 111 143
+#neighbour 111 137
+#neighbourspec 111 137 2
+#neighbour 112 135
+#neighbour 112 139
+#neighbour 113 154
+#neighbour 113 126
+#neighbour 114 148
+#neighbour 115 169
+#neighbour 115 130
+#neighbour 115 157
+#neighbour 115 125
+#neighbour 116 122
+#neighbour 116 133
+#neighbour 116 164
+#neighbour 116 147
+#neighbour 117 122
+#neighbour 117 152
+#neighbour 117 159
+#neighbour 119 176
+#neighbour 119 151
+#neighbour 119 124
+#neighbour 120 148
+#neighbour 120 153
+#neighbour 121 150
+#neighbour 121 167
+#neighbour 122 147
+#neighbour 123 138
+#neighbour 123 136
+#neighbour 123 175
+#neighbourspec 123 175 2
+#neighbour 124 142
+#neighbour 124 151
+#neighbour 125 165
+#neighbour 125 183
+#neighbour 125 169
+#neighbour 126 154
+#neighbour 126 141
+#neighbour 127 140
+#neighbour 127 149
+#neighbour 127 199
+#neighbour 128 193
+#neighbour 128 134
+#neighbour 129 189
+#neighbour 129 162
+#neighbour 129 356
+#neighbour 130 202
+#neighbour 130 195
+#neighbour 130 157
+#neighbour 130 131
+#neighbour 131 171
+#neighbour 131 195
+#neighbour 131 156
+#neighbour 132 162
+#neighbour 132 203
+#neighbour 132 176
+#neighbour 133 164
+#neighbour 134 154
+#neighbour 134 153
+#neighbour 135 165
+#neighbour 135 179
+#neighbourspec 135 179 1
+#neighbour 136 138
+#neighbour 136 196
+#neighbour 136 175
+#neighbour 136 161
+#neighbour 136 140
+#neighbour 137 143
+#neighbourspec 137 143 2
+#neighbour 137 178
+#neighbour 137 173
+#neighbour 137 160
+#neighbour 138 156
+#neighbour 138 210
+#neighbour 138 175
+#neighbour 139 153
+#neighbour 140 161
+#neighbour 141 144
+#neighbour 142 167
+#neighbour 142 170
+#neighbour 142 151
+#neighbour 143 145
+#neighbour 143 177
+#neighbour 143 178
+#neighbourspec 143 178 2
+#neighbour 145 197
+#neighbour 145 177
+#neighbour 146 204
+#neighbour 146 168
+#neighbour 147 174
+#neighbour 148 180
+#neighbour 148 187
+#neighbour 149 150
+#neighbour 149 190
+#neighbour 149 181
+#neighbour 150 167
+#neighbour 150 190
+#neighbour 151 176
+#neighbour 151 170
+#neighbour 152 159
+#neighbour 152 193
+#neighbour 153 285
+#neighbour 154 184
+#neighbour 154 182
+#neighbour 155 191
+#neighbour 155 192
+#neighbour 156 171
+#neighbour 156 214
+#neighbour 156 210
+#neighbour 157 169
+#neighbour 157 185
+#neighbour 157 202
+#neighbour 157 195
+#neighbour 158 181
+#neighbour 158 163
+#neighbour 159 174
+#neighbour 159 193
+#neighbour 160 173
+#neighbour 160 208
+#neighbour 161 196
+#neighbour 161 188
+#neighbour 162 203
+#neighbour 162 227
+#neighbour 162 219
+#neighbour 162 189
+#neighbour 164 220
+#neighbour 164 174
+#neighbour 165 179
+#neighbour 165 183
+#neighbour 166 172
+#neighbour 166 283
+#neighbour 167 190
+#neighbour 167 199
+#neighbour 167 206
+#neighbour 167 238
+#neighbour 167 222
+#neighbour 167 170
+#neighbour 168 204
+#neighbour 168 241
+#neighbour 168 189
+#neighbour 169 183
+#neighbour 169 185
+#neighbour 170 206
+#neighbourspec 170 206 2
+#neighbour 170 222
+#neighbour 170 176
+#neighbour 170 207
+#neighbourspec 170 207 2
+#neighbour 171 226
+#neighbour 171 214
+#neighbour 171 195
+#neighbour 172 182
+#neighbour 173 178
+#neighbour 173 213
+#neighbour 173 208
+#neighbour 174 200
+#neighbourspec 174 200 1
+#neighbour 175 210
+#neighbour 175 246
+#neighbour 175 196
+#neighbour 176 222
+#neighbour 176 207
+#neighbour 176 216
+#neighbour 176 203
+#neighbour 177 197
+#neighbour 177 218
+#neighbour 177 178
+#neighbourspec 177 178 2
+#neighbour 178 213
+#neighbour 178 218
+#neighbourspec 178 218 2
+#neighbour 179 205
+#neighbour 180 193
+#neighbour 180 187
+#neighbour 181 190
+#neighbour 181 201
+#neighbour 181 186
+#neighbour 182 198
+#neighbour 182 184
+#neighbour 182 234
+#neighbour 182 194
+#neighbour 183 223
+#neighbour 183 205
+#neighbour 183 185
+#neighbour 184 209
+#neighbour 184 198
+#neighbour 185 223
+#neighbour 185 202
+#neighbour 186 242
+#neighbour 186 287
+#neighbour 186 201
+#neighbourspec 186 201 2
+#neighbour 186 188
+#neighbour 187 235
+#neighbour 187 197
+#neighbour 188 196
+#neighbour 188 242
+#neighbour 189 219
+#neighbour 189 241
+#neighbour 190 215
+#neighbour 190 199
+#neighbour 190 201
+#neighbour 190 240
+#neighbour 191 225
+#neighbour 191 232
+#neighbour 191 192
+#neighbour 192 273
+#neighbour 192 232
+#neighbour 192 220
+#neighbour 193 237
+#neighbour 193 217
+#neighbour 194 211
+#neighbour 195 265
+#neighbour 195 202
+#neighbour 195 263
+#neighbour 195 254
+#neighbour 195 214
+#neighbour 196 246
+#neighbour 196 242
+#neighbour 197 235
+#neighbour 197 230
+#neighbour 197 218
+#neighbour 198 336
+#neighbour 198 209
+#neighbour 199 206
+#neighbour 199 238
+#neighbour 199 251
+#neighbour 199 215
+#neighbour 200 243
+#neighbour 201 240
+#neighbour 201 242
+#neighbour 201 271
+#neighbour 202 278
+#neighbour 202 223
+#neighbour 202 239
+#neighbour 202 254
+#neighbour 202 226
+#neighbour 203 227
+#neighbour 203 244
+#neighbour 203 216
+#neighbour 204 268
+#neighbour 204 241
+#neighbour 205 208
+#neighbour 205 231
+#neighbour 205 223
+#neighbour 206 222
+#neighbour 206 238
+#neighbour 207 222
+#neighbour 207 233
+#neighbour 207 216
+#neighbour 208 257
+#neighbour 208 213
+#neighbour 208 231
+#neighbour 208 256
+#neighbour 209 228
+#neighbour 210 248
+#neighbour 210 226
+#neighbour 210 214
+#neighbour 210 274
+#neighbour 210 246
+#neighbour 211 245
+#neighbour 211 212
+#neighbour 212 318
+#neighbour 212 259
+#neighbour 213 257
+#neighbour 213 218
+#neighbourspec 213 218 2
+#neighbour 213 253
+#neighbourspec 213 253 2
+#neighbour 214 226
+#neighbour 214 263
+#neighbour 215 240
+#neighbour 215 251
+#neighbour 215 255
+#neighbour 216 244
+#neighbour 216 233
+#neighbour 216 250
+#neighbour 217 258
+#neighbour 217 247
+#neighbour 217 229
+#neighbour 218 230
+#neighbour 218 253
+#neighbour 219 227
+#neighbour 219 279
+#neighbour 219 241
+#neighbour 220 273
+#neighbour 220 275
+#neighbour 220 243
+#neighbour 221 243
+#neighbour 221 237
+#neighbourspec 221 237 1
+#neighbour 222 238
+#neighbour 222 280
+#neighbour 222 233
+#neighbour 223 231
+#neighbour 223 252
+#neighbour 223 239
+#neighbour 224 234
+#neighbour 224 249
+#neighbour 225 260
+#neighbour 225 232
+#neighbour 226 269
+#neighbour 226 248
+#neighbour 226 263
+#neighbour 227 244
+#neighbour 227 284
+#neighbour 228 369
+#neighbour 228 264
+#neighbour 228 236
+#neighbour 229 247
+#neighbour 229 266
+#neighbour 229 235
+#neighbour 229 261
+#neighbour 230 262
+#neighbour 230 253
+#neighbour 231 256
+#neighbour 231 252
+#neighbour 232 260
+#neighbour 232 273
+#neighbour 233 280
+#neighbour 233 244
+#neighbour 233 250
+#neighbour 234 236
+#neighbour 234 270
+#neighbour 235 261
+#neighbour 235 262
+#neighbour 237 285
+#neighbour 237 243
+#neighbourspec 237 243 1
+#neighbour 238 251
+#neighbour 238 280
+#neighbour 239 277
+#neighbour 239 278
+#neighbour 239 252
+#neighbour 239 254
+#neighbour 240 271
+#neighbour 241 304
+#neighbour 241 279
+#neighbour 241 268
+#neighbour 242 297
+#neighbour 242 246
+#neighbour 242 271
+#neighbour 243 290
+#neighbour 243 293
+#neighbour 243 275
+#neighbour 243 285
+#neighbourspec 243 285 1
+#neighbour 244 284
+#neighbour 244 280
+#neighbour 244 295
+#neighbour 244 272
+#neighbour 244 267
+#neighbour 244 250
+#neighbour 245 385
+#neighbour 245 259
+#neighbour 246 274
+#neighbour 246 287
+#neighbour 247 258
+#neighbour 247 266
+#neighbour 248 269
+#neighbour 248 292
+#neighbour 248 274
+#neighbour 249 270
+#neighbour 249 302
+#neighbour 249 289
+#neighbour 250 280
+#neighbour 250 267
+#neighbourspec 250 267 2
+#neighbour 250 325
+#neighbour 251 322
+#neighbour 251 255
+#neighbour 251 276
+#neighbour 252 256
+#neighbour 252 282
+#neighbour 252 277
+#neighbour 253 296
+#neighbour 253 262
+#neighbour 253 257
+#neighbourspec 253 257 2
+#neighbour 254 310
+#neighbour 254 265
+#neighbour 254 278
+#neighbour 254 263
+#neighbour 255 315
+#neighbour 255 309
+#neighbour 255 276
+#neighbour 256 257
+#neighbour 256 294
+#neighbour 256 282
+#neighbour 257 294
+#neighbour 257 296
+#neighbourspec 257 296 2
+#neighbour 258 288
+#neighbour 259 286
+#neighbour 259 283
+#neighbour 259 341
+#neighbour 260 319
+#neighbour 260 273
+#neighbour 261 291
+#neighbour 261 266
+#neighbour 261 262
+#neighbour 262 291
+#neighbour 262 298
+#neighbour 262 296
+#neighbour 263 307
+#neighbour 263 303
+#neighbour 263 265
+#neighbour 263 269
+#neighbour 263 342
+#neighbour 263 310
+#neighbour 264 404
+#neighbour 264 281
+#neighbour 264 270
+#neighbour 265 307
+#neighbourspec 265 307 2
+#neighbour 265 278
+#neighbour 266 300
+#neighbour 266 291
+#neighbour 267 280
+#neighbour 267 327
+#neighbour 267 295
+#neighbour 268 304
+#neighbour 268 365
+#neighbour 269 303
+#neighbourspec 269 303 2
+#neighbour 269 342
+#neighbour 269 292
+#neighbour 270 302
+#neighbour 270 311
+#neighbour 271 297
+#neighbour 271 331
+#neighbour 271 354
+#neighbour 272 295
+#neighbour 272 284
+#neighbour 273 330
+#neighbour 273 319
+#neighbour 273 275
+#neighbour 274 324
+#neighbour 274 321
+#neighbour 274 292
+#neighbour 274 287
+#neighbour 275 330
+#neighbour 275 306
+#neighbour 276 322
+#neighbour 276 315
+#neighbour 277 314
+#neighbour 277 310
+#neighbour 277 334
+#neighbour 277 282
+#neighbour 277 278
+#neighbour 278 310
+#neighbour 278 376
+#neighbour 278 307
+#neighbour 279 338
+#neighbour 279 304
+#neighbour 279 284
+#neighbour 280 340
+#neighbour 280 327
+#neighbour 281 301
+#neighbour 282 294
+#neighbour 282 314
+#neighbour 283 286
+#neighbour 283 333
+#neighbour 283 305
+#neighbourspec 283 305 2
+#neighbour 284 338
+#neighbour 284 327
+#neighbour 284 332
+#neighbour 284 295
+#neighbour 284 308
+#neighbour 284 325
+#neighbour 284 344
+#neighbour 285 290
+#neighbour 285 312
+#neighbour 285 351
+#neighbour 285 288
+#neighbour 286 289
+#neighbour 286 305
+#neighbour 287 293
+#neighbour 287 321
+#neighbour 287 465
+#neighbour 288 335
+#neighbour 288 318
+#neighbour 288 299
+#neighbour 289 302
+#neighbour 289 305
+#neighbour 290 337
+#neighbour 290 306
+#neighbourspec 290 306 1
+#neighbour 291 317
+#neighbour 291 298
+#neighbour 291 300
+#neighbour 292 342
+#neighbour 292 324
+#neighbour 293 1187
+#neighbour 293 1126
+#neighbour 294 314
+#neighbour 294 329
+#neighbourspec 294 329 2
+#neighbour 294 328
+#neighbourspec 294 328 2
+#neighbour 294 296
+#neighbourspec 294 296 2
+#neighbour 295 327
+#neighbour 295 308
+#neighbourspec 295 308 2
+#neighbour 296 339
+#neighbour 296 328
+#neighbour 296 316
+#neighbour 296 298
+#neighbour 297 321
+#neighbour 297 352
+#neighbour 297 331
+#neighbour 298 317
+#neighbour 298 316
+#neighbour 299 323
+#neighbour 299 318
+#neighbour 299 300
+#neighbour 300 323
+#neighbour 300 317
+#neighbour 301 510
+#neighbour 301 326
+#neighbour 302 347
+#neighbour 302 355
+#neighbour 302 311
+#neighbour 303 307
+#neighbour 303 342
+#neighbour 304 356
+#neighbour 304 343
+#neighbour 304 365
+#neighbour 304 338
+#neighbour 305 341
+#neighbour 305 333
+#neighbourspec 305 333 2
+#neighbour 306 336
+#neighbour 307 310
+#neighbour 307 346
+#neighbour 307 342
+#neighbour 308 327
+#neighbour 308 332
+#neighbour 308 357
+#neighbourspec 308 357 2
+#neighbour 309 315
+#neighbour 309 354
+#neighbour 310 334
+#neighbour 310 314
+#neighbour 310 346
+#neighbour 311 355
+#neighbour 311 326
+#neighbour 312 366
+#neighbour 312 335
+#neighbour 312 351
+#neighbour 313 345
+#neighbour 313 326
+#neighbour 314 334
+#neighbour 314 329
+#neighbour 315 320
+#neighbour 315 354
+#neighbour 315 361
+#neighbour 316 339
+#neighbourspec 316 339 2
+#neighbour 316 348
+#neighbourspec 316 348 2
+#neighbour 316 317
+#neighbour 317 348
+#neighbourspec 317 348 2
+#neighbour 317 359
+#neighbour 317 323
+#neighbour 318 335
+#neighbour 318 349
+#neighbour 318 323
+#neighbour 319 386
+#neighbour 319 330
+#neighbour 320 322
+#neighbour 320 361
+#neighbourspec 320 361 2
+#neighbour 321 324
+#neighbour 321 362
+#neighbour 321 352
+#neighbour 322 353
+#neighbour 322 370
+#neighbour 323 350
+#neighbour 323 359
+#neighbour 324 342
+#neighbour 324 390
+#neighbour 324 362
+#neighbour 325 356
+#neighbour 325 384
+#neighbour 325 332
+#neighbour 325 367
+#neighbourspec 325 367 2
+#neighbour 325 338
+#neighbour 325 344
+#neighbour 326 364
+#neighbour 327 418
+#neighbour 327 340
+#neighbour 327 357
+#neighbour 327 332
+#neighbour 328 358
+#neighbour 328 360
+#neighbour 328 339
+#neighbour 328 329
+#neighbour 329 358
+#neighbour 329 334
+#neighbour 331 352
+#neighbour 331 371
+#neighbour 331 382
+#neighbour 331 368
+#neighbour 331 354
+#neighbour 332 384
+#neighbour 332 357
+#neighbour 333 341
+#neighbour 333 381
+#neighbour 333 379
+#neighbour 334 376
+#neighbour 334 358
+#neighbour 334 346
+#neighbour 335 366
+#neighbour 335 349
+#neighbour 336 369
+#neighbour 337 363
+#neighbour 337 385
+#neighbour 338 356
+#neighbour 338 387
+#neighbour 338 374
+#neighbour 338 344
+#neighbour 338 384
+#neighbour 339 372
+#neighbour 339 360
+#neighbour 339 348
+#neighbour 340 418
+#neighbour 340 423
+#neighbour 341 347
+#neighbour 341 379
+#neighbour 342 346
+#neighbour 342 400
+#neighbour 342 390
+#neighbour 343 356
+#neighbour 343 365
+#neighbour 344 374
+#neighbourspec 344 374 2
+#neighbour 344 384
+#neighbour 345 375
+#neighbour 346 398
+#neighbour 346 376
+#neighbour 346 400
+#neighbour 347 396
+#neighbour 347 355
+#neighbour 348 372
+#neighbour 348 359
+#neighbour 349 380
+#neighbour 349 366
+#neighbour 349 377
+#neighbourspec 349 377 2
+#neighbour 349 350
+#neighbour 350 377
+#neighbourspec 350 377 2
+#neighbour 350 393
+#neighbour 350 359
+#neighbour 351 416
+#neighbour 351 401
+#neighbour 351 366
+#neighbour 352 362
+#neighbour 352 394
+#neighbour 352 406
+#neighbour 352 371
+#neighbour 353 411
+#neighbour 353 373
+#neighbour 354 368
+#neighbour 354 391
+#neighbour 354 361
+#neighbour 355 399
+#neighbour 356 392
+#neighbour 356 365
+#neighbour 356 387
+#neighbour 356 419
+#neighbour 357 418
+#neighbour 357 383
+#neighbour 357 367
+#neighbour 358 402
+#neighbour 358 389
+#neighbour 358 376
+#neighbour 358 360
+#neighbour 359 393
+#neighbour 359 372
+#neighbour 360 372
+#neighbour 360 402
+#neighbour 360 388
+#neighbour 361 391
+#neighbour 361 370
+#neighbourspec 361 370 2
+#neighbour 362 390
+#neighbour 362 394
+#neighbour 363 404
+#neighbour 363 369
+#neighbour 363 385
+#neighbourspec 363 385 1
+#neighbour 363 424
+#neighbourspec 363 424 1
+#neighbour 364 654
+#neighbour 364 399
+#neighbour 365 466
+#neighbour 365 392
+#neighbour 365 397
+#neighbour 366 380
+#neighbour 366 401
+#neighbour 367 384
+#neighbour 367 383
+#neighbour 367 408
+#neighbour 368 391
+#neighbour 368 405
+#neighbour 368 382
+#neighbour 368 371
+#neighbour 370 427
+#neighbour 370 373
+#neighbour 370 409
+#neighbour 371 406
+#neighbour 371 426
+#neighbour 371 410
+#neighbour 371 412
+#neighbour 371 382
+#neighbour 372 393
+#neighbour 372 420
+#neighbour 372 388
+#neighbour 373 411
+#neighbour 373 427
+#neighbour 374 387
+#neighbour 374 431
+#neighbour 374 419
+#neighbourspec 374 419 2
+#neighbour 374 384
+#neighbour 375 422
+#neighbour 375 378
+#neighbour 376 434
+#neighbour 376 417
+#neighbourspec 376 417 2
+#neighbour 376 398
+#neighbourspec 376 398 2
+#neighbour 376 389
+#neighbour 377 438
+#neighbour 377 380
+#neighbour 377 407
+#neighbour 377 393
+#neighbour 377 439
+#neighbourspec 377 439 2
+#neighbour 378 403
+#neighbour 379 381
+#neighbour 379 414
+#neighbour 379 446
+#neighbour 380 439
+#neighbour 380 401
+#neighbour 381 446
+#neighbour 381 450
+#neighbour 382 405
+#neighbour 382 426
+#neighbour 383 442
+#neighbour 383 418
+#neighbour 383 408
+#neighbour 383 488
+#neighbour 383 423
+#neighbour 384 431
+#neighbour 384 408
+#neighbour 384 442
+#neighbour 385 416
+#neighbour 386 483
+#neighbour 386 443
+#neighbour 386 395
+#neighbour 387 392
+#neighbour 387 431
+#neighbour 387 457
+#neighbour 387 419
+#neighbour 388 425
+#neighbour 388 402
+#neighbour 388 420
+#neighbour 389 421
+#neighbourspec 389 421 2
+#neighbour 389 402
+#neighbour 389 445
+#neighbourspec 389 445 2
+#neighbour 390 465
+#neighbour 390 433
+#neighbour 390 400
+#neighbour 390 394
+#neighbour 390 441
+#neighbour 391 409
+#neighbour 391 428
+#neighbour 391 405
+#neighbour 392 466
+#neighbour 392 430
+#neighbour 392 397
+#neighbour 392 457
+#neighbour 393 407
+#neighbour 394 406
+#neighbour 394 441
+#neighbour 394 470
+#neighbour 394 448
+#neighbour 394 410
+#neighbour 395 443
+#neighbour 396 695
+#neighbour 396 435
+#neighbour 397 466
+#neighbour 397 430
+#neighbourspec 397 430 2
+#neighbour 398 417
+#neighbour 398 432
+#neighbour 398 449
+#neighbour 398 400
+#neighbour 399 697
+#neighbour 399 429
+#neighbour 399 435
+#neighbour 400 449
+#neighbour 400 461
+#neighbour 400 433
+#neighbour 401 416
+#neighbour 401 452
+#neighbour 401 439
+#neighbour 402 447
+#neighbour 402 445
+#neighbourspec 402 445 2
+#neighbour 402 425
+#neighbour 403 429
+#neighbour 404 460
+#neighbourspec 404 460 1
+#neighbour 405 428
+#neighbour 405 444
+#neighbour 405 426
+#neighbour 406 410
+#neighbour 406 451
+#neighbour 406 462
+#neighbour 406 412
+#neighbour 407 438
+#neighbour 407 440
+#neighbour 407 420
+#neighbour 408 442
+#neighbour 409 427
+#neighbour 409 437
+#neighbour 409 428
+#neighbour 410 451
+#neighbour 410 448
+#neighbour 411 469
+#neighbour 411 423
+#neighbour 411 427
+#neighbour 412 453
+#neighbour 412 426
+#neighbour 412 462
+#neighbour 413 436
+#neighbour 413 422
+#neighbour 414 446
+#neighbour 414 476
+#neighbour 415 456
+#neighbour 415 463
+#neighbour 415 424
+#neighbour 415 416
+#neighbourspec 415 416 1
+#neighbour 416 463
+#neighbour 416 452
+#neighbour 417 434
+#neighbour 417 455
+#neighbour 417 432
+#neighbour 418 442
+#neighbour 418 423
+#neighbour 418 469
+#neighbour 418 477
+#neighbour 418 488
+#neighbour 419 589
+#neighbour 419 457
+#neighbour 419 431
+#neighbour 420 440
+#neighbour 420 454
+#neighbour 420 425
+#neighbour 421 445
+#neighbour 421 464
+#neighbourspec 421 464 2
+#neighbour 421 434
+#neighbour 423 469
+#neighbour 424 456
+#neighbour 425 474
+#neighbour 425 447
+#neighbour 425 454
+#neighbour 426 444
+#neighbour 426 489
+#neighbour 426 494
+#neighbour 426 472
+#neighbour 426 453
+#neighbour 427 469
+#neighbour 427 437
+#neighbour 428 437
+#neighbour 428 468
+#neighbour 428 458
+#neighbour 428 444
+#neighbour 429 459
+#neighbour 430 466
+#neighbour 430 471
+#neighbour 430 457
+#neighbour 431 457
+#neighbour 431 486
+#neighbour 431 442
+#neighbour 432 449
+#neighbour 432 485
+#neighbour 432 455
+#neighbour 433 481
+#neighbour 433 461
+#neighbour 433 465
+#neighbour 434 464
+#neighbour 434 475
+#neighbour 434 455
+#neighbour 435 737
+#neighbour 436 459
+#neighbour 437 469
+#neighbour 437 458
+#neighbour 437 479
+#neighbour 437 468
+#neighbour 438 501
+#neighbour 438 467
+#neighbour 438 439
+#neighbourspec 438 439 2
+#neighbour 438 440
+#neighbour 438 490
+#neighbourspec 438 490 2
+#neighbour 439 452
+#neighbour 439 490
+#neighbour 440 484
+#neighbour 440 467
+#neighbour 440 454
+#neighbour 441 465
+#neighbour 441 496
+#neighbour 441 506
+#neighbour 441 470
+#neighbour 442 486
+#neighbour 442 507
+#neighbour 442 488
+#neighbour 443 483
+#neighbour 443 487
+#neighbour 444 458
+#neighbour 444 489
+#neighbour 445 473
+#neighbour 445 447
+#neighbour 445 464
+#neighbour 446 450
+#neighbour 446 480
+#neighbour 446 476
+#neighbour 447 474
+#neighbour 447 473
+#neighbour 448 491
+#neighbour 448 451
+#neighbour 448 470
+#neighbour 449 511
+#neighbour 449 461
+#neighbour 449 485
+#neighbourspec 449 485 2
+#neighbour 450 480
+#neighbour 450 503
+#neighbour 451 491
+#neighbour 451 462
+#neighbour 452 490
+#neighbour 452 495
+#neighbour 452 463
+#neighbour 453 478
+#neighbour 453 493
+#neighbour 453 462
+#neighbour 454 484
+#neighbour 454 474
+#neighbour 455 485
+#neighbour 455 498
+#neighbour 455 475
+#neighbour 456 492
+#neighbour 456 463
+#neighbour 456 510
+#neighbour 457 520
+#neighbour 457 471
+#neighbour 457 482
+#neighbour 457 486
+#neighbour 458 479
+#neighbour 458 489
+#neighbour 458 499
+#neighbour 459 970
+#neighbour 460 487
+#neighbour 460 524
+#neighbour 460 510
+#neighbourspec 460 510 1
+#neighbour 461 481
+#neighbour 461 584
+#neighbour 462 491
+#neighbour 462 493
+#neighbour 462 470
+#neighbour 462 566
+#neighbour 463 495
+#neighbour 463 492
+#neighbour 464 473
+#neighbour 464 508
+#neighbour 464 475
+#neighbour 465 481
+#neighbour 465 496
+#neighbour 466 594
+#neighbour 466 520
+#neighbour 466 527
+#neighbour 466 536
+#neighbour 466 497
+#neighbour 466 471
+#neighbour 467 501
+#neighbour 467 504
+#neighbour 467 484
+#neighbour 468 469
+#neighbour 468 479
+#neighbour 469 502
+#neighbour 469 477
+#neighbour 470 608
+#neighbour 470 496
+#neighbour 470 506
+#neighbour 470 491
+#neighbour 471 520
+#neighbour 471 497
+#neighbour 471 482
+#neighbour 472 519
+#neighbour 472 494
+#neighbour 472 478
+#neighbour 472 513
+#neighbour 473 474
+#neighbour 473 508
+#neighbour 474 516
+#neighbour 474 484
+#neighbour 475 539
+#neighbour 475 508
+#neighbour 475 1084
+#neighbour 475 575
+#neighbour 476 509
+#neighbour 476 480
+#neighbour 477 488
+#neighbour 477 502
+#neighbour 477 518
+#neighbourspec 477 518 2
+#neighbour 478 493
+#neighbour 479 499
+#neighbour 480 509
+#neighbour 481 505
+#neighbour 481 514
+#neighbour 481 496
+#neighbour 481 584
+#neighbour 482 520
+#neighbour 482 497
+#neighbour 483 548
+#neighbour 483 546
+#neighbour 484 516
+#neighbour 484 504
+#neighbour 485 498
+#neighbour 485 517
+#neighbour 485 553
+#neighbour 485 511
+#neighbourspec 485 511 2
+#neighbour 486 520
+#neighbour 486 530
+#neighbour 486 507
+#neighbour 487 531
+#neighbour 487 524
+#neighbour 488 507
+#neighbour 488 518
+#neighbour 489 499
+#neighbour 489 515
+#neighbour 489 519
+#neighbour 489 494
+#neighbour 490 522
+#neighbourspec 490 522 2
+#neighbour 490 501
+#neighbourspec 490 501 2
+#neighbour 490 495
+#neighbour 491 506
+#neighbour 491 493
+#neighbour 491 534
+#neighbour 492 495
+#neighbour 492 525
+#neighbour 493 534
+#neighbour 493 513
+#neighbour 494 519
+#neighbour 495 522
+#neighbourspec 495 522 2
+#neighbour 495 525
+#neighbour 496 514
+#neighbour 496 506
+#neighbour 496 526
+#neighbour 496 542
+#neighbour 497 634
+#neighbour 497 520
+#neighbour 497 536
+#neighbour 498 553
+#neighbour 498 512
+#neighbour 498 543
+#neighbour 499 538
+#neighbour 499 515
+#neighbour 500 523
+#neighbour 500 502
+#neighbourspec 500 502 1
+#neighbour 501 522
+#neighbourspec 501 522 2
+#neighbour 501 532
+#neighbour 501 537
+#neighbour 501 504
+#neighbour 502 533
+#neighbourspec 502 533 2
+#neighbour 502 523
+#neighbour 503 509
+#neighbour 504 537
+#neighbour 504 516
+#neighbour 505 511
+#neighbour 505 541
+#neighbour 505 514
+#neighbour 505 584
+#neighbour 506 569
+#neighbour 506 558
+#neighbour 506 526
+#neighbour 506 534
+#neighbour 507 530
+#neighbour 507 518
+#neighbour 508 512
+#neighbour 508 540
+#neighbour 508 521
+#neighbour 510 556
+#neighbourspec 510 556 1
+#neighbour 511 517
+#neighbour 511 547
+#neighbour 511 541
+#neighbour 512 543
+#neighbour 512 554
+#neighbour 512 540
+#neighbour 513 534
+#neighbour 513 561
+#neighbour 513 519
+#neighbour 513 529
+#neighbour 514 653
+#neighbour 514 541
+#neighbour 514 542
+#neighbour 515 538
+#neighbour 515 519
+#neighbour 516 572
+#neighbour 516 537
+#neighbour 516 535
+#neighbour 516 521
+#neighbour 517 553
+#neighbour 517 547
+#neighbour 518 567
+#neighbour 518 530
+#neighbour 518 568
+#neighbour 518 533
+#neighbourspec 518 533 2
+#neighbour 519 563
+#neighbour 519 538
+#neighbour 519 529
+#neighbour 520 582
+#neighbour 520 536
+#neighbour 520 530
+#neighbour 520 545
+#neighbour 521 535
+#neighbour 521 540
+#neighbour 521 557
+#neighbour 521 942
+#neighbour 521 647
+#neighbour 522 549
+#neighbour 522 552
+#neighbour 522 532
+#neighbourspec 522 532 2
+#neighbour 522 525
+#neighbourspec 522 525 2
+#neighbour 523 580
+#neighbour 523 551
+#neighbour 523 533
+#neighbour 524 588
+#neighbour 525 552
+#neighbour 525 577
+#neighbour 526 558
+#neighbour 526 555
+#neighbour 526 542
+#neighbour 527 594
+#neighbour 527 564
+#neighbourspec 527 564 2
+#neighbour 527 536
+#neighbourspec 527 536 2
+#neighbour 528 565
+#neighbour 528 550
+#neighbour 528 544
+#neighbour 529 561
+#neighbour 529 563
+#neighbour 530 567
+#neighbour 530 589
+#neighbour 530 545
+#neighbour 531 602
+#neighbour 531 623
+#neighbour 532 593
+#neighbour 532 571
+#neighbour 532 549
+#neighbourspec 532 549 2
+#neighbour 532 537
+#neighbour 533 579
+#neighbour 533 568
+#neighbour 533 580
+#neighbour 534 608
+#neighbour 534 596
+#neighbour 534 569
+#neighbour 534 561
+#neighbour 535 572
+#neighbour 535 557
+#neighbour 536 594
+#neighbour 536 582
+#neighbour 536 564
+#neighbour 537 598
+#neighbour 537 571
+#neighbour 537 572
+#neighbour 538 563
+#neighbour 538 585
+#neighbour 538 573
+#neighbour 538 551
+#neighbourspec 538 551 2
+#neighbour 539 1187
+#neighbour 539 942
+#neighbour 539 824
+#neighbour 539 587
+#neighbour 540 554
+#neighbour 541 583
+#neighbour 541 547
+#neighbour 541 570
+#neighbour 541 542
+#neighbour 542 592
+#neighbour 542 555
+#neighbour 542 612
+#neighbour 542 570
+#neighbour 543 553
+#neighbour 543 591
+#neighbour 543 554
+#neighbour 544 575
+#neighbour 545 589
+#neighbour 545 582
+#neighbour 546 548
+#neighbour 547 583
+#neighbour 547 578
+#neighbour 547 553
+#neighbour 548 619
+#neighbour 549 593
+#neighbour 549 552
+#neighbour 549 597
+#neighbour 550 599
+#neighbour 550 584
+#neighbour 550 565
+#neighbour 550 559
+#neighbour 551 585
+#neighbour 551 580
+#neighbour 552 577
+#neighbour 552 597
+#neighbour 553 578
+#neighbour 553 591
+#neighbour 553 603
+#neighbour 554 581
+#neighbour 554 591
+#neighbour 554 600
+#neighbourspec 554 600 1
+#neighbour 555 558
+#neighbour 555 590
+#neighbour 555 592
+#neighbour 556 587
+#neighbour 558 590
+#neighbour 558 628
+#neighbour 558 616
+#neighbourspec 558 616 2
+#neighbour 558 569
+#neighbourspec 558 569 2
+#neighbour 559 562
+#neighbour 560 562
+#neighbour 560 607
+#neighbour 560 566
+#neighbour 561 608
+#neighbour 561 601
+#neighbour 561 563
+#neighbour 563 606
+#neighbour 563 601
+#neighbour 563 573
+#neighbour 564 594
+#neighbour 564 582
+#neighbour 565 584
+#neighbour 567 574
+#neighbourspec 567 574 2
+#neighbour 567 605
+#neighbourspec 567 605 2
+#neighbour 567 589
+#neighbour 567 618
+#neighbour 567 624
+#neighbourspec 567 624 2
+#neighbour 568 615
+#neighbour 568 574
+#neighbour 568 621
+#neighbour 568 579
+#neighbour 569 596
+#neighbour 569 616
+#neighbourspec 569 616 2
+#neighbour 570 609
+#neighbour 570 583
+#neighbour 570 612
+#neighbour 571 598
+#neighbour 571 593
+#neighbour 572 625
+#neighbour 572 598
+#neighbour 572 576
+#neighbour 573 606
+#neighbour 573 585
+#neighbour 574 615
+#neighbour 574 605
+#neighbour 576 614
+#neighbour 576 604
+#neighbourspec 576 604 1
+#neighbour 577 597
+#neighbour 577 613
+#neighbour 578 583
+#neighbour 578 622
+#neighbour 578 603
+#neighbour 579 621
+#neighbour 579 626
+#neighbourspec 579 626 2
+#neighbour 579 580
+#neighbour 580 626
+#neighbour 580 637
+#neighbour 580 585
+#neighbour 581 610
+#neighbour 581 586
+#neighbour 582 634
+#neighbour 582 589
+#neighbour 582 635
+#neighbour 582 611
+#neighbour 582 594
+#neighbour 583 609
+#neighbour 583 622
+#neighbour 584 599
+#neighbour 585 633
+#neighbourspec 585 633 2
+#neighbour 585 606
+#neighbour 585 637
+#neighbour 586 620
+#neighbour 586 610
+#neighbour 586 604
+#neighbour 587 613
+#neighbour 588 623
+#neighbour 589 618
+#neighbour 589 634
+#neighbour 590 628
+#neighbour 590 630
+#neighbour 590 592
+#neighbour 591 600
+#neighbour 591 640
+#neighbour 591 603
+#neighbour 592 630
+#neighbour 592 612
+#neighbour 593 641
+#neighbour 593 598
+#neighbour 593 617
+#neighbour 593 597
+#neighbour 594 655
+#neighbour 594 669
+#neighbour 594 611
+#neighbour 595 599
+#neighbour 595 607
+#neighbour 596 642
+#neighbour 596 646
+#neighbour 596 608
+#neighbour 596 616
+#neighbourspec 596 616 2
+#neighbour 597 648
+#neighbour 597 617
+#neighbour 597 629
+#neighbourspec 597 629 1
+#neighbour 598 641
+#neighbour 598 625
+#neighbour 599 636
+#neighbour 600 632
+#neighbour 600 610
+#neighbour 600 627
+#neighbour 600 723
+#neighbour 601 606
+#neighbour 601 644
+#neighbour 601 639
+#neighbour 601 608
+#neighbour 602 668
+#neighbour 602 658
+#neighbour 602 623
+#neighbour 602 619
+#neighbour 603 640
+#neighbour 603 622
+#neighbour 604 645
+#neighbour 605 647
+#neighbour 605 615
+#neighbour 605 624
+#neighbour 606 633
+#neighbour 606 644
+#neighbour 606 608
+#neighbour 607 631
+#neighbour 608 639
+#neighbour 608 646
+#neighbour 609 638
+#neighbour 609 612
+#neighbour 609 622
+#neighbour 610 620
+#neighbour 610 643
+#neighbour 610 632
+#neighbour 611 634
+#neighbour 611 708
+#neighbour 611 635
+#neighbour 611 655
+#neighbour 612 759
+#neighbour 612 630
+#neighbour 612 653
+#neighbour 612 638
+#neighbour 613 654
+#neighbourspec 613 654 1
+#neighbour 614 645
+#neighbourspec 614 645 1
+#neighbour 615 662
+#neighbour 615 678
+#neighbour 615 647
+#neighbour 615 621
+#neighbour 616 642
+#neighbour 616 661
+#neighbour 616 650
+#neighbourspec 616 650 2
+#neighbour 616 628
+#neighbourspec 616 628 2
+#neighbour 617 641
+#neighbour 617 648
+#neighbour 618 624
+#neighbourspec 618 624 2
+#neighbour 618 660
+#neighbour 618 667
+#neighbour 618 634
+#neighbour 619 658
+#neighbour 620 666
+#neighbour 620 643
+#neighbour 621 659
+#neighbour 621 662
+#neighbour 621 626
+#neighbour 622 652
+#neighbour 622 638
+#neighbour 623 668
+#neighbour 623 672
+#neighbour 624 647
+#neighbour 624 660
+#neighbour 625 665
+#neighbour 625 641
+#neighbour 625 675
+#neighbour 626 659
+#neighbour 626 637
+#neighbour 627 651
+#neighbour 627 632
+#neighbour 627 657
+#neighbour 627 640
+#neighbour 628 650
+#neighbour 628 630
+#neighbour 628 649
+#neighbour 629 648
+#neighbour 629 670
+#neighbour 630 649
+#neighbour 630 653
+#neighbour 631 636
+#neighbour 632 643
+#neighbour 632 651
+#neighbour 633 674
+#neighbour 633 664
+#neighbour 633 637
+#neighbour 634 667
+#neighbour 634 635
+#neighbour 635 667
+#neighbour 635 703
+#neighbour 635 655
+#neighbour 635 656
+#neighbour 636 663
+#neighbour 637 676
+#neighbour 637 659
+#neighbour 637 664
+#neighbour 638 652
+#neighbour 638 653
+#neighbour 639 644
+#neighbour 639 646
+#neighbour 639 673
+#neighbour 640 657
+#neighbour 640 652
+#neighbour 640 680
+#neighbour 641 686
+#neighbour 641 665
+#neighbour 641 648
+#neighbour 642 699
+#neighbour 642 677
+#neighbour 642 646
+#neighbour 642 661
+#neighbour 643 666
+#neighbour 643 651
+#neighbour 643 684
+#neighbour 643 679
+#neighbourspec 643 679 2
+#neighbour 644 673
+#neighbour 644 674
+#neighbourspec 644 674 2
+#neighbour 645 675
+#neighbour 645 683
+#neighbour 646 699
+#neighbourspec 646 699 2
+#neighbour 646 704
+#neighbour 646 673
+#neighbour 647 934
+#neighbour 647 678
+#neighbour 647 662
+#neighbour 647 660
+#neighbour 648 702
+#neighbour 648 686
+#neighbour 648 670
+#neighbour 649 681
+#neighbour 649 693
+#neighbour 649 650
+#neighbour 649 653
+#neighbour 650 661
+#neighbour 650 692
+#neighbourspec 650 692 1
+#neighbour 651 657
+#neighbour 651 679
+#neighbour 651 696
+#neighbour 651 806
+#neighbour 652 680
+#neighbour 652 690
+#neighbour 652 688
+#neighbour 652 653
+#neighbourspec 652 653 2
+#neighbour 653 688
+#neighbourspec 653 688 2
+#neighbour 653 681
+#neighbour 654 725
+#neighbour 654 672
+#neighbour 654 670
+#neighbour 655 708
+#neighbour 655 735
+#neighbour 655 703
+#neighbour 655 669
+#neighbour 655 656
+#neighbour 656 703
+#neighbour 657 680
+#neighbour 657 696
+#neighbourspec 657 696 2
+#neighbour 658 709
+#neighbour 658 668
+#neighbour 659 676
+#neighbour 659 682
+#neighbour 659 722
+#neighbour 659 662
+#neighbour 660 678
+#neighbour 660 667
+#neighbourspec 660 667 1
+#neighbour 661 700
+#neighbour 661 692
+#neighbour 661 677
+#neighbour 662 713
+#neighbour 662 707
+#neighbour 662 682
+#neighbour 662 678
+#neighbour 663 689
+#neighbour 663 694
+#neighbour 664 674
+#neighbour 664 676
+#neighbour 664 691
+#neighbour 665 705
+#neighbour 665 686
+#neighbour 665 675
+#neighbour 666 710
+#neighbour 666 683
+#neighbour 666 728
+#neighbour 666 684
+#neighbour 666 698
+#neighbourspec 666 698 2
+#neighbour 667 685
+#neighbour 667 727
+#neighbour 667 703
+#neighbour 667 721
+#neighbourspec 667 721 2
+#neighbour 668 733
+#neighbour 668 709
+#neighbour 668 672
+#neighbour 669 801
+#neighbour 669 735
+#neighbour 670 697
+#neighbourspec 670 697 1
+#neighbour 671 963
+#neighbour 671 687
+#neighbour 672 733
+#neighbour 672 725
+#neighbour 673 704
+#neighbour 673 716
+#neighbour 673 674
+#neighbourspec 673 674 2
+#neighbour 674 716
+#neighbour 674 691
+#neighbour 675 705
+#neighbour 675 734
+#neighbour 676 717
+#neighbour 676 712
+#neighbour 676 691
+#neighbour 676 722
+#neighbour 676 720
+#neighbour 677 700
+#neighbourspec 677 700 2
+#neighbour 677 699
+#neighbour 677 736
+#neighbourspec 677 736 2
+#neighbour 678 719
+#neighbour 678 685
+#neighbour 678 713
+#neighbour 679 696
+#neighbourspec 679 696 2
+#neighbour 679 729
+#neighbour 679 684
+#neighbour 680 690
+#neighbour 680 696
+#neighbour 680 711
+#neighbour 681 693
+#neighbour 681 732
+#neighbour 681 759
+#neighbour 681 814
+#neighbour 681 840
+#neighbour 681 773
+#neighbour 681 688
+#neighbour 681 718
+#neighbourspec 681 718 2
+#neighbour 682 707
+#neighbour 682 722
+#neighbourspec 682 722 2
+#neighbour 682 687
+#neighbour 683 744
+#neighbour 683 710
+#neighbour 683 734
+#neighbour 684 698
+#neighbour 684 729
+#neighbour 684 740
+#neighbour 685 719
+#neighbour 685 727
+#neighbour 686 705
+#neighbour 686 737
+#neighbour 686 702
+#neighbour 687 731
+#neighbour 687 715
+#neighbour 688 690
+#neighbour 688 718
+#neighbour 688 730
+#neighbour 689 723
+#neighbour 689 701
+#neighbour 690 711
+#neighbour 690 730
+#neighbour 690 718
+#neighbour 690 879
+#neighbour 691 716
+#neighbour 691 755
+#neighbour 691 717
+#neighbour 692 732
+#neighbour 692 700
+#neighbour 692 693
+#neighbour 692 748
+#neighbour 693 732
+#neighbour 694 724
+#neighbour 694 715
+#neighbour 695 714
+#neighbour 696 711
+#neighbour 696 726
+#neighbour 696 729
+#neighbour 697 738
+#neighbour 697 737
+#neighbour 698 740
+#neighbour 698 1187
+#neighbour 698 728
+#neighbourspec 698 728 2
+#neighbour 699 736
+#neighbourspec 699 736 2
+#neighbour 699 747
+#neighbour 699 704
+#neighbour 700 732
+#neighbour 700 736
+#neighbour 701 745
+#neighbour 702 737
+#neighbour 703 749
+#neighbour 703 708
+#neighbour 703 735
+#neighbour 703 742
+#neighbour 703 727
+#neighbour 703 721
+#neighbour 704 739
+#neighbour 704 716
+#neighbour 704 747
+#neighbour 705 741
+#neighbour 705 734
+#neighbour 706 714
+#neighbour 706 723
+#neighbour 707 756
+#neighbour 707 713
+#neighbour 707 722
+#neighbourspec 707 722 2
+#neighbour 707 753
+#neighbour 708 897
+#neighbour 708 749
+#neighbour 708 735
+#neighbour 709 769
+#neighbour 709 765
+#neighbour 709 733
+#neighbour 710 744
+#neighbour 710 770
+#neighbour 710 728
+#neighbour 711 730
+#neighbour 711 752
+#neighbour 711 726
+#neighbour 711 743
+#neighbour 712 761
+#neighbour 712 717
+#neighbour 712 720
+#neighbour 713 756
+#neighbour 713 754
+#neighbour 713 719
+#neighbour 714 751
+#neighbour 716 739
+#neighbour 716 774
+#neighbour 716 781
+#neighbour 716 755
+#neighbour 717 755
+#neighbourspec 717 755 2
+#neighbour 717 757
+#neighbour 717 761
+#neighbour 718 730
+#neighbour 718 759
+#neighbour 718 736
+#neighbour 719 754
+#neighbour 719 727
+#neighbour 720 761
+#neighbour 720 767
+#neighbour 720 760
+#neighbour 720 722
+#neighbour 721 749
+#neighbourspec 721 749 2
+#neighbour 721 742
+#neighbour 721 727
+#neighbour 722 760
+#neighbour 722 753
+#neighbour 723 766
+#neighbour 724 745
+#neighbour 724 748
+#neighbour 724 758
+#neighbour 725 733
+#neighbour 725 776
+#neighbour 726 729
+#neighbour 726 743
+#neighbour 727 772
+#neighbour 727 754
+#neighbour 727 742
+#neighbour 728 770
+#neighbour 728 740
+#neighbourspec 728 740 2
+#neighbour 728 793
+#neighbourspec 728 793 2
+#neighbour 729 743
+#neighbour 729 785
+#neighbour 729 783
+#neighbour 729 740
+#neighbour 730 759
+#neighbour 730 768
+#neighbour 730 787
+#neighbour 730 752
+#neighbour 731 771
+#neighbour 732 759
+#neighbour 732 795
+#neighbour 732 736
+#neighbour 732 799
+#neighbour 732 764
+#neighbour 732 758
+#neighbour 733 765
+#neighbour 733 810
+#neighbour 733 776
+#neighbour 734 741
+#neighbour 734 775
+#neighbour 734 744
+#neighbour 735 801
+#neighbour 735 749
+#neighbour 735 796
+#neighbour 736 795
+#neighbour 736 747
+#neighbour 736 840
+#neighbour 736 789
+#neighbourspec 736 789 2
+#neighbour 736 788
+#neighbourspec 736 788 2
+#neighbour 737 763
+#neighbourspec 737 763 1
+#neighbour 737 738
+#neighbourspec 737 738 1
+#neighbour 738 763
+#neighbour 738 776
+#neighbour 739 747
+#neighbour 739 782
+#neighbour 739 774
+#neighbour 740 783
+#neighbour 740 793
+#neighbour 741 778
+#neighbour 741 750
+#neighbour 742 772
+#neighbour 742 749
+#neighbour 742 796
+#neighbour 743 752
+#neighbour 743 785
+#neighbour 743 815
+#neighbour 744 797
+#neighbour 744 775
+#neighbour 744 770
+#neighbour 745 773
+#neighbour 745 748
+#neighbour 746 786
+#neighbour 746 751
+#neighbour 747 789
+#neighbourspec 747 789 2
+#neighbour 747 782
+#neighbour 749 772
+#neighbour 749 796
+#neighbour 750 777
+#neighbour 750 762
+#neighbour 751 803
+#neighbour 752 787
+#neighbour 752 804
+#neighbour 752 815
+#neighbour 753 760
+#neighbour 753 800
+#neighbour 753 809
+#neighbour 753 756
+#neighbour 753 790
+#neighbour 754 791
+#neighbour 754 772
+#neighbour 754 756
+#neighbour 754 780
+#neighbour 755 824
+#neighbour 755 781
+#neighbour 755 794
+#neighbour 755 757
+#neighbour 756 780
+#neighbour 756 790
+#neighbour 757 794
+#neighbour 757 761
+#neighbour 758 798
+#neighbour 758 764
+#neighbour 759 795
+#neighbour 759 814
+#neighbour 759 768
+#neighbour 759 773
+#neighbour 759 787
+#neighbour 760 767
+#neighbour 760 800
+#neighbour 761 835
+#neighbour 761 794
+#neighbour 761 767
+#neighbour 761 811
+#neighbour 762 792
+#neighbour 762 777
+#neighbour 762 763
+#neighbour 763 792
+#neighbour 763 784
+#neighbour 763 776
+#neighbour 765 834
+#neighbour 765 855
+#neighbour 765 769
+#neighbour 765 810
+#neighbour 766 957
+#neighbour 766 806
+#neighbour 767 811
+#neighbour 767 800
+#neighbour 768 787
+#neighbour 769 834
+#neighbour 770 802
+#neighbourspec 770 802 2
+#neighbour 770 797
+#neighbour 770 819
+#neighbourspec 770 819 2
+#neighbour 770 793
+#neighbour 771 799
+#neighbour 772 805
+#neighbour 772 791
+#neighbour 772 796
+#neighbour 773 798
+#neighbour 774 782
+#neighbour 774 821
+#neighbour 774 781
+#neighbour 775 807
+#neighbour 775 778
+#neighbour 775 797
+#neighbour 776 810
+#neighbour 776 817
+#neighbour 776 828
+#neighbour 776 784
+#neighbour 777 813
+#neighbour 777 792
+#neighbour 777 812
+#neighbour 777 818
+#neighbour 777 778
+#neighbour 778 807
+#neighbour 778 818
+#neighbour 779 786
+#neighbour 779 803
+#neighbour 780 808
+#neighbour 780 791
+#neighbour 780 790
+#neighbour 781 824
+#neighbour 781 821
+#neighbour 782 829
+#neighbour 782 789
+#neighbourspec 782 789 2
+#neighbour 782 821
+#neighbour 783 785
+#neighbour 783 816
+#neighbour 783 830
+#neighbour 783 793
+#neighbour 784 792
+#neighbour 785 815
+#neighbourspec 785 815 2
+#neighbour 785 851
+#neighbour 785 816
+#neighbour 786 822
+#neighbour 787 919
+#neighbour 787 814
+#neighbour 787 833
+#neighbour 787 804
+#neighbour 788 795
+#neighbour 788 840
+#neighbour 788 789
+#neighbour 788 857
+#neighbour 789 829
+#neighbour 789 857
+#neighbour 790 809
+#neighbour 790 826
+#neighbour 790 808
+#neighbour 791 808
+#neighbour 791 831
+#neighbour 791 805
+#neighbour 792 827
+#neighbour 792 813
+#neighbour 793 819
+#neighbourspec 793 819 2
+#neighbour 793 856
+#neighbour 793 830
+#neighbour 794 849
+#neighbour 794 839
+#neighbour 794 835
+#neighbour 794 824
+#neighbour 795 814
+#neighbour 795 848
+#neighbour 795 840
+#neighbour 795 833
+#neighbour 796 870
+#neighbour 796 838
+#neighbour 796 805
+#neighbour 796 801
+#neighbour 797 802
+#neighbour 797 820
+#neighbour 797 807
+#neighbour 798 825
+#neighbour 799 823
+#neighbour 800 836
+#neighbour 800 811
+#neighbour 800 850
+#neighbour 800 809
+#neighbour 801 935
+#neighbour 801 870
+#neighbour 801 897
+#neighbour 802 820
+#neighbour 802 803
+#neighbour 803 841
+#neighbour 804 833
+#neighbour 804 843
+#neighbour 804 852
+#neighbour 804 815
+#neighbour 805 831
+#neighbour 805 838
+#neighbour 807 820
+#neighbour 808 847
+#neighbour 808 844
+#neighbour 808 826
+#neighbour 808 831
+#neighbour 809 850
+#neighbour 809 860
+#neighbour 809 826
+#neighbour 810 855
+#neighbour 810 864
+#neighbour 810 817
+#neighbour 810 859
+#neighbour 811 836
+#neighbour 811 835
+#neighbour 812 846
+#neighbour 812 813
+#neighbour 812 818
+#neighbour 813 827
+#neighbour 813 846
+#neighbour 814 848
+#neighbourspec 814 848 2
+#neighbour 814 833
+#neighbour 815 851
+#neighbour 815 852
+#neighbour 816 851
+#neighbour 816 830
+#neighbour 817 828
+#neighbour 817 859
+#neighbour 818 866
+#neighbour 818 854
+#neighbour 818 832
+#neighbour 818 846
+#neighbour 819 837
+#neighbour 819 856
+#neighbour 820 832
+#neighbour 820 845
+#neighbourspec 820 845 1
+#neighbour 821 824
+#neighbour 821 829
+#neighbour 821 853
+#neighbour 822 968
+#neighbour 824 849
+#neighbour 824 872
+#neighbour 824 853
+#neighbour 825 842
+#neighbour 826 860
+#neighbour 826 847
+#neighbour 827 858
+#neighbour 827 828
+#neighbour 827 846
+#neighbour 828 858
+#neighbour 829 857
+#neighbour 829 853
+#neighbour 830 851
+#neighbour 830 867
+#neighbour 830 863
+#neighbour 830 856
+#neighbour 831 844
+#neighbour 831 838
+#neighbour 831 865
+#neighbour 832 854
+#neighbour 832 845
+#neighbour 833 848
+#neighbour 833 876
+#neighbour 833 879
+#neighbourspec 833 879 2
+#neighbour 833 843
+#neighbourspec 833 843 2
+#neighbour 834 882
+#neighbour 834 855
+#neighbour 835 868
+#neighbour 835 885
+#neighbour 835 836
+#neighbour 835 839
+#neighbourspec 835 839 2
+#neighbour 836 868
+#neighbour 836 869
+#neighbour 836 850
+#neighbour 836 862
+#neighbour 837 877
+#neighbourspec 837 877 2
+#neighbour 837 861
+#neighbourspec 837 861 2
+#neighbour 837 856
+#neighbour 837 845
+#neighbour 838 870
+#neighbour 838 865
+#neighbour 838 897
+#neighbour 839 885
+#neighbour 839 890
+#neighbour 839 849
+#neighbour 840 886
+#neighbour 840 857
+#neighbour 840 871
+#neighbourspec 840 871 2
+#neighbour 841 842
+#neighbour 843 874
+#neighbour 843 852
+#neighbour 843 878
+#neighbourspec 843 878 2
+#neighbour 844 847
+#neighbour 844 862
+#neighbour 844 865
+#neighbour 845 888
+#neighbour 845 891
+#neighbour 846 858
+#neighbour 846 873
+#neighbour 846 866
+#neighbour 847 860
+#neighbour 847 862
+#neighbour 848 876
+#neighbour 848 871
+#neighbour 849 890
+#neighbour 850 916
+#neighbour 850 907
+#neighbour 850 869
+#neighbour 850 860
+#neighbour 851 867
+#neighbour 851 889
+#neighbour 851 880
+#neighbour 851 852
+#neighbour 852 880
+#neighbour 852 874
+#neighbour 853 857
+#neighbour 853 881
+#neighbour 853 872
+#neighbourspec 853 872 1
+#neighbour 854 866
+#neighbour 855 901
+#neighbour 855 882
+#neighbour 855 864
+#neighbour 856 863
+#neighbour 856 875
+#neighbour 856 892
+#neighbour 856 861
+#neighbour 857 886
+#neighbour 857 895
+#neighbour 857 881
+#neighbour 858 893
+#neighbour 858 873
+#neighbour 859 883
+#neighbour 859 887
+#neighbour 859 893
+#neighbour 860 916
+#neighbour 860 862
+#neighbour 861 877
+#neighbour 861 892
+#neighbour 861 917
+#neighbour 862 1103
+#neighbour 862 927
+#neighbour 862 916
+#neighbour 862 865
+#neighbour 862 897
+#neighbour 863 867
+#neighbour 863 898
+#neighbour 863 896
+#neighbour 863 875
+#neighbour 864 901
+#neighbour 864 910
+#neighbour 864 883
+#neighbour 865 870
+#neighbour 865 900
+#neighbour 866 884
+#neighbour 866 873
+#neighbour 867 889
+#neighbour 867 899
+#neighbour 867 898
+#neighbour 868 906
+#neighbour 868 869
+#neighbour 868 885
+#neighbour 869 906
+#neighbour 869 907
+#neighbour 870 900
+#neighbour 870 935
+#neighbour 870 931
+#neighbour 870 897
+#neighbour 871 876
+#neighbour 871 886
+#neighbourspec 871 886 2
+#neighbour 872 908
+#neighbour 872 894
+#neighbour 873 884
+#neighbour 873 893
+#neighbour 874 919
+#neighbour 874 880
+#neighbour 874 878
+#neighbour 874 903
+#neighbourspec 874 903 2
+#neighbour 875 892
+#neighbour 875 896
+#neighbour 875 905
+#neighbour 876 937
+#neighbour 876 879
+#neighbourspec 876 879 2
+#neighbour 876 915
+#neighbour 876 923
+#neighbourspec 876 923 2
+#neighbour 877 913
+#neighbour 877 917
+#neighbour 878 918
+#neighbour 878 903
+#neighbourspec 878 903 2
+#neighbour 878 879
+#neighbourspec 878 879 2
+#neighbour 879 918
+#neighbour 879 923
+#neighbour 880 926
+#neighbour 880 919
+#neighbour 880 889
+#neighbour 881 895
+#neighbour 881 908
+#neighbour 881 911
+#neighbour 882 901
+#neighbour 882 904
+#neighbour 883 910
+#neighbour 883 887
+#neighbour 884 902
+#neighbour 885 906
+#neighbour 885 890
+#neighbour 886 921
+#neighbour 886 895
+#neighbour 887 893
+#neighbour 888 912
+#neighbourspec 888 912 1
+#neighbour 889 926
+#neighbour 889 932
+#neighbour 889 899
+#neighbour 890 914
+#neighbour 890 894
+#neighbour 891 913
+#neighbour 891 925
+#neighbour 891 912
+#neighbourspec 891 912 1
+#neighbour 892 905
+#neighbour 892 917
+#neighbour 894 908
+#neighbour 894 947
+#neighbour 895 956
+#neighbour 895 911
+#neighbour 895 939
+#neighbour 895 921
+#neighbourspec 895 921 2
+#neighbour 896 898
+#neighbour 896 924
+#neighbour 896 905
+#neighbour 897 935
+#neighbour 898 899
+#neighbour 898 930
+#neighbour 898 948
+#neighbour 898 924
+#neighbour 899 932
+#neighbour 899 930
+#neighbour 900 927
+#neighbour 900 958
+#neighbour 900 931
+#neighbour 901 936
+#neighbour 901 929
+#neighbour 901 910
+#neighbour 901 904
+#neighbour 902 909
+#neighbourspec 902 909 1
+#neighbour 902 945
+#neighbour 902 922
+#neighbour 903 919
+#neighbour 903 918
+#neighbour 903 952
+#neighbour 904 943
+#neighbour 904 929
+#neighbourspec 904 929 2
+#neighbour 905 924
+#neighbour 905 934
+#neighbour 905 917
+#neighbour 906 928
+#neighbour 906 914
+#neighbour 906 907
+#neighbour 907 928
+#neighbour 907 916
+#neighbour 907 985
+#neighbour 907 960
+#neighbour 908 941
+#neighbour 908 911
+#neighbour 908 947
+#neighbour 909 920
+#neighbourspec 909 920 1
+#neighbour 909 982
+#neighbour 910 936
+#neighbour 910 920
+#neighbourspec 910 920 1
+#neighbour 911 939
+#neighbour 911 955
+#neighbour 911 941
+#neighbour 912 998
+#neighbour 913 917
+#neighbourspec 913 917 1
+#neighbour 913 925
+#neighbour 914 940
+#neighbour 914 928
+#neighbour 914 947
+#neighbourspec 914 947 1
+#neighbour 915 937
+#neighbour 915 951
+#neighbour 915 921
+#neighbour 916 991
+#neighbour 916 927
+#neighbour 916 985
+#neighbour 917 938
+#neighbour 917 964
+#neighbour 917 934
+#neighbour 918 952
+#neighbour 918 923
+#neighbour 919 975
+#neighbour 919 957
+#neighbour 919 953
+#neighbour 919 926
+#neighbour 919 952
+#neighbour 920 933
+#neighbour 920 944
+#neighbour 920 942
+#neighbourspec 920 942 1
+#neighbour 921 951
+#neighbour 922 946
+#neighbour 922 961
+#neighbour 922 945
+#neighbour 923 937
+#neighbourspec 923 937 2
+#neighbour 923 952
+#neighbour 924 934
+#neighbour 924 959
+#neighbour 924 948
+#neighbour 925 954
+#neighbour 925 950
+#neighbour 926 953
+#neighbour 926 969
+#neighbour 926 971
+#neighbour 926 932
+#neighbour 927 991
+#neighbour 927 958
+#neighbour 928 966
+#neighbour 928 940
+#neighbour 928 960
+#neighbour 928 1081
+#neighbour 929 943
+#neighbour 929 973
+#neighbour 929 949
+#neighbour 929 936
+#neighbour 930 948
+#neighbour 930 932
+#neighbour 930 962
+#neighbour 931 986
+#neighbour 931 958
+#neighbour 931 935
+#neighbour 932 971
+#neighbour 932 962
+#neighbour 933 967
+#neighbour 933 944
+#neighbourspec 933 944 1
+#neighbour 933 936
+#neighbourspec 933 936 1
+#neighbour 934 964
+#neighbour 934 959
+#neighbour 935 986
+#neighbour 936 983
+#neighbour 936 949
+#neighbourspec 936 949 2
+#neighbour 937 952
+#neighbour 937 995
+#neighbour 937 988
+#neighbour 937 951
+#neighbour 938 972
+#neighbour 938 964
+#neighbour 938 950
+#neighbourspec 938 950 1
+#neighbour 939 956
+#neighbour 939 955
+#neighbour 939 976
+#neighbour 940 965
+#neighbour 940 966
+#neighbour 940 947
+#neighbour 941 955
+#neighbour 941 984
+#neighbour 942 944
+#neighbour 942 1084
+#neighbour 943 1063
+#neighbour 943 973
+#neighbour 944 967
+#neighbourspec 944 967 1
+#neighbour 945 961
+#neighbour 945 992
+#neighbour 945 954
+#neighbour 946 961
+#neighbour 946 981
+#neighbour 947 965
+#neighbour 948 959
+#neighbour 948 980
+#neighbour 948 962
+#neighbour 949 989
+#neighbour 949 983
+#neighbour 949 973
+#neighbour 950 1030
+#neighbour 951 995
+#neighbour 951 987
+#neighbour 951 956
+#neighbour 952 975
+#neighbour 952 988
+#neighbour 952 1009
+#neighbour 953 957
+#neighbour 953 969
+#neighbour 953 994
+#neighbour 954 1040
+#neighbour 954 992
+#neighbour 954 993
+#neighbour 955 976
+#neighbour 955 997
+#neighbour 955 984
+#neighbour 956 1000
+#neighbour 956 1012
+#neighbour 956 987
+#neighbour 956 976
+#neighbourspec 956 976 2
+#neighbour 957 975
+#neighbour 957 994
+#neighbour 958 1018
+#neighbour 958 991
+#neighbour 958 986
+#neighbour 959 990
+#neighbour 959 1006
+#neighbour 959 980
+#neighbour 960 966
+#neighbour 960 985
+#neighbour 960 1020
+#neighbour 960 1032
+#neighbour 961 981
+#neighbour 961 992
+#neighbour 962 971
+#neighbour 962 980
+#neighbour 962 1004
+#neighbour 963 982
+#neighbour 964 972
+#neighbour 964 990
+#neighbour 965 1008
+#neighbour 965 1001
+#neighbour 965 966
+#neighbour 965 999
+#neighbour 966 999
+#neighbour 966 1032
+#neighbour 967 1010
+#neighbour 967 983
+#neighbourspec 967 983 1
+#neighbour 968 998
+#neighbour 968 978
+#neighbour 969 994
+#neighbour 969 1014
+#neighbour 969 1002
+#neighbourspec 969 1002 2
+#neighbour 970 996
+#neighbour 970 982
+#neighbour 971 1002
+#neighbour 971 1004
+#neighbour 972 1003
+#neighbour 972 979
+#neighbour 972 1007
+#neighbour 973 1035
+#neighbour 973 1063
+#neighbour 973 989
+#neighbour 974 977
+#neighbour 974 981
+#neighbour 975 1027
+#neighbour 975 994
+#neighbour 975 1009
+#neighbour 976 997
+#neighbour 976 1000
+#neighbourspec 976 1000 2
+#neighbour 977 1010
+#neighbour 977 1015
+#neighbourspec 977 1015 1
+#neighbour 978 1030
+#neighbour 979 1007
+#neighbour 980 1006
+#neighbour 980 1005
+#neighbourspec 980 1005 2
+#neighbour 980 1019
+#neighbour 980 1004
+#neighbour 981 1013
+#neighbour 981 992
+#neighbour 982 998
+#neighbour 983 1028
+#neighbour 983 989
+#neighbour 983 1021
+#neighbour 983 1010
+#neighbour 984 997
+#neighbour 984 1023
+#neighbour 984 1001
+#neighbour 985 1049
+#neighbour 985 991
+#neighbour 985 1020
+#neighbour 985 1069
+#neighbour 986 1054
+#neighbour 986 1018
+#neighbour 987 1012
+#neighbour 987 995
+#neighbour 988 1037
+#neighbour 988 995
+#neighbour 988 1022
+#neighbour 988 1009
+#neighbour 989 1028
+#neighbour 989 1035
+#neighbour 990 1026
+#neighbour 990 1003
+#neighbour 990 1006
+#neighbour 991 1018
+#neighbour 991 1049
+#neighbour 992 1040
+#neighbour 992 1013
+#neighbour 992 1011
+#neighbour 993 1040
+#neighbour 993 1031
+#neighbour 994 1027
+#neighbour 994 1014
+#neighbour 995 1033
+#neighbour 995 1022
+#neighbour 995 1012
+#neighbour 996 1034
+#neighbour 997 1000
+#neighbourspec 997 1000 2
+#neighbour 997 1024
+#neighbour 997 1023
+#neighbour 998 1029
+#neighbour 998 1016
+#neighbour 999 1044
+#neighbour 999 1008
+#neighbour 999 1032
+#neighbour 999 1047
+#neighbour 1000 1012
+#neighbour 1000 1038
+#neighbour 1000 1024
+#neighbour 1001 1008
+#neighbour 1001 1023
+#neighbour 1001 1044
+#neighbour 1002 1060
+#neighbour 1002 1014
+#neighbour 1002 1017
+#neighbour 1003 1026
+#neighbour 1003 1039
+#neighbour 1003 1007
+#neighbour 1004 1046
+#neighbour 1004 1005
+#neighbour 1004 1036
+#neighbour 1004 1017
+#neighbour 1005 1019
+#neighbour 1005 1036
+#neighbour 1006 1050
+#neighbour 1006 1026
+#neighbour 1006 1019
+#neighbour 1007 1062
+#neighbour 1008 1128
+#neighbour 1008 1044
+#neighbour 1008 1081
+#neighbour 1009 1052
+#neighbourspec 1009 1052 2
+#neighbour 1009 1027
+#neighbourspec 1009 1027 2
+#neighbour 1009 1037
+#neighbour 1010 1021
+#neighbour 1010 1048
+#neighbour 1010 1043
+#neighbour 1010 1042
+#neighbour 1010 1015
+#neighbour 1011 1040
+#neighbour 1011 1041
+#neighbour 1011 1013
+#neighbour 1012 1033
+#neighbour 1012 1053
+#neighbour 1012 1038
+#neighbourspec 1012 1038 2
+#neighbour 1013 1045
+#neighbourspec 1013 1045 1
+#neighbour 1014 1064
+#neighbour 1014 1027
+#neighbour 1014 1060
+#neighbourspec 1014 1060 2
+#neighbour 1015 1042
+#neighbour 1015 1045
+#neighbour 1015 1025
+#neighbour 1015 1034
+#neighbour 1016 1061
+#neighbour 1016 1030
+#neighbour 1017 1060
+#neighbour 1017 1046
+#neighbour 1018 1090
+#neighbour 1018 1054
+#neighbour 1018 1092
+#neighbour 1018 1049
+#neighbour 1019 1050
+#neighbour 1019 1036
+#neighbour 1020 1069
+#neighbour 1020 1032
+#neighbour 1021 1048
+#neighbour 1022 1037
+#neighbour 1022 1033
+#neighbour 1022 1058
+#neighbour 1023 1044
+#neighbourspec 1023 1044 1
+#neighbour 1024 1038
+#neighbour 1024 1055
+#neighbour 1025 1059
+#neighbour 1025 1034
+#neighbour 1025 1029
+#neighbour 1026 1074
+#neighbour 1026 1056
+#neighbour 1026 1050
+#neighbour 1026 1039
+#neighbour 1027 1064
+#neighbour 1027 1072
+#neighbour 1027 1052
+#neighbour 1028 1051
+#neighbour 1028 1035
+#neighbour 1029 1066
+#neighbour 1029 1061
+#neighbour 1030 1062
+#neighbour 1031 1070
+#neighbour 1031 1040
+#neighbour 1031 1039
+#neighbour 1032 1091
+#neighbour 1032 1081
+#neighbour 1032 1069
+#neighbour 1032 1095
+#neighbour 1032 1047
+#neighbour 1033 1053
+#neighbour 1033 1058
+#neighbour 1034 1059
+#neighbour 1035 1051
+#neighbour 1035 1087
+#neighbour 1035 1063
+#neighbour 1036 1050
+#neighbour 1036 1071
+#neighbour 1036 1046
+#neighbour 1037 1052
+#neighbour 1037 1083
+#neighbour 1037 1077
+#neighbour 1037 1057
+#neighbour 1037 1058
+#neighbour 1038 1053
+#neighbourspec 1038 1053 2
+#neighbour 1038 1068
+#neighbour 1038 1080
+#neighbour 1038 1065
+#neighbour 1038 1055
+#neighbour 1039 1070
+#neighbour 1039 1074
+#neighbourspec 1039 1074 1
+#neighbour 1040 1086
+#neighbour 1040 1070
+#neighbour 1040 1041
+#neighbour 1041 1086
+#neighbour 1041 1066
+#neighbour 1042 1043
+#neighbour 1042 1045
+#neighbourspec 1042 1045 1
+#neighbour 1042 1078
+#neighbourspec 1042 1078 1
+#neighbour 1043 1048
+#neighbour 1043 1075
+#neighbour 1044 1076
+#neighbour 1044 1047
+#neighbour 1044 1084
+#neighbour 1046 1071
+#neighbour 1046 1060
+#neighbour 1047 1081
+#neighbour 1047 1076
+#neighbour 1048 1082
+#neighbourspec 1048 1082 1
+#neighbour 1049 1103
+#neighbour 1049 1092
+#neighbour 1049 1069
+#neighbour 1049 1098
+#neighbour 1050 1089
+#neighbour 1050 1056
+#neighbour 1050 1071
+#neighbour 1051 1082
+#neighbour 1051 1087
+#neighbour 1052 1094
+#neighbour 1052 1072
+#neighbour 1052 1083
+#neighbourspec 1052 1083 2
+#neighbour 1053 1068
+#neighbour 1053 1085
+#neighbour 1053 1067
+#neighbour 1053 1058
+#neighbour 1054 1152
+#neighbour 1054 1090
+#neighbour 1055 1065
+#neighbour 1056 1102
+#neighbour 1056 1074
+#neighbour 1056 1089
+#neighbour 1057 1077
+#neighbour 1057 1058
+#neighbour 1057 1073
+#neighbour 1058 1067
+#neighbourspec 1058 1067 2
+#neighbour 1058 1093
+#neighbourspec 1058 1093 2
+#neighbour 1058 1073
+#neighbour 1059 1075
+#neighbour 1059 1066
+#neighbour 1060 1096
+#neighbour 1060 1071
+#neighbour 1060 1064
+#neighbourspec 1060 1064 2
+#neighbour 1061 1066
+#neighbour 1061 1062
+#neighbour 1063 1108
+#neighbour 1063 1205
+#neighbour 1063 1087
+#neighbour 1064 1097
+#neighbour 1064 1072
+#neighbour 1065 1084
+#neighbour 1067 1093
+#neighbour 1067 1085
+#neighbourspec 1067 1085 2
+#neighbour 1068 1085
+#neighbour 1068 1099
+#neighbour 1068 1080
+#neighbour 1069 1098
+#neighbour 1069 1095
+#neighbour 1070 1086
+#neighbour 1070 1100
+#neighbour 1070 1101
+#neighbour 1070 1074
+#neighbour 1071 1089
+#neighbour 1071 1096
+#neighbour 1072 1097
+#neighbour 1072 1094
+#neighbour 1073 1077
+#neighbour 1073 1093
+#neighbour 1074 1102
+#neighbour 1074 1101
+#neighbour 1076 1081
+#neighbour 1076 1084
+#neighbour 1076 1105
+#neighbourspec 1076 1105 1
+#neighbour 1077 1083
+#neighbour 1077 1110
+#neighbour 1077 1093
+#neighbour 1078 1127
+#neighbour 1078 1117
+#neighbour 1078 1082
+#neighbour 1078 1107
+#neighbour 1078 1079
+#neighbour 1079 1117
+#neighbour 1079 1086
+#neighbourspec 1079 1086 2
+#neighbour 1080 1099
+#neighbour 1080 1088
+#neighbour 1080 1109
+#neighbour 1081 1091
+#neighbour 1081 1113
+#neighbour 1082 1087
+#neighbour 1082 1107
+#neighbour 1083 1120
+#neighbour 1083 1094
+#neighbour 1083 1110
+#neighbour 1084 1126
+#neighbour 1084 1105
+#neighbour 1084 1106
+#neighbourspec 1084 1106 1
+#neighbour 1084 1088
+#neighbourspec 1084 1088 1
+#neighbour 1085 1093
+#neighbour 1085 1112
+#neighbour 1085 1099
+#neighbour 1086 1129
+#neighbour 1086 1100
+#neighbour 1086 1117
+#neighbourspec 1086 1117 2
+#neighbour 1087 1108
+#neighbour 1087 1107
+#neighbour 1088 1106
+#neighbour 1089 1102
+#neighbour 1089 1114
+#neighbour 1089 1133
+#neighbour 1089 1096
+#neighbour 1090 1126
+#neighbour 1090 1152
+#neighbour 1090 1092
+#neighbour 1091 1115
+#neighbour 1091 1095
+#neighbour 1091 1113
+#neighbour 1092 1126
+#neighbour 1092 1103
+#neighbour 1092 1119
+#neighbour 1092 1164
+#neighbour 1092 1152
+#neighbour 1093 1110
+#neighbour 1093 1111
+#neighbour 1093 1112
+#neighbour 1094 1097
+#neighbour 1094 1125
+#neighbour 1094 1120
+#neighbour 1095 1122
+#neighbour 1095 1128
+#neighbour 1095 1134
+#neighbour 1095 1115
+#neighbour 1095 1132
+#neighbour 1095 1098
+#neighbour 1096 1133
+#neighbour 1096 1116
+#neighbourspec 1096 1116 2
+#neighbour 1096 1104
+#neighbourspec 1096 1104 2
+#neighbour 1097 1123
+#neighbour 1097 1104
+#neighbour 1097 1125
+#neighbourspec 1097 1125 1
+#neighbour 1098 1103
+#neighbour 1098 1130
+#neighbour 1098 1135
+#neighbour 1098 1132
+#neighbour 1099 1112
+#neighbour 1100 1129
+#neighbour 1100 1131
+#neighbour 1100 1101
+#neighbour 1101 1131
+#neighbour 1101 1102
+#neighbour 1102 1131
+#neighbour 1102 1138
+#neighbour 1102 1145
+#neighbour 1102 1114
+#neighbour 1103 1119
+#neighbour 1103 1130
+#neighbour 1103 1128
+#neighbour 1104 1116
+#neighbour 1104 1123
+#neighbour 1105 1106
+#neighbour 1105 1121
+#neighbourspec 1105 1121 1
+#neighbour 1106 1121
+#neighbour 1106 1109
+#neighbourspec 1106 1109 1
+#neighbour 1107 1108
+#neighbour 1107 1148
+#neighbour 1107 1127
+#neighbour 1107 1141
+#neighbour 1108 1141
+#neighbour 1108 1205
+#neighbour 1108 1182
+#neighbour 1110 1153
+#neighbour 1110 1120
+#neighbour 1110 1161
+#neighbour 1110 1111
+#neighbour 1110 1143
+#neighbour 1111 1143
+#neighbour 1111 1137
+#neighbour 1111 1112
+#neighbour 1112 1137
+#neighbour 1112 1139
+#neighbour 1112 1118
+#neighbour 1113 1115
+#neighbour 1113 1144
+#neighbour 1114 1145
+#neighbour 1114 1133
+#neighbour 1115 1134
+#neighbour 1115 1140
+#neighbour 1115 1136
+#neighbourspec 1115 1136 1
+#neighbour 1116 1133
+#neighbour 1116 1142
+#neighbour 1116 1123
+#neighbour 1117 1127
+#neighbour 1117 1160
+#neighbour 1117 1159
+#neighbour 1117 1129
+#neighbourspec 1117 1129 2
+#neighbour 1118 1139
+#neighbour 1119 1126
+#neighbour 1119 1154
+#neighbour 1119 1130
+#neighbour 1120 1155
+#neighbour 1120 1153
+#neighbour 1121 1147
+#neighbour 1121 1170
+#neighbourspec 1121 1170 1
+#neighbour 1121 1124
+#neighbourspec 1121 1124 1
+#neighbour 1122 1162
+#neighbour 1122 1132
+#neighbour 1122 1135
+#neighbour 1122 1128
+#neighbour 1123 1142
+#neighbour 1123 1146
+#neighbour 1124 1139
+#neighbour 1124 1147
+#neighbour 1124 1167
+#neighbour 1125 1146
+#neighbour 1125 1155
+#neighbour 1126 1154
+#neighbour 1127 1148
+#neighbour 1127 1159
+#neighbour 1128 1134
+#neighbour 1128 1151
+#neighbour 1129 1160
+#neighbourspec 1129 1160 2
+#neighbour 1129 1165
+#neighbour 1129 1158
+#neighbour 1129 1131
+#neighbour 1130 1154
+#neighbour 1130 1157
+#neighbour 1130 1156
+#neighbour 1130 1135
+#neighbour 1131 1180
+#neighbour 1131 1158
+#neighbour 1131 1138
+#neighbour 1132 1135
+#neighbour 1132 1156
+#neighbour 1132 1162
+#neighbour 1133 1145
+#neighbour 1133 1149
+#neighbour 1133 1142
+#neighbour 1133 1171
+#neighbourspec 1133 1171 2
+#neighbour 1134 1151
+#neighbour 1134 1172
+#neighbourspec 1134 1172 1
+#neighbour 1134 1140
+#neighbour 1135 1156
+#neighbour 1136 1144
+#neighbour 1136 1174
+#neighbour 1136 1140
+#neighbour 1137 1143
+#neighbour 1137 1173
+#neighbour 1137 1139
+#neighbour 1137 1183
+#neighbour 1138 1180
+#neighbour 1138 1168
+#neighbour 1138 1145
+#neighbour 1139 1183
+#neighbour 1139 1167
+#neighbour 1141 1182
+#neighbour 1141 1175
+#neighbour 1141 1148
+#neighbour 1142 1149
+#neighbour 1142 1176
+#neighbour 1142 1146
+#neighbourspec 1142 1146 2
+#neighbour 1143 1161
+#neighbour 1143 1173
+#neighbour 1144 1174
+#neighbour 1144 1186
+#neighbour 1144 1170
+#neighbour 1145 1168
+#neighbour 1145 1178
+#neighbour 1145 1171
+#neighbour 1146 1176
+#neighbour 1146 1194
+#neighbour 1146 1155
+#neighbour 1147 1163
+#neighbour 1147 1170
+#neighbour 1148 1175
+#neighbour 1148 1184
+#neighbour 1148 1159
+#neighbour 1149 1171
+#neighbour 1149 1176
+#neighbour 1150 1162
+#neighbour 1150 1151
+#neighbour 1150 1169
+#neighbourspec 1150 1169 1
+#neighbour 1151 1169
+#neighbour 1152 1215
+#neighbour 1152 1164
+#neighbour 1153 1155
+#neighbour 1153 1189
+#neighbour 1153 1161
+#neighbour 1154 1166
+#neighbour 1154 1181
+#neighbour 1154 1157
+#neighbour 1155 1194
+#neighbour 1155 1192
+#neighbour 1155 1189
+#neighbour 1156 1179
+#neighbour 1156 1162
+#neighbour 1157 1181
+#neighbour 1158 1165
+#neighbour 1158 1180
+#neighbour 1159 1184
+#neighbour 1159 1190
+#neighbour 1159 1160
+#neighbour 1160 1190
+#neighbour 1160 1200
+#neighbour 1160 1165
+#neighbourspec 1160 1165 2
+#neighbour 1161 1189
+#neighbour 1161 1173
+#neighbour 1162 1179
+#neighbour 1163 1167
+#neighbour 1163 1203
+#neighbour 1163 1206
+#neighbour 1163 1170
+#neighbour 1164 1196
+#neighbour 1164 1166
+#neighbour 1164 1215
+#neighbour 1165 1200
+#neighbour 1165 1197
+#neighbour 1165 1180
+#neighbour 1166 1196
+#neighbour 1166 1181
+#neighbour 1167 1203
+#neighbourspec 1167 1203 2
+#neighbour 1168 1193
+#neighbour 1168 1180
+#neighbour 1168 1198
+#neighbour 1168 1195
+#neighbour 1168 1178
+#neighbour 1169 1177
+#neighbour 1170 1206
+#neighbour 1170 1186
+#neighbour 1171 1178
+#neighbour 1171 1187
+#neighbour 1171 1176
+#neighbour 1171 1217
+#neighbour 1172 1174
+#neighbourspec 1172 1174 1
+#neighbour 1172 1188
+#neighbour 1173 1216
+#neighbour 1173 1189
+#neighbour 1173 1183
+#neighbour 1174 1209
+#neighbour 1175 1208
+#neighbour 1175 1182
+#neighbour 1175 1184
+#neighbour 1176 1194
+#neighbour 1176 1217
+#neighbour 1177 1188
+#neighbourspec 1177 1188 1
+#neighbour 1178 1213
+#neighbour 1178 1195
+#neighbour 1178 1187
+#neighbour 1178 1217
+#neighbour 1179 1199
+#neighbour 1179 1191
+#neighbourspec 1179 1191 1
+#neighbour 1180 1197
+#neighbour 1180 1193
+#neighbour 1181 1196
+#neighbour 1182 1205
+#neighbour 1182 1208
+#neighbour 1183 1216
+#neighbour 1183 1203
+#neighbour 1183 1221
+#neighbour 1184 1208
+#neighbour 1184 1207
+#neighbour 1184 1190
+#neighbour 1185 1202
+#neighbour 1185 1204
+#neighbour 1185 1191
+#neighbour 1186 1206
+#neighbour 1186 1210
+#neighbour 1186 1209
+#neighbour 1186 1212
+#neighbour 1187 1217
+#neighbour 1188 1209
+#neighbourspec 1188 1209 1
+#neighbour 1189 1192
+#neighbour 1189 1220
+#neighbour 1189 1216
+#neighbour 1190 1207
+#neighbour 1190 1200
+#neighbour 1191 1199
+#neighbour 1192 1194
+#neighbour 1192 1217
+#neighbour 1192 1220
+#neighbour 1193 1197
+#neighbour 1193 1214
+#neighbour 1193 1198
+#neighbour 1194 1217
+#neighbour 1195 1198
+#neighbour 1195 1213
+#neighbour 1196 1218
+#neighbour 1196 1215
+#neighbour 1196 1201
+#neighbour 1197 1200
+#neighbour 1197 1214
+#neighbour 1198 1214
+#neighbour 1198 1213
+#neighbour 1199 1211
+#neighbour 1199 1219
+#neighbour 1200 1224
+#neighbourspec 1200 1224 1
+#neighbour 1201 1218
+#neighbour 1201 1219
+#neighbour 1202 1209
+#neighbour 1202 1223
+#neighbour 1202 1204
+#neighbour 1203 1206
+#neighbour 1203 1221
+#neighbour 1204 1223
+#neighbour 1204 1211
+#neighbour 1205 1208
+#neighbour 1206 1221
+#neighbour 1206 1210
+#neighbour 1207 1208
+#neighbour 1207 1224
+#neighbour 1209 1212
+#neighbour 1209 1223
+#neighbour 1210 1221
+#neighbour 1210 1212
+#neighbour 1211 1219
+#neighbour 1211 1225
+#neighbour 1211 1223
+#neighbour 1212 1221
+#neighbour 1212 1223
+#neighbour 1213 1222
+#neighbour 1213 1217
+#neighbour 1215 1218
+#neighbour 1215 1225
+#neighbour 1216 1220
+#neighbour 1216 1221
+#neighbour 1217 1222
+#neighbour 1217 1220
+#neighbour 1218 1219
+#neighbour 1218 1225
+#neighbour 1219 1225
+#neighbour 1221 1223
+#neighbour 1223 1225
+
+-- Special per province commands
+
+
+
+-- volcanoes and magma rivers
+
+#setland 114
+#knownfeature "Volcano"
+
+#setland 102
+#knownfeature "Volcano"
+
+#setland 152 
+#knownfeature "Volcano"
+
+#setland 2 
+#knownfeature "Volcano"
+
+#setland 1224
+#knownfeature "Volcano"
+
+#setland 16
+#knownfeature "Volcano"
+
+#setland 90 
+#knownfeature "Volcano"
+
+#setland 54
+#knownfeature "Volcano"
+
+#setland 41
+#knownfeature "Cavern of Magma"
+
+#setland 86
+#knownfeature "Cavern of Magma"
+
+#setland 105
+#knownfeature "Cavern of Magma"
+
+#setland 113
+#knownfeature "Cavern of Magma"
+
+-- tundras / frozen lands
+
+#setland 1161
+#knownfeature "Tundra"
+
+#setland 1153
+#knownfeature "Tundra"
+
+#setland 1155 
+#knownfeature "Frozen Lands"
+
+#setland 1203 
+#knownfeature "Tundra"
+
+#setland 1194
+#knownfeature "Frozen Lands"
+
+#setland 1222
+#knownfeature "Tundra"
+
+#setland 1168
+#knownfeature "Tundra"
+
+#setland 1102
+#knownfeature "Tundra"
+
+#setland 1131
+#knownfeature "Tundra"
+
+#setland 1100
+#knownfeature "Frozen Lands"
+
+#setland 1127
+#knownfeature "Tundra"
+
+#setland 1148
+#knownfeature "Tundra"
+
+#setland 1207
+#knownfeature "Tundra"
+
+#setland 1208
+#knownfeature "Tundra"
+
+#setland 1182
+#knownfeature "Tundra"
+
+#setland 1156
+#knownfeature "Frozen Lands"
+
+#setland 1190
+#knownfeature "Tundra"
+
+#setland 1074
+#knownfeature "Frozen Lands"
+
+#setland 1101
+#knownfeature "Frozen Lands"
+
+-- cities
+
+#setland 858 --Lopolla
+#population 20000
+#knownfeature "Temple of Time"
+#feature "Assassins Guild"
+
+#setland 884 -- Molvar
+#population 12000
+#feature "The Lodge"
+#feature "Tomb of the Ancients"
+
+#setland 901 -- Sefmur
+#population 22000
+#knownfeature "Library"
+
+#setland 929 -- Ekbir
+#population 27000
+#knownfeature "Moon Mages Circle"
+
+#setland 904 -- Zeif
+#population 32000
+#knownfeature "Moon Mages Circle"
+#feature "Assassins Guild"
+#knownfeature "Temple of Time"
+
+#setland 954 -- Shwartzenbruin
+#population 16000
+#poptype 47
+#knownfeature "Arena"
+#knownfeature "Academy of War"
+
+#setland 1031 -- Traft
+#population 12000
+
+#setland 837 -- Highfolk
+#population 14000
+#feature "Glowing Hill"
+#knownfeature "Forest of a Thousand Streams"
+#knownfeature "Lost Vale of the Elders"
+
+#setland 250 -- Duxchan
+#knownfeature "Navigators Guild"
+#feature "Assassins Guild"
+
+#setland 356 -- Lo Retalma
+#population 18000
+#knownfeature "Citadel of the Lore Masters"
+#knownfeature "The Crystal Academy"
+#knownfeature "Navigators Guild"
+
+#setland 851 --Chendl
+#population 20000
+#poptype 30
+#fort 4
+#knownfeature "The Marble Temple"
+
+#setland 708 -- Oakenharf
+#population 11000
+#knownfeature "Navigators Guild"
+
+#setland 918 -- Molag
+#population 12000
+#knownfeature "The Lodge"
+
+#setland 1053 -- Rookroost
+#population 13000
+#poptype 60
+#knownfeature "Assassins Guild"
+
+#setland 1033 -- Johrase
+#population 11000
+#poptype 60
+#knownfeature "Assassins Guild"
+
+#setland 956 -- Stoink
+#population 12000
+#poptype 60
+#knownfeature "Assassins Guild"
+#knownfeature "Arena"
+
+#setland 921 -- Riftgrag
+#population 12500
+#knownfeature "Assassins Guild"
+#feature "Troglodyte Cave"
+#feature "Hidden Gem Deposits"
+
+#setland 1139 -- Vlekstaand
+#population 12000
+#poptype 25
+#knownfeature "Academy of War"
+#knownfeature "Arena"
+
+#setland 809 -- Eastfair
+#poptype 30
+#population 20000
+#feature "Assassins Guild"
+#knownfeature "Arena"
+#knownfeature "Academy of War"
+
+#setland 862 -- Kaport Bay
+#population 15000
+#poptype 50
+#knownfeature "Navigators Guild"
+
+#setland 589 -- Rel Astra
+#population 26000
+#poptype 30
+#fort 4
+#knownfeature "The Marble Temple"
+#knownfeature "Tower of the Golden Order"
+#knownfeature "Navigators Guild"
+
+#setland 494 -- Zelradton
+#population 22000
+#knownfeature "Assassins Guild"
+#knownfeature "Arena"
+
+#setland 462 -- Irongate
+#population 25000
+#fort 3
+#knownfeature "Great Silver Mine"
+#knownfeature "Great Iron Mine"
+#knownfeature "Tower of the Iron Order"
+#feature "Hidden Gem Deposits"
+
+#setland 566 -- Irongate Mines
+#feature "Hidden Gem Deposits"
+#feature "Hidden Gem Deposits"
+#knownfeature "Great Gold Mine"
+#knownfeature "Great Iron Mine"
+
+#setland 470 -- Scant
+#population 14000
+
+#setland 398 -- Gryrax
+#population 13000
+#knownfeature "Citadel of the Lore Masters"
+
+#setland 376 -- Gradsul
+#population 15000
+#knownfeature "Navigators Guild"
+
+#setland 402 -- Niole Dra
+#population 27000
+#poptype 30
+#fort 4
+#knownfeature "Library"
+
+#setland 202 -- Port Joli
+#population 15000
+#knownfeature "Navigators Guild"
+
+#setland 278 -- Monmurg
+#population 13000
+#poptype 61
+#knownfeature "Assassins Guild"
+#knownfeature "Navigators Guild"
+
+#setland 465 -- Blue
+#knownfeature "Navigators Guild"
+
+#setland 514 -- Highport
+#population 20000
+#poptype 29
+#knownfeature "Navigators Guild"
+#feature "Assassins Guild"
+#feature "Azure Academy"
+
+#setland 653 -- Hardby
+#poptype 50
+#knownfeature "Navigators Guild"
+#feature "Assassins Guild"
+
+#setland 690 -- Dyvers
+#poptype 58
+#fort 4
+#population 42000
+#killfeatures
+#knownfeature "Library"
+#knownfeature "Navigators Guild"
+#knownfeature "Assassins Guild"
+#knownfeature "Academy of High Magics"
+
+#setland 736 -- Leukish
+#knownfeature "Assassins Guild"
+
+#setland 840 -- Radigast City
+#poptype 29
+#population 18000
+#knownfeature "Sages Guild"
+#knownfeature "Academy of High Magics"
+
+#setland 163 -- Neo Sulhakand
+#knownfeature "The Lodge"
+
+#setland 368 -- Naerie
+#knownfeature "Navigators Guild"
+
+#setland 1187 -- City of the Gods
+#knownfeature "Temple of Time"
+
+#setland 1195 -- Dantredun
+#population 6666
+#knownfeature "Black Tower" 
+
+#setland 814 -- Admundfort
+#poptype 47
+#population 10000
+#fort 3
+#knownfeature "Great Iron Mine"
+
+#setland 1114 -- Eru Tovar
+#population 7000
+#poptype 78
+#knownfeature "Arena"
+
+#setland 1130 -- ice barbarians
+#population 9000
+#poptype 25
+#knownfeature "Frost Vale"
+
+#setland 794
+#poptype 25
+
+#setland 1179 -- frost barbarians
+#poptype 25
+#knownfeature "Frost Vale"
+
+#setland 744 -- Mitrik
+#population 12600
+#knownfeature "Temple of Time"
+#knownfeature "Library"
+#poptype 30
+
+#setland 666 -- Veluna City
+#poptype 30
+#knownfeature "The Marble Temple"
+
+#setland 543 -- Celene
+#poptype 37
+#knownfeature "Ivory Tower"
+#knownfeature "Glowing Hill"
+
+#setland 540 -- Celene
+#poptype 37
+#knownfeature "Glowing Hill"
+#knownfeature "The Grey Tower of Nexus"
+
+#setland 741 -- Thornward
+#fort 3
+#poptype 30
+
+#setland 729 -- Littleberg
+#poptype 38
+
+#setland 752
+#population 12000
+#knownfeature "Library"
+
+#setland 928 -- Johnsport
+#knownfeature "Navigators Guild"
+
+-- hoburg regions
+
+#setland 789 -- Trigol
+#knownfeature "Lost Vale of the Elders"
+#poptype 38
+
+#setland 788 -- County of Urnst
+#poptype 38
+
+#setland 464
+#poptype 38
+
+#setland 473
+#poptype 38
+
+
+-- cities with special encounters
+#land 681 -- Greyhawk
+#poptype 58
+#fort 4
+#population 48000
+#killfeatures
+#knownfeature "Castle Arcanum"
+#knownfeature "The Council of Sages"
+#knownfeature "Assassins Guild"
+#knownfeature "Academy of High Magics"
+#commander "Arch Mage"
+#comname "Mordenkainen"
+#mag_fire 5
+#mag_astral 5
+#mag_air 3
+#randomequip 4
+#commander "Knight Commander"
+#comname "Lord Robilar"
+#randomequip 4
+#units 20 "Knight"
+#units 20 "Heavy Infantry"
+#commander "Commander"
+#units 40 "Light Infantry"
+#additem "Enormous Cauldron of Broth"
+#commander "Commander"
+#units 40 "Light Infantry"
+#commander "Commander"
+#additem "Enormous Cauldron of Broth"
+#units 40 "Archer"
+#commander "Commander"
+#units 40 "Crossbowman"
+#commander "High Magus"
+#randomequip 2
+#bodyguards 5 "Heavy Infantry"
+#commander "Magus"
+#bodyguards 5 "Heavy Infantry"
+#commander "Magus"
+#bodyguards 5 "Heavy Infantry"
+
+#land 975 -- Dorakaa
+#population 16000
+#fort 14
+#killfeatures
+#knownfeature "Black Tower"
+#knownfeature "Litter Skull"
+#knownfeature "Assassins Guild"
+#knownfeature "The Blood Keep"
+#commander "Prince of Death"
+#comname "Iuz the Old One"
+#mag_death 7
+#mag_blood 5
+#randomequip 4
+#units 50 "Ogre"
+#units 30 "Troll"
+#units 20 "War Troll"
+#units 15 "Wight"
+#commander "Necromancer"
+#comname "Follower of Iuz"
+#additem "Enormous Cauldron of Broth"
+#commander "Necromancer"
+#comname "Worshiper of Iuz"
+#additem "Enormous Cauldron of Broth"
+#commander "Necromancer"
+#comname "Cultist of Iuz"
+#commander "Necromancer"
+#comname "High Priest of Iuz"
+#mag_priest 4
+#randomequip 3
+#commander "Necromancer"
+#comname "Follower of Iuz"
+#commander "Wraith Lord"
+#comname "Champion of Iuz"
+#randomequip 3
+#units 50 "Ogre"
+#units 15 "Wight"
+#commander "Blood Lord"
+#comname "Servant of Iuz"
+#randomequip 3
+#units 15 "Knight"
+#units 25 "Heavy Infantry"
+#units 25 "Crossbowman"
+
+#land 682 -- Rauxes
+#poptype 55
+#population 41000
+#fort 5
+#killfeatures
+#feature "The Ebony Circle"
+#feature "The Crypt Underneath"
+#knownfeature "Assassins Guild"
+#knownfeature "Library"
+#commander "Divine Emperor"
+#comname "Ivid V of Aerdy"
+#mag_astral 3
+#mag_death 3
+#bodyguards 5 "Praetorian Guard"
+#units 20 "Black Knight"
+#units 50 "Heavy Infantry"
+#units 50 "Crossbowman"
+#commander "Conjurer"
+#randomequip 2
+#bodyguards 3 "Praetorian Guard"
+#commander "Necromancer"
+#randomequip 2
+#bodyguards 3 "Praetorian Guard"
+#commander "Sorcerer"
+#randomequip 2
+#bodyguards 3 "Praetorian Guard"
+#commander "Sorcerer"
+#randomequip 2
+#bodyguards 3 "Praetorian Guard"
+#commander "Black Lord"
+#additem "Enormous Cauldron of Broth"
+#units 20 "Praetorian Guard"
+#units 20 "Black Plate Infantry"
+#commander "Black Lord"
+#additem "Enormous Cauldron of Broth"
+#units 40 "Black Plate Pikeneer"
+
+#land 997 -- Wintershiven
+#population 18000
+#poptype 55
+#knownfeature "The Marble Temple"
+#commander "High Inquisitor"
+#comname "Orgon Tilith"
+#mag_priest 4
+#randomequip 3
+#bodyguards 5 "Heavy Infantry"
+#units 20 "Knight of the Chalice"
+#commander "Paladin"
+#units 20 "Knight of the Chalice"
+#units 30 "Heavy Cavalry"
+#commander "Paladin"
+#units 30 "Flagellant"
+#commander "Cleric"
+#units 20 "Flagellant"
+#commander "Cleric"
+#units 20 "Flagellant"
+#commander "Black Lord"
+#units 15 "Black Knight"
+#units 40 "Heavy Infantry"
+#units 25 "Longbowman"
+
+#land 600 -- Gnomenkrongard
+#population 22000
+#knownfeature "Lost Vale of the Elders"
+#knownfeature "Gold Mine"
+#knownfeature "Copper Mine"
+#poptype 38
+#commander "Gnome"
+#randomequip 2
+#units 20 "Hoburg Crossbow"
+#commander "Gnome"
+#randomequip 2
+#units 20 "Hoburg Crossbow"
+#commander "Gnome"
+#randomequip 2
+#units 20 "Hoburg Crossbow"
+#commander "Gnome"
+#randomequip 2
+#units 20 "Hoburg Crossbow"
+#commander "Dwarven Smith"
+#randomequip 2
+#units 40 "Hoburg Militia"
+#commander "Dwarven Smith"
+#randomequip 2
+#units 40 "Hoburg Militia"
+
+#land 1080 -- Nevond Nevnend
+#population 12000
+#poptype 30
+#commander "Knight Commander"
+#comname "Duke Erieh of Tenh"
+#additem "Black Steel Full Plate"
+#additem "Sword of Sharpness"
+#units 15 "Knight"
+#units 20 "Longbowman"
+#commander "Enchantress"
+#comname "Lady Nym of Tenh"
+#mag_nature 3
+#mag_air 3
+#mag_water 3
+#randomequip 3
+#bodyguards 5 "Heavy Infantry"
+#commander "Mounted Commander"
+#units 20 "Heavy Infantry"
+#units 20 "Light Infantry"
+#commander "Mounted Commander"
+#units 20 "Light Infantry"
+#units 20 "Longbowman"
+
+#land 914 -- Spinecastle
+#fort 4
+#population 6300
+#poptype 61
+#commander "Vaetti Hag"
+#comname "Uruk Shagluk of the Euroz"
+#mag_earth 3
+#mag_fire 2
+#mag_nature 2
+#randomequip 3
+#bodyguards 3 "War Troll"
+#commander "Vaetti Hag"
+#comname "Goblin Shaman"
+#mag_death 3
+#randomequip 2
+#bodyguards 5 "Vaetti"
+#commander "Vaetti Hag"
+#comname "Goblin Shaman"
+#mag_earth 3
+#randomequip 2
+#bodyguards 5 "Vaetti"
+#commander "Vaetti Hag"
+#mag_nature 3
+#randomequip 2
+#comname "Goblin Shaman"
+#commander "Vaetti Hag"
+#comname "Goblin Shaman"
+#mag_priest 2
+#bodyguards 5 "Vaetti"
+#commander "Troll King"
+#comname "Lord Gorax"
+#randomequip 3
+#units 10 "War Troll"
+#units 10 "Troll"
+#units 80 "Vaetti"
+#commander "Black Lord"
+#comname "Massdarm the Dark"
+#randomequip 3
+#units 10 "Black Knight"
+#units 20 "Vaetti"
+#units 20 "Troll"
+#units 30 "Ogre"
+#commander "Necromancer"
+#comname "Vademecum"
+#randomequip 3
+#mag_death 4
+
+#land 668 -- Ullakhand
+#population 8000
+#poptype 26
+#commander "Demon Priest"
+#comname "Zhulfagor"
+#mag_priest 3
+#mag_death 3
+#mag_blood 5
+#randomequip 3
+#bodyguards 3 "Longdead Horseman"
+#units 30 "Longdead Horseman"
+#commander "Horse Tribe Chief"
+#comname "Draske Orakhon of Ull"
+#additem "Black Bow of Botulf"
+#additem "Eye of Aiming"
+#additem "Black Steel Full Plate"
+#units 40 "Horse Tribe Cavalry"
+#commander "Horse Tribe Chief"
+#units 40 "Horse Tribe Cavalry"
+
+-- Vesve forest
+
+#setland 896
+#poptype 40
+#knownfeature "Glowing Hill"
+#knownfeature "Stone Circle"
+#knownfeature "The Flowering Forest"
+
+#setland 898
+#poptype 37
+#knownfeature "Glowing Hill"
+
+#setland 875
+#poptype 37
+#knownfeature "Glowing Hill"
+#knownfeature "Animist's Hut"
+
+#setland 930
+#poptype 36
+#knownfeature "Blood Henge"
+#knownfeature "Bile Marsh"
+
+#setland 971
+#poptype 65
+#knownfeature "Flower Swamp"
+#knownfeature "Bile Marsh"
+
+#setland 1006
+#knownfeature "Mirrorlake"
+
+-- special encounters
+
+#land 649 -- Council of the Eight (six archmages as Mordenkainen is in Greyhawk and Tenser at Maure Castle)
+#commander "Master Enchanter"
+#comname "Rigby"
+#mag_nature 4
+#mag_earth 4
+#mag_air 4
+#randomequip 3
+#additem "Bag of Winds"
+#commander "Arch Mage"
+#comname "Bigby"
+#mag_astral 5
+#mag_air 5
+#randomequip 4
+#commander "Lore Master"
+#comname "Serten"
+#mag_astral 3
+#mag_fire 3
+#randomequip 3
+#additem "Bottle of Living Water"
+#commander "Frost Father"
+#comname "Otiluke"
+#mag_water 6
+#randomequip 4
+#additem "Bottle of Living Water"
+#commander "Lore Master"
+#comname "Otto"
+#mag_air 4
+#randomequip 3
+#additem "Bag of Winds"
+#commander "Lore Master"
+#comname "Rary"
+#mag_astral 4
+#randomequip 3
+
+#land 692 -- Maure Castle
+#fort 4
+#commander "Great Sage"
+#comname "Tenser"
+#mag_astral 7
+#mag_earth 5
+#mag_fire 5
+#randomequip 4
+#units 40 "Living Statue"
+#bodyguards 5 "Living Statue"
+
+#setland 587 -- Valley of the Mage
+#commander "Master Enchanter"
+#mag_nature 5
+#mag_air 5
+#mag_astral 3
+#randomequip 4
+#bodyguards 5 "Living Statue"
+
+#land 887 -- Kas Mountain
+#commander "Bane Lord"
+#comname "The First Kasran"
+#additem "Boots of the Behemoth"
+#additem "Amulet of Antimagic"
+#commander "Bane Lord"
+#comname "The Second Kasran"
+#additem "Shield of the Accursed"
+#additem "Frost Brand"
+#additem "Boots of Quickness"
+#commander "Bane Lord"
+#comname "The Third Kasran"
+#additem "Halberd of Might"
+#additem "Dancing Trident"
+#additem "Winged Shoes"
+#additem "Amulet of Antimagic"
+#commander "Bane Lord"
+#comname "The Fourth Kasran"
+#additem "Vine Shield"
+#additem "Elf Bane"
+#additem "Boots of Long Strides"
+#additem "Ring of the Warrior"
+#additem "Ring of Fire"
+#commander "Bane Lord"
+#comname "The Fifth Kasran"
+#additem "Banefire Crossbow"
+#additem "Eye of Aiming"
+#commander "Bane Lord"
+#comname "The Sixth Kasran"
+#randomequip 3
+#commander "Bane Lord"
+#comname "The Seventh Kasran"
+#randomequip 2
+
+#land 687 -- Rauxes Catacombs, the council of liches
+#knownfeature "Catacombs"
+#knownfeature "Skull Temple"
+#commander "Master Lich"
+#comname "Ancient Emperor of Aerdy"
+#randomequip 4
+#mag_death 6
+#mag_fire 3
+#mag_water 3
+#bodyguards 5 "Longdead Triarius"
+#units 10 "Wraith"
+#units 50 "Longdead Triarius"
+#units 25 "Longdead Archer"
+#commander "Master Lich"
+#comname "Sorcerer King of Aerdy"
+#randomequip 3
+#randomequip 3
+#mag_death 5
+#mag_blood 5
+#bodyguards 5 "Souless Warrior"
+#units 100 "Souless Warrior"
+#commander "Lich Queen"
+#mag_death 4
+#mag_astral 4
+#comname "Ancient Queen of Aerdy"
+#randomequip 3
+#units 50 "Ghoul"
+#units 10 "Ghost"
+#commander "Lich"
+#randomequip 3
+#mag_priest 3
+#comname "Ancient High Priest of Aerdy"
+#commander "Lich"
+#randomequip 2
+#mag_astral 2
+#commander "Lich"
+#randomequip 2
+#mag_water 2
+#mag_earth 2
+#commander "Lich"
+#mag_death 5
+#randomequip 2
+
+#land 671 -- Crypt of the Aerdi Kings
+#commander "Lich"
+#comname "Ivid III of Aerdi"
+#randomequip 3
+#units 10 "Mummy"
+#commander "Mummy"
+#comname "Urvid XIV of Aerdi"
+#randomequip 3
+#commander "Mummy"
+#comname "Ivid I of Aerdi"
+#mag_death 5
+#randomequip 3
+#commander "Spectral Mage"
+#comname "Zepherion II of Aerdi"
+#randomequip 3
+#commander "Wraith Lord"
+#comname "Ivid II of Aerdi"
+#randomequip 3
+#units 15 "Wight"
+#commander "Spectral Mage"
+#comname "Urvid XII of Aerdi"
+#randomequip 3
+#commander "Spectral Mage"
+#comname "Urvid IX of Aerdi"
+#randomequip 3
+#commander "Mummy"
+#comname "Urvid VII of Aerdi"
+#randomequip 3
+#commander "Wraith Lord"
+#comname "Aerdis V of Aerdi"
+#knownfeature "Tomb of the Ancients"
+
+#land 768 -- Nyr Dyv Depths
+#commander "Ancient Kraken"
+#randomequip 4
+#mag_water 5
+#mag_astral 5
+
+#land 745 -- Greyhawk Catacombs
+#knownfeature "Catacombs"
+#knownfeature "Litter Skull"
+#commander "Necromancer"
+#mag_death 5
+#randomequip 3
+#units 50 "Ghoul"
+#commander "Necromancer"
+#randomequip 2
+#units 50 "Longdead Archer"
+#commander "Necromancer"
+#randomequip 2
+#units 15 "Ghost"
+#commander "Necromancer"
+#randomequip 2
+#units 50 "Souless Warrior"
+
+#land 963 -- Crypt of Vecna
+#commander "Demilich"
+#comname "Vecna"
+#mag_death 8
+#mag_astral 6
+#mag_earth 6
+#bodyguards 5 "Living Statue"
+#units 20 "Wight"
+#units 20 "Ghost"
+#units 20 "Ghost"
+#commander "Spectral Mage"
+#randomequip 3
+#commander "Spectral Mage"
+#randomequip 3
+#commander "Spectral Mage"
+#randomequip 3
+#commander "Spectral Mage"
+#randomequip 3
+#commander "Spectral Mage"
+#randomequip 3
+#knownfeature "The Umbral Conclave"
+#knownfeature "Tomb of the Ancients"
+
+#land 732 -- Cairn Hills
+#knownfeature "Death Mounds Down"
+#knownfeature "The Mausoleum of the Great Sarlah"
+#commander "Wraith Lord"
+#mag_death 5
+#mag_fire 2
+#randomequip 4
+#units 30 "Bone Fiend"
+#units 10 "Wight"
+#units 10 "Ghost"
+#units 25 "Longdead Archer"
+#commander "Wraith Lord"
+#randomequip 2
+#units 10 "Wight"
+#commander "Wraith Lord"
+#randomequip 2
+#units 10 "Wight"
+
+#land 806 -- Temple of the Elemental Evil
+#killfeatures
+#knownfeature "Fountain of Fire"
+#knownfeature "Tempest Hall"
+#knownfeature "Frozen Fountain"
+#knownfeature "Ctonian Gate"
+#commander "Great Mother"
+#comname "Zuggtmoy"
+#mag_blood 4
+#mag_fire 4
+#mag_earth 4
+#mag_air 4
+#mag_water 4
+#mag_nature 4
+#randomequip 4
+#units 5 "Fire Elemental"
+#units 5 "Water Elemental"
+#units 5 "Earth Elemental"
+#units 5 "Air Elemental"
+#commander "Demon Priest"
+#comname "High Priest of Zuggtmoy"
+#randomequip 2
+#additem "Bottle of Living Water"
+#mag_priest 3
+#mag_fire 3
+#mag_earth 3
+#units 5 "Fire Elemental"
+#units 5 "Earth Elemental"
+#commander "Demon Priest"
+#comname "High Priest of Zuggtmoy"
+#randomequip 2
+#mag_priest 3
+#mag_water 3
+#mag_air 3
+#units 5 "Water Elemental"
+#units 5 "Air Elemental"
+#commander "Conjurer"
+#randomequip 2
+#additem "Bottle of Living Water"
+#units 25 "Demonbred"
+#commander "Conjurer"
+#randomequip 2
+#units 25 "Demonbred"
+#commander "Conjurer"
+#units 25 "Demonbred"
+#randomequip 2
+
+#land 166 -- Web of Lolth
+#commander "Bride-in-Waiting"
+#comname "Lolth Queen of the Spiders"
+#randomequip 4
+#mag_blood 5
+#mag_air 4
+#mag_astral 4
+#bodyguards 3 "Bane Spider" 
+#units 25 "Black Hunter" 
+#units 25 "Giant Spider"
+#units 15 "Demon Knight"
+#commander "Spider Knight"
+#comname "Champion of Lolth"
+#randomequip 3
+#units 25 "Black Hunter"
+#units 25 "Giant Spider"
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#units 10 "Bane Spider"
+#mag_priest 3
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#bodyguards 3 "Bane Spider" 
+#units 10 "Bane Spider"
+#randomequip 2
+#mag_priest 3
+#commander "Black Sorcerer"
+#randomequip 2
+#comname "High Priest of Lolth"
+#mag_priest 3
+#units 10 "Bane Spider"
+#bodyguards 3 "Bane Spider" 
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#commander "Black Sorcerer"
+#randomequip 2
+#comname "High Priest of Lolth"
+#mag_priest 3
+#bodyguards 3 "Bane Spider" 
+
+#land 126 -- drow fortress
+#fort 3
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#units 10 "Bane Spider"
+#bodyguards 3 "Bane Spider" 
+#randomequip 2
+#mag_priest 3
+#commander "Black Sorcerer"
+#randomequip 2
+#comname "High Priest of Lolth"
+#mag_priest 3
+#units 10 "Bane Spider"
+#bodyguards 3 "Bane Spider" 
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#commander "Black Sorcerer"
+#randomequip 2
+#comname "High Priest of Lolth"
+#mag_priest 3
+#commander "Spider Knight"
+#comname "Champion of Lolth"
+#randomequip 3
+#units 25 "Black Hunter"
+#units 25 "Giant Spider"
+
+-- tombs of the ancient armies
+
+#land 799
+#commander "Wraith Lord"
+#randomequip 2
+#units 50 "Longdead Legionnaire"
+#commander "Bane Lord"
+#additem "Boots of Quickness"
+#units 50 "Longdead Velite"
+#commander "Spectral Mage"
+#randomequip 2
+#units 30 "Longdead Warrior"
+#units 20 "Longdead Horseman"
+
+#land 758
+#commander "Bane Lord"
+#randomequip 3
+#units 50 "Longdead Legionnaire"
+#commander "Spectral Mage"
+#randomequip 2
+#units 30 "Longdead Principe"
+#units 20 "Longdead Horseman"
+#commander "Spectral Mage"
+#randomequip 2
+#units 30 "Longdead Triarius"
+#units 20 "Longdead Archer"
+#units 30 "Spectral Legionnaire"
+
+#land 671
+#commander "Wraith Lord"
+#randomequip 2
+#units 50 "Longdead Triarius"
+#commander "Spectral Mage"
+#randomequip 2
+#units 50 "Spectral Legionnaire"
+#commander "Spectral Mage"
+#randomequip 2
+#units 30 "Longdead Principe"
+#units 20 "Longdead Archer"
+#commander "Spectral Mage"
+#randomequip 2
+#units 30 "Spectral Velite"
+#units 20 "Spectral Legionnaire"
+
+
+-- drow realm
+#setland 289
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#bodyguards 3 "Bane Spider" 
+#units 10 "Bane Spider"
+#units 25 "Giant Spider"
+
+#setland 305
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#bodyguards 3 "Bane Spider" 
+#units 10 "Bane Spider"
+#units 25 "Giant Spider"
+
+#setland 286
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#bodyguards 3 "Bane Spider" 
+#units 10 "Bane Spider"
+#units 25 "Giant Spider"
+
+#setland 283
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#bodyguards 3 "Bane Spider" 
+#units 10 "Bane Spider"
+#units 25 "Giant Spider"
+
+#setland 379
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#bodyguards 3 "Bane Spider" 
+#units 10 "Bane Spider"
+#units 25 "Giant Spider"
+
+#setland 414
+#commander "Black Sorcerer"
+#comname "High Priest of Lolth"
+#randomequip 2
+#mag_priest 3
+#units 10 "Bane Spider"
+#units 25 "Giant Spider"
+
+#setland 450
+#commander "Spider Knight"
+#comname "Champion of Lolth"
+#randomequip 3
+#mag_air 3
+#mag_death 3
+#units 15 "Black Hunter"
+#units 25 "Giant Spider"
+
+#setland 480
+#commander "Spider Knight"
+#comname "Champion of Lolth"
+#randomequip 3
+#mag_air 3
+#mag_death 3
+#units 15 "Black Hunter"
+#units 25 "Giant Spider"
+
+#setland 333
+#commander "Spider Knight"
+#comname "Champion of Lolth"
+#randomequip 3
+#mag_air 3
+#mag_death 3
+#units 15 "Black Hunter"
+#units 25 "Giant Spider"
+
+#setland 450
+#commander "Bride-in-Waiting"
+#comname "Drow Sorceress"
+#randomequip 3
+#mag_air 4
+#mag_astral 4
+#mag_death 4
+#bodyguards 3 "Bane Spider" 
+#units 10 "Black Hunter"
+#units 25 "Longdead Archer"
+#units 15 "Giant Spider"
+#commander "Bride-in-Waiting"
+#comname "Drow Sorceress"
+#randomequip 2
+#mag_fire 3
+#mag_astral 3
+#mag_death 3
+#commander "Bride-in-Waiting"
+#comname "Drow Sorceress"
+#randomequip 2
+#mag_earth 3
+#mag_astral 3
+#mag_death 3
+
+#setland 476
+#commander "Bride-in-Waiting"
+#comname "Drow Sorceress"
+#randomequip 3
+#mag_fire 4
+#mag_astral 4
+#mag_death 4
+#bodyguards 3 "Bane Spider" 
+#units 10 "Black Hunter"
+#units 25 "Longdead Archer"
+#units 15 "Giant Spider"
+#commander "Bride-in-Waiting"
+#comname "Drow Sorceress"
+#randomequip 2
+#mag_earth 3
+#mag_astral 3
+#mag_death 3
+#commander "Bride-in-Waiting"
+#comname "Drow Sorceress"
+#randomequip 2
+#mag_earth 3
+#mag_air 3
+#mag_death 3
+
+-- mind flayer realm
+#land 302
+#knownfeature "The Labyrinth"
+#commander "Illithid Lord"
+#randomequip 3
+#comname "Ftaghnalot"
+#bodyguards 5 "Minotaur"
+#units 15 "Illithid Soldier"
+#units 20 "Illithid"
+#units 30 "Minotaur"
+#units 30 "Ogre"
+#units 80 "Madman"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+
+#land 211
+#poptype 61
+#commander "Illithid Lord"
+#randomequip 3
+#comname "Mind Flayer Prince"
+#mag_earth 3
+#mag_astral 3
+#bodyguards 3 "Troll"
+#units 20 "Illithid"
+#units 25 "Troll"
+#units 80 "Madman"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+
+#land 212
+#poptype 61
+#commander "Illithid Lord"
+#randomequip 3
+#comname "Mind Flayer Duke"
+#mag_earth 5
+#mag_astral 5
+#bodyguards 3 "Troll"
+#units 25 "Illithid"
+#units 20 "Illithid Soldier"
+#units 20 "Ogre"
+#units 15 "Troll"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Vaetti"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Vaetti"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Madman"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Madman"
+
+#land 245
+#poptype 61
+#commander "Illithid Lord"
+#randomequip 3
+#comname "Mind Flayer King"
+#mag_earth 5
+#mag_astral 5
+#bodyguards 3 "Troll"
+#units 40 "Illithid"
+#units 20 "Illithid Soldier"
+#units 50 "Ogre"
+#units 25 "Troll"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Vaetti"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Vaetti"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Madman"
+#commander "Illithid Lord"
+#comname "Mind Flayer Lord"
+#units 80 "Madman"
+
+#setland 64
+#commander "Illithid Lord"
+#randomequip 3
+#units 15 "Illithid Soldier"
+#commander "Aboleth"
+#randomequip 3
+#units 5 "Kraken"
+#commander "Illithid Lord"
+#commander "Aboleth"
+
+#setland 259
+#commander "Illithid Lord"
+#randomequip 3
+#units 15 "Illithid Soldier"
+#commander "Aboleth"
+#randomequip 3
+#units 5 "Kraken"
+#commander "Illithid Lord"
+#commander "Aboleth"
+
+
